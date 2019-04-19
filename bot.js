@@ -62,99 +62,99 @@ if (message.content.startsWith(prefix + 'help')) { /// This is The DMS Code Send
     let pages = [`**
         ***__General orders__***
 **
-${prefix}allbots/Ù„Ø¹Ø±Ø¶ Ø¬Ù…ÙŠØ¹ Ø§Ù„Ø¨ÙˆØªØ§Øª Ø§Ù„ÙŠ Ø¨Ø§Ù„Ø³ÙŠØ±ÙØ±
-${prefix}server/ÙŠØ¹Ø±Ø¶ Ù„Ùƒ Ù…Ø¹Ù„ÙˆÙ…Ø§Øª Ø¹Ù† Ø§Ù„Ø³ÙŠØ±ÙØ±
-${prefix}bot/ÙŠØ¹Ø±Ø¶ Ù„Ùƒ ÙƒÙ„ Ù…Ø¹Ù„ÙˆÙ…Ø§Øª Ø§Ù„Ø¨ÙˆØª
-${prefix}count/ÙŠØ¹Ø±Ø¶ Ù„Ùƒ Ø¹Ø¯Ø¯ Ø§Ù„Ø§Ø´Ø®Ø§Øµ Ø¨Ø§Ù„Ø³ÙŠØ±ÙØ± Ø¨Ø¯ÙˆÙ† Ø¨ÙˆØªØ§Øª
-${prefix}invites/ ÙŠØ¹Ø±Ø¶ Ù„Ùƒ  Ø¹Ø¯Ø¯ Ø§Ù†ÙØ§ÙŠØªØ§ØªÙƒ Ø¨Ø§Ù„Ø³ÙŠØ±ÙØ± 
-${prefix}invinfo <invitelink here> / Ù„Ù…Ø¹Ù„ÙˆÙ…Ø§Øª Ø¹Ù† Ø§Ù„Ø¯Ø¹ÙˆÙ‡
- Ù…Ø«Ø§Ù„ : invinfo m82n8P
-${prefix}invite-codes/ÙŠØ¹Ø±Ø¶ Ù„Ùƒ Ø±ÙˆØ§Ø¨Ø· Ø§Ù„Ø§Ù†ÙØ§ÙŠØªØ§Øª Ø­ÙƒÙƒ ÙÙŠ Ø§Ù„Ø³ÙŠØ±ÙØ± 
-${prefix}cal/Ø§Ù„Ù‡ Ø­Ø§Ø³Ø¨Ø©
-${prefix}trans <language> <any thing>/ÙŠØªØ±Ø¬Ù… Ù„Ùƒ Ø§Ù„ÙŠ ØªØ¨ÙŠÙ‡ Ù…Ù† Ø§ÙŠ Ù„ØºØ©
-${prefix}short/ÙŠØ®ØªØµØ± Ù„Ùƒ Ø±Ø§Ø¨Ø· ÙƒØ¨ÙŠØ± Ø§Ù„Ù‰ Ø±Ø§Ø¨Ø· ØµØºÙŠØ±
-${prefix}tag/ÙŠÙƒØªØ¨ Ù„Ùƒ Ø§Ù„ÙƒÙ„Ù…Ø© Ø¨Ø´ÙƒÙ„ Ø¬Ù…ÙŠÙ„ ÙˆÙƒØ¨ÙŠØ±
-${prefix}google/Ù„Ù„Ø¨Ø­Ø« ÙÙŠ Ù‚ÙˆÙ‚Ù„ Ø¹Ù† Ø·Ø±ÙŠÙ‚ Ø§Ù„Ø¯Ø³ÙƒÙˆØ±Ø¯
-${prefix}perms/ÙŠØ¹Ø±Ø¶ Ù„Ùƒ Ø¨Ø±Ù…Ø´Ù†Ø§ØªÙƒ Ø¨Ø§Ù„Ø³ÙŠØ±ÙØ±
-${prefix}z5rf/ÙŠØ²Ø®Ø±Ù Ù„Ùƒ ÙƒÙ„Ù…Ø© Ø§Ùˆ Ø¬Ù…Ù„Ø©
-${prefix}rooms/ÙŠØ¹Ø±Ø¶ Ù„Ùƒ ÙƒÙ„ Ø§Ù„Ø±ÙˆÙ…Ø§Øª Ø§Ù„ÙŠ Ø¨Ø§Ù„Ø³ÙŠØ±ÙØ± Ù…Ø¹ Ø¹Ø¯Ø¯Ù‡Ø§
-${prefix}roles/ÙŠØ¹Ø±Ø¶ Ù„Ùƒ ÙƒÙ„ Ø§Ù„Ø±Ø§Ù†ÙƒØ§Øª Ø¨Ø§Ù„Ø³ÙŠØ±ÙØ± Ø¨Ø´ÙƒÙ„ Ø¬Ù…ÙŠÙ„
-${prefix}emojilist/ÙŠØ¹Ø±Ø¶ Ù„Ùƒ ÙƒÙ„ Ø§Ù„Ø§ÙŠÙ…ÙˆØ¬ÙŠØ§Øª Ø§Ù„ÙŠ Ø¨Ø§Ù„Ø³ÙŠØ±ÙØ±
-${prefix}say/ÙŠÙƒØ±Ø± Ø§Ù„ÙƒÙ„Ø§Ù… Ø§Ù„ÙŠ ØªÙƒØªØ¨Ùˆ
-${prefix}image/ØµÙˆØ±Ø© Ø§Ù„Ø³ÙŠØ±ÙØ±
-${prefix}members/Ø¹Ø±Ø¶ Ù„Ùƒ Ø¹Ø¯Ø¯ ÙƒÙ„ Ø­Ø§Ù„Ø§Øª Ø§Ù„Ø§Ø´Ø®Ø§Øµ ÙˆØ¹Ø¯Ø¯ Ø§Ù„Ø¨ÙˆØªØ§Øª ÙˆØ¹Ø¯Ø¯ Ø§Ù„Ø§Ø´Ø®Ø§Øµ
-${prefix}id/Ù…Ø¹Ù„ÙˆÙ…Ø§Øª Ø¹Ù†Ùƒ
-${prefix}bans / Ø¹Ø¯Ø¯ Ø§Ù„Ø§Ø´Ø®Ø§Øµ Ø§Ù„Ù…Ø¨Ù†Ø¯Ø© 
-${prefix}avatar/ØµÙˆØ±ØªÙƒ Ø§Ùˆ ØµÙˆØ±Ø© Ø§Ù„ÙŠ ØªÙ…Ù†Ø´Ù†Ùˆ
-${prefix}embed/ÙŠÙƒØ±Ø± Ø§Ù„ÙŠ ØªÙ‚ÙˆÙ„Ùˆ Ø¨Ø´ÙƒÙ„ Ø­Ù„Ùˆ
-${prefix}emoji <any things>/Ù„ØªØ­ÙˆÙŠÙ„ Ø§ÙŠ ÙƒÙ„Ù…Ù‡ ØªÙ‚ÙˆÙ„Ù‡Ø§ Ø§Ù„ÙŠ Ø§ÙŠÙ…ÙˆØ¬ÙŠ
-${prefix}inv/Ù„Ø¯Ø¹ÙˆØ© Ø§Ù„Ø¨ÙˆØª Ø§Ù„Ù‰ Ø³ÙŠØ±ÙØ±Ùƒ
-${prefix}support/Ø³ÙŠØ±ÙØ± Ø§Ù„Ø¯Ø¹Ù…
-${prefix}contact/Ø§Ø±Ø³Ø§Ù„ Ø§Ù‚ØªØ±Ø§Ø­ Ø§Ùˆ Ù„Ù…Ø±Ø§Ø³Ù„Ø© ØµØ§Ø­Ø¨ Ø§Ù„Ø¨ÙˆØª
+${prefix}allbots/áÚÑÖ ÌãíÚ ÇáÈæÊÇÊ Çáí ÈÇáÓíÑİÑ
+${prefix}server/íÚÑÖ áß ãÚáæãÇÊ Úä ÇáÓíÑİÑ
+${prefix}bot/íÚÑÖ áß ßá ãÚáæãÇÊ ÇáÈæÊ
+${prefix}count/íÚÑÖ áß ÚÏÏ ÇáÇÔÎÇÕ ÈÇáÓíÑİÑ ÈÏæä ÈæÊÇÊ
+${prefix}invites/ íÚÑÖ áß  ÚÏÏ ÇäİÇíÊÇÊß ÈÇáÓíÑİÑ 
+${prefix}invinfo <invitelink here> / áãÚáæãÇÊ Úä ÇáÏÚæå
+ ãËÇá : invinfo m82n8P
+${prefix}invite-codes/íÚÑÖ áß ÑæÇÈØ ÇáÇäİÇíÊÇÊ Íßß İí ÇáÓíÑİÑ 
+${prefix}cal/Çáå ÍÇÓÈÉ
+${prefix}trans <language> <any thing>/íÊÑÌã áß Çáí ÊÈíå ãä Çí áÛÉ
+${prefix}short/íÎÊÕÑ áß ÑÇÈØ ßÈíÑ Çáì ÑÇÈØ ÕÛíÑ
+${prefix}tag/íßÊÈ áß ÇáßáãÉ ÈÔßá Ìãíá æßÈíÑ
+${prefix}google/ááÈÍË İí ŞæŞá Úä ØÑíŞ ÇáÏÓßæÑÏ
+${prefix}perms/íÚÑÖ áß ÈÑãÔäÇÊß ÈÇáÓíÑİÑ
+${prefix}z5rf/íÒÎÑİ áß ßáãÉ Çæ ÌãáÉ
+${prefix}rooms/íÚÑÖ áß ßá ÇáÑæãÇÊ Çáí ÈÇáÓíÑİÑ ãÚ ÚÏÏåÇ
+${prefix}roles/íÚÑÖ áß ßá ÇáÑÇäßÇÊ ÈÇáÓíÑİÑ ÈÔßá Ìãíá
+${prefix}emojilist/íÚÑÖ áß ßá ÇáÇíãæÌíÇÊ Çáí ÈÇáÓíÑİÑ
+${prefix}say/íßÑÑ ÇáßáÇã Çáí ÊßÊÈæ
+${prefix}image/ÕæÑÉ ÇáÓíÑİÑ
+${prefix}members/ÚÑÖ áß ÚÏÏ ßá ÍÇáÇÊ ÇáÇÔÎÇÕ æÚÏÏ ÇáÈæÊÇÊ æÚÏÏ ÇáÇÔÎÇÕ
+${prefix}id/ãÚáæãÇÊ Úäß
+${prefix}bans / ÚÏÏ ÇáÇÔÎÇÕ ÇáãÈäÏÉ 
+${prefix}avatar/ÕæÑÊß Çæ ÕæÑÉ Çáí ÊãäÔäæ
+${prefix}embed/íßÑÑ Çáí ÊŞæáæ ÈÔßá Íáæ
+${prefix}emoji <any things>/áÊÍæíá Çí ßáãå ÊŞæáåÇ Çáí ÇíãæÌí
+${prefix}inv/áÏÚæÉ ÇáÈæÊ Çáì ÓíÑİÑß
+${prefix}support/ÓíÑİÑ ÇáÏÚã
+${prefix}contact/ÇÑÓÇá ÇŞÊÑÇÍ Çæ áãÑÇÓáÉ ÕÇÍÈ ÇáÈæÊ
 **
   `
 ,`
         ***__Administrative Orders__***
 **
-${prefix}move @user /  Ù„Ø³Ø­Ø¨ Ø§Ù„Ø´Ø®Øµ Ø§Ù„Ù‰ Ø±ÙˆÙˆÙ…Ùƒ
-${prefix}bc / Ø±Ø³Ø§Ù„Ø© Ø¬Ù…Ø§Ø¹ÙŠØ© Ø§Ù„Ù‰ ÙƒÙ„ Ø§Ø¹Ø¶Ø§Ø¡ Ø§Ù„Ø³ÙŠØ±ÙØ±
-${prefix}bk / Ø±Ø³Ø§Ù„Ø© Ø¬Ù…Ø§Ø¹ÙŠÙ‡ Ù…Ø¹
-${prefix}rolebc <everyone or @role> / Ø±Ø§Ø³Ø§Ù„ Ø±Ø³Ø§Ù„Ù‡ Ø¬Ù…Ø§Ø¹ÙŠÙ‡ Ù„Ø±ØªØ¨Ù‡ Ù…Ø­Ø¯Ø¯Ù‡
-${prefix}role @user <rank> / Ù„Ø£Ø¹Ø·Ø§Ø¡ Ø±ØªØ¨Ø© Ù„Ø¹Ø¶Ùˆ Ù…Ø¹ÙŠÙ†
-${prefix}roleremove @user <rank> / Ù„Ø§Ø²Ø§Ù„Ø© Ø§Ù„Ø±ØªØ¨Ø© Ù…Ù† Ø´Ø®Øµ Ù…Ø¹ÙŠÙ†
-${prefix}give all <rank> / Ù„Ø£Ø¹Ø·Ø§Ø¡ Ø±ØªØ¨Ø© Ù„Ù„Ø¬Ù…ÙŠØ¹
-${prefix}give humans <rank> / Ù„Ø£Ø¹Ø·Ø§Ø¡ Ø±ØªØ¨Ø© Ù„Ù„Ø§Ø´Ø®Ø§Øµ ÙÙ‚Ø·
-${prefix}give bots <rank> / Ù„Ø£Ø¹Ø·Ø§Ø¡ Ø±ØªØ¨Ø© Ù„Ø¬Ù…ÙŠØ¹ Ø§Ù„Ø¨ÙˆØªØ§Øª
-${prefix}hchannel / Ø§Ø®ÙØ§Ø¡ Ø§Ù„Ø´Ø§Øª
-${prefix}schannel / Ø§Ø¶Ù‡Ø§Ø± Ø§Ù„Ø´Ø§Øª Ø§Ù„Ù…Ø®ÙÙŠØ©
-${prefix}clr <numbr> / Ù…Ø³Ø­ Ø§Ù„Ø´Ø§Øª Ø¨Ø¹Ø¯Ø¯
-${prefix}clear / Ù…Ø³Ø­ Ø§Ù„Ø´Ø§Øª
-${prefix}mute @user <time> / Ø§Ø¹Ø·Ø§Ø¡ Ø§Ù„Ø¹Ø¶Ùˆ Ù…ÙŠÙˆØª 
-${prefix}unmute @user / Ù„ÙÙƒ Ø§Ù„Ù…ÙŠÙˆØª Ø¹Ù† Ø§Ù„Ø´Ø®Øµ 
-${prefix}kick @user <reason> / Ø·Ø±Ø¯ Ø§Ù„Ø´Ø®Øµ Ù…Ù† Ø§Ù„Ø³ÙŠØ±ÙØ±
-${prefix}ban @user <reason> / Ø­Ø¶Ø± Ø§Ù„Ø´Ø®Øµ Ù…Ù† Ø§Ù„Ø³ÙŠØ±ÙØ±
-${prefix}mutechannel / ØªÙ‚ÙÙŠÙ„ Ø§Ù„Ø´Ø§Øª
-${prefix}unmutechannel / ÙØªØ­ Ø§Ù„Ø´Ø§Øª
-${prefix}dc / Ù…Ø³Ø­ ÙƒÙ„ Ø§Ù„Ø±ÙˆÙ…Ø§Øª
-${prefix}dr / <Ù…Ø³Ø­ ÙƒÙ„ Ø§Ù„Ø±Ø§Ù†ÙƒØ§Øª <Ù„Ø§Ø²Ù… ØªÙƒÙˆÙ† Ø±Ø§Ù†Ùƒ Ø§Ù„Ø¨ÙˆØª ÙÙˆÙ‚ ÙƒÙ„ Ø§Ù„Ø±Ø§Ù†ÙƒØ§Øª
-${prefix}ct <name> / Ø§Ù†Ø´Ø§Ø¡ Ø´Ø§Øª
-${prefix}cv <name> / Ø§Ù†Ø´Ø§Ø¡ Ø±ÙˆÙˆÙ… ÙÙˆÙŠØ³
-${prefix}temp / Ù„Ø§Ù†Ø´Ø§Ø¡ Ø±ÙˆÙ… Ù…Ø¤Ù‚Øª
-${prefix}delet <name> / Ù…Ø³Ø­ Ø§Ù„Ø´Ø§Øª Ø§Ùˆ Ø§Ù„Ø±ÙˆÙˆÙ… ÙÙˆÙŠØ³
-${prefix}make <number> / ÙŠÙ†Ø´Ø§ Ù„Ùƒ Ø§Ù„ÙˆØ§Ù† Ù…Ø¹ ÙƒÙ… Ø§Ù„ÙˆØ§Ù† ØªØ¨ÙŠ
-${prefix}color <number> / Ù„Ø®ØªÙŠØ§Ø± Ù„ÙˆÙ†
-${prefix}deletecolors <number> / Ù„Ø­Ø°Ù Ø§Ù„Ø§Ù„ÙˆØ§Ù†
+${prefix}move @user /  áÓÍÈ ÇáÔÎÕ Çáì Ñææãß
+${prefix}bc / ÑÓÇáÉ ÌãÇÚíÉ Çáì ßá ÇÚÖÇÁ ÇáÓíÑİÑ
+${prefix}bk / ÑÓÇáÉ ÌãÇÚíå ãÚ
+${prefix}rolebc <everyone or @role> / ÑÇÓÇá ÑÓÇáå ÌãÇÚíå áÑÊÈå ãÍÏÏå
+${prefix}role @user <rank> / áÃÚØÇÁ ÑÊÈÉ áÚÖæ ãÚíä
+${prefix}roleremove @user <rank> / áÇÒÇáÉ ÇáÑÊÈÉ ãä ÔÎÕ ãÚíä
+${prefix}give all <rank> / áÃÚØÇÁ ÑÊÈÉ ááÌãíÚ
+${prefix}give humans <rank> / áÃÚØÇÁ ÑÊÈÉ ááÇÔÎÇÕ İŞØ
+${prefix}give bots <rank> / áÃÚØÇÁ ÑÊÈÉ áÌãíÚ ÇáÈæÊÇÊ
+${prefix}hchannel / ÇÎİÇÁ ÇáÔÇÊ
+${prefix}schannel / ÇÖåÇÑ ÇáÔÇÊ ÇáãÎİíÉ
+${prefix}clr <numbr> / ãÓÍ ÇáÔÇÊ ÈÚÏÏ
+${prefix}clear / ãÓÍ ÇáÔÇÊ
+${prefix}mute @user <time> / ÇÚØÇÁ ÇáÚÖæ ãíæÊ 
+${prefix}unmute @user / áİß ÇáãíæÊ Úä ÇáÔÎÕ 
+${prefix}kick @user <reason> / ØÑÏ ÇáÔÎÕ ãä ÇáÓíÑİÑ
+${prefix}ban @user <reason> / ÍÖÑ ÇáÔÎÕ ãä ÇáÓíÑİÑ
+${prefix}mutechannel / ÊŞİíá ÇáÔÇÊ
+${prefix}unmutechannel / İÊÍ ÇáÔÇÊ
+${prefix}dc / ãÓÍ ßá ÇáÑæãÇÊ
+${prefix}dr / <ãÓÍ ßá ÇáÑÇäßÇÊ <áÇÒã Êßæä ÑÇäß ÇáÈæÊ İæŞ ßá ÇáÑÇäßÇÊ
+${prefix}ct <name> / ÇäÔÇÁ ÔÇÊ
+${prefix}cv <name> / ÇäÔÇÁ Ñææã İæíÓ
+${prefix}temp / áÇäÔÇÁ Ñæã ãÄŞÊ
+${prefix}delet <name> / ãÓÍ ÇáÔÇÊ Çæ ÇáÑææã İæíÓ
+${prefix}make <number> / íäÔÇ áß ÇáæÇä ãÚ ßã ÇáæÇä ÊÈí
+${prefix}color <number> / áÎÊíÇÑ áæä
+${prefix}deletecolors <number> / áÍĞİ ÇáÇáæÇä
 **
    `,`
         ***__Music orders__***
 **
-${prefix}play / Ù„ØªØ´ØºÙŠÙ„ Ø£ØºÙ†ÙŠØ© Ø¨Ø±Ø¢Ø¨Ø· Ø£Ùˆ Ø¨Ø£Ø³Ù…
-${prefix}skip / Ù„ØªØ¬Ø¢ÙˆØ² Ø§Ù„Ø£ØºÙ†ÙŠØ© Ø§Ù„Ø­Ø¢Ù„ÙŠØ©
-${prefix}pause / Ø¥ÙŠÙ‚Ø¢Ù Ø§Ù„Ø£ØºÙ†ÙŠØ© Ù…Ø¤Ù‚ØªØ§
-${prefix}resume / Ù„Ù…ÙˆØ¢ØµÙ„Ø© Ø§Ù„Ø¥ØºÙ†ÙŠØ© Ø¨Ø¹Ø¯ Ø¥ÙŠÙ‚Ø¢ÙÙ‡Ø¢ Ù…Ø¤Ù‚ØªØ§
-${prefix}vol / Ù„ØªØºÙŠÙŠØ± Ø¯Ø±Ø¬Ø© Ø§Ù„ØµÙˆØª 100 - 0
-${prefix}stop / Ù„Ø¥Ø®Ø±Ø¢Ø¬ Ø§Ù„Ø¨ÙˆØª Ù…Ù† Ø§Ù„Ø±ÙˆÙ…
-${prefix}np / Ù„Ù…Ø¹Ø±ÙØ© Ø§Ù„Ø£ØºÙ†ÙŠØ© Ø§Ù„Ù…Ø´ØºÙ„Ø© Ø­Ø¢Ù„ÙŠØ§
-${prefix}queue / Ù„Ù…Ø¹Ø±ÙØ© Ù‚Ø¢Ø¦Ù…Ø© Ø§Ù„ØªØ´ØºÙŠÙ„
+${prefix}play / áÊÔÛíá ÃÛäíÉ ÈÑÂÈØ Ãæ ÈÃÓã
+${prefix}skip / áÊÌÂæÒ ÇáÃÛäíÉ ÇáÍÂáíÉ
+${prefix}pause / ÅíŞÂİ ÇáÃÛäíÉ ãÄŞÊÇ
+${prefix}resume / áãæÂÕáÉ ÇáÅÛäíÉ ÈÚÏ ÅíŞÂİåÂ ãÄŞÊÇ
+${prefix}vol / áÊÛííÑ ÏÑÌÉ ÇáÕæÊ 100 - 0
+${prefix}stop / áÅÎÑÂÌ ÇáÈæÊ ãä ÇáÑæã
+${prefix}np / áãÚÑİÉ ÇáÃÛäíÉ ÇáãÔÛáÉ ÍÂáíÇ
+${prefix}queue / áãÚÑİÉ ŞÂÆãÉ ÇáÊÔÛíá
 **
         ***__Games orders__***
  **       
-${prefix}rps / Ø­Ø¬Ø± ÙˆØ±Ù‚Ø© Ù…Ù‚Øµ
-${prefix}speed / Ø§Ø³Ø±Ø¹ ÙƒØªØ§Ø¨Ø©
-${prefix}quas / Ø§Ø³Ø¦Ù„Ø© Ø¹Ø§Ù…Ø©
-${prefix}Ù†ÙƒØª / Ù†ÙƒØª 
-${prefix}Ù„Ø¹Ø¨Ø© ÙÙƒÙƒ / ÙÙƒÙƒ
-${prefix}Ø¹ÙˆØ§ØµÙ… Ø¹Ø´ÙˆØ§Ø¦ÙŠ/Ø¹ÙˆØ§ØµÙ…
-${prefix}Ù„Ø¹Ø¨Ø© ÙƒØª ØªÙˆÙŠØª / ÙƒØª ØªÙˆÙŠØª
-${prefix}roll <number> / Ù‚Ø±Ø¹Ø©
-${prefix}Ù„Ùˆ Ø®ÙŠØ±ÙˆÙƒ Ø¨Ø·Ø±ÙŠÙ‚Ø© Ø­Ù„ÙˆØ© / Ù„Ùˆ Ø®ÙŠØ±ÙˆÙƒ
-${prefix}Ù„Ø¹Ø¨Ø© Ù…Ø±ÙŠÙ… / Ù…Ø±ÙŠÙ…
-${prefix}ÙÙˆØ§Ø¦Ø¯ ÙˆÙ†ØµØ§Ø¦Ø­  / Ù‡Ù„ ØªØ¹Ù„Ù…
-${prefix}ÙŠØ¹Ø·ÙŠÙƒ Ø¹Ù‚Ø§Ø¨Ø§Øª Ù‚Ø§Ø³ÙŠØ© / Ø¹Ù‚Ø§Ø¨ 
+${prefix}rps / ÍÌÑ æÑŞÉ ãŞÕ
+${prefix}speed / ÇÓÑÚ ßÊÇÈÉ
+${prefix}quas / ÇÓÆáÉ ÚÇãÉ
+${prefix}äßÊ / äßÊ 
+${prefix}áÚÈÉ İßß / İßß
+${prefix}ÚæÇÕã ÚÔæÇÆí/ÚæÇÕã
+${prefix}áÚÈÉ ßÊ ÊæíÊ / ßÊ ÊæíÊ
+${prefix}roll <number> / ŞÑÚÉ
+${prefix}áæ ÎíÑæß ÈØÑíŞÉ ÍáæÉ / áæ ÎíÑæß
+${prefix}áÚÈÉ ãÑíã / ãÑíã
+${prefix}İæÇÆÏ æäÕÇÆÍ  / åá ÊÚáã
+${prefix}íÚØíß ÚŞÇÈÇÊ ŞÇÓíÉ / ÚŞÇÈ 
 =.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.
-welcome ÙŠØªÙ… Ø§Ù„ØªØ±Ø­ÙŠØ¨ ÙÙ‰ Ø±ÙˆÙ… Ø¨Ø§Ø³Ù…
-G.setwelcomer <text channel name> Ù„Ø§Ø®ØªÙŠØ§Ø± Ø±ÙˆÙ… Ù„Ù„ØªØ±Ø­ÙŠØ¨
-${prefix}voiceonline / Ù„ØªÙØ¹ÙŠÙ„ Ø±ÙˆÙ… Ø§Ù„ÙÙˆÙŠØ³ Ø§ÙˆÙ†Ù„Ø§ÙŠÙ†
+welcome íÊã ÇáÊÑÍíÈ İì Ñæã ÈÇÓã
+G.setwelcomer <text channel name> áÇÎÊíÇÑ Ñæã ááÊÑÍíÈ
+${prefix}voiceonline / áÊİÚíá Ñæã ÇáİæíÓ ÇæäáÇíä
 **
    
 `]
@@ -167,12 +167,12 @@ ${prefix}voiceonline / Ù„ØªÙØ¹ÙŠÙ„ Ø±ÙˆÙ… Ø§Ù„ÙÙˆÙŠØ³ Ø§ÙˆÙ†Ù„Ø§ÙŠÙ†
 
     message.author.sendEmbed(embed).then(msg => {
 
-        msg.react('â®').then( r => {
-            msg.react('â­')
+        msg.react('?').then( r => {
+            msg.react('?')
 
 
-        const backwardsFilter = (reaction, user) => reaction.emoji.name === 'â®' && user.id === message.author.id;
-        const forwardsFilter = (reaction, user) => reaction.emoji.name === 'â­' && user.id === message.author.id;
+        const backwardsFilter = (reaction, user) => reaction.emoji.name === '?' && user.id === message.author.id;
+        const forwardsFilter = (reaction, user) => reaction.emoji.name === '?' && user.id === message.author.id;
 
 
         const backwards = msg.createReactionCollector(backwardsFilter, { time: 2000000});
@@ -296,7 +296,7 @@ client.on('message', function(msg) {
             .setAuthor(client.user.username,client.user.avatarURL)
             .setThumbnail(client.user.avatarURL)
             .setColor('RANDOM')
-            .setTitle('``INFO iiCaea_YT Community Â©`` ')
+            .setTitle('``INFO iiCaea_YT Community ©`` ')
             .addField('``My Ping``' , [`${Date.now() - message.createdTimestamp}` + 'MS'], true)
             .addField('``RAM Usage``', `[${(process.memoryUsage().rss / 1048576).toFixed()}MB]`, true)
             .addField('``servers``', [client.guilds.size], true)
@@ -331,7 +331,7 @@ message.channel.send(`${user} has ${inviteCount} invites.`);
              if(message.content.startsWith(prefix + 'invite-codes')) {
 let guild = message.guild
 var codes = [""]
-message.channel.send(":postbox: **Ù„Ù‚Ø¯ Ù‚Ù…Øª Ø¨Ø£Ø±Ø³Ø§Ù„ Ø¬Ù…ÙŠØ¹ Ø±ÙˆØ§Ø¨Ø· Ø§Ù„Ø¯Ø¹ÙˆØ§Øª Ø§Ù„ØªÙŠ Ù‚Ù…Øª Ø¨Ø£Ù†Ø´Ø§Ø¦Ù‡Ø§ ÙÙŠ Ø§Ù„Ø®Ø§Øµ**")
+message.channel.send(":postbox: **áŞÏ ŞãÊ ÈÃÑÓÇá ÌãíÚ ÑæÇÈØ ÇáÏÚæÇÊ ÇáÊí ŞãÊ ÈÃäÔÇÆåÇ İí ÇáÎÇÕ**")
 guild.fetchInvites()
 .then(invites => {
 invites.forEach(invite => {
@@ -393,7 +393,7 @@ client.on('message', message => {
             message.channel.send({embed: {
                 color: 3447003,
                 author: {
-                  name: 'cara Community Â©\'s translator',
+                  name: 'cara Community ©\'s translator',
                   icon_url: client.user.avatarURL
                 },
                 fields: [{
@@ -404,7 +404,7 @@ client.on('message', message => {
                 timestamp: new Date(),
                 footer: {
                   icon_url: client.user.avatarURL,
-                  text: "cara Community Â©"
+                  text: "cara Community ©"
                 }
             }}
             )
@@ -431,7 +431,7 @@ client.on('message', message => {
 client.on('message', message => {
 if (message.content.startsWith(prefix + 'tag')) {
     let args = message.content.split(" ").slice(1);
-if(!args[0]) return message.reply('Ù…Ø±Ø¬Ùˆ ÙƒØªØ§Ø¨Ø© Ù†Øµ Ø§Ù„Ø¯ÙŠ ØªØ±ÙŠØ¯');  
+if(!args[0]) return message.reply('ãÑÌæ ßÊÇÈÉ äÕ ÇáÏí ÊÑíÏ');  
 
     figlet(args.join(" "), (err, data) => {
               message.channel.send("```" + data + "```")
@@ -543,8 +543,8 @@ client.on('message', message => {
 
 // +say
   if (command === "say") {
-if(!message.channel.guild) return message.channel.send('**Ù‡Ø°Ø§ Ø§Ù„Ø£Ù…Ø± ÙÙ‚Ø· Ù„Ù„Ø³ÙŠØ±ÙØ±Ø§Øª**').then(m => m.delete(5000));
-  if(!message.member.hasPermission('ADMINISTRATOR')) return      message.channel.send('**Ù„Ù„Ø£Ø³Ù Ù„Ø§ ØªÙ…ØªÙ„Ùƒ ØµÙ„Ø§Ø­ÙŠØ©** `ADMINISTRATOR`' );
+if(!message.channel.guild) return message.channel.send('**åĞÇ ÇáÃãÑ İŞØ ááÓíÑİÑÇÊ**').then(m => m.delete(5000));
+  if(!message.member.hasPermission('ADMINISTRATOR')) return      message.channel.send('**ááÃÓİ áÇ ÊãÊáß ÕáÇÍíÉ** `ADMINISTRATOR`' );
           message.delete()
     message.channel.sendMessage(args.join(" "))
   }
@@ -552,8 +552,8 @@ if(!message.channel.guild) return message.channel.send('**Ù‡Ø°Ø§ Ø§Ù„Ø£Ù…Ø± ÙÙ‚
  
 
 if (command == "embed") {
-if(!message.channel.guild) return message.channel.send('**Ù‡Ø°Ø§ Ø§Ù„Ø£Ù…Ø± ÙÙ‚Ø· Ù„Ù„Ø³ÙŠØ±ÙØ±Ø§Øª**').then(m => m.delete(5000));
-  if(!message.member.hasPermission('MANAGE_MESSAGES')) return      message.channel.send('**Ù„Ù„Ø£Ø³Ù Ù„Ø§ ØªÙ…ØªÙ„Ùƒ ØµÙ„Ø§Ø­ÙŠØ©** `MANAGE_MESSAGES`' );
+if(!message.channel.guild) return message.channel.send('**åĞÇ ÇáÃãÑ İŞØ ááÓíÑİÑÇÊ**').then(m => m.delete(5000));
+  if(!message.member.hasPermission('MANAGE_MESSAGES')) return      message.channel.send('**ááÃÓİ áÇ ÊãÊáß ÕáÇÍíÉ** `MANAGE_MESSAGES`' );
     let say = new Discord.RichEmbed()
     .setDescription(args.join("  "))
     .setColor(0x23b2d6)
@@ -644,7 +644,7 @@ let embed = new Discord.RichEmbed()
 .setFooter(message.author.username, message.author.avatarURL)
 
 message.channel.send({embed});
-    if (!message) return message.reply('**Ø¶Ø¹ Ø§Ù„Ù…ÙŠÙ†Ø´Ø§Ù† Ø¨Ø´ÙƒÙ„ ØµØ­ÙŠØ­  ? **')
+    if (!message) return message.reply('**ÖÚ ÇáãíäÔÇä ÈÔßá ÕÍíÍ  ? **')
 
 }
 });
@@ -732,16 +732,16 @@ let args = message.content.split(" ").slice(1).join(" ");
 
 
 client.users.get("516473846983950336").send(
-    "\n" + "**" + "? Ø§Ù„Ø³ÙŠØ±ÙØ± :" + "**" +
-    "\n" + "**" + "Â» " + message.guild.name + "**" +
-    "\n" + "**" + " ? Ø§Ù„Ù…Ø±Ø³Ù„ : " + "**" +
-    "\n" + "**" + "Â» " + message.author.tag + "**" +
-    "\n" + "**" + " ? Ø§Ù„Ø±Ø³Ø§Ù„Ø© : " + "**" +
+    "\n" + "**" + "? ÇáÓíÑİÑ :" + "**" +
+    "\n" + "**" + "» " + message.guild.name + "**" +
+    "\n" + "**" + " ? ÇáãÑÓá : " + "**" +
+    "\n" + "**" + "» " + message.author.tag + "**" +
+    "\n" + "**" + " ? ÇáÑÓÇáÉ : " + "**" +
     "\n" + "**" + args + "**")
 
 let embed = new Discord.RichEmbed()
      .setAuthor(message.author.username, message.author.avatarURL)
-     .setDescription(':mailbox_with_mail: ØªÙ… Ø§Ø±Ø³Ø§Ù„ Ø§Ù„Ø±Ø³Ø§Ù„Ø© Ø§Ù„Ù‰ ØµØ§Ø­Ø¨ Ø§Ù„Ø¨ÙˆØª Ø¨Ù†Ø¬Ø§Ø­')
+     .setDescription(':mailbox_with_mail: Êã ÇÑÓÇá ÇáÑÓÇáÉ Çáì ÕÇÍÈ ÇáÈæÊ ÈäÌÇÍ')
      .setThumbnail(message.author.avatarURL)
      .setFooter("By : cara")
                                                 
@@ -757,7 +757,7 @@ if(!message.channel.guild) return;
 if(message.content.startsWith(prefix + 'move')) {
  if (message.member.hasPermission("MOVE_MEMBERS")) {
  if (message.mentions.users.size === 0) {
- return message.channel.send("``Ù„Ø§Ø³ØªØ®Ø¯Ø§Ù… Ø§Ù„Ø£Ù…Ø± Ø§ÙƒØªØ¨ Ù‡Ø°Ù‡ Ø§Ù„Ø£Ù…Ø± : " +prefix+ "Ø§Ø³Ø­Ø¨ [USER]``")
+ return message.channel.send("``áÇÓÊÎÏÇã ÇáÃãÑ ÇßÊÈ åĞå ÇáÃãÑ : " +prefix+ "ÇÓÍÈ [USER]``")
 }
 if (message.member.voiceChannel != null) {
  if (message.mentions.members.first().voiceChannel != null) {
@@ -766,7 +766,7 @@ if (message.member.voiceChannel != null) {
 var embed = new Discord.RichEmbed()
  .setTitle("Succes!")
  .setColor("#000000")
- .setDescription(`Ù„Ù‚Ø¯ Ù‚Ù…Øª Ø¨Ø³Ø­Ø¨ <@${usermentioned}> Ø§Ù„Ù‰ Ø§Ù„Ø±ÙˆÙ… Ø§Ù„ØµÙˆØªÙŠ Ø§Ù„Ø®Ø§Øµ Ø¨Ùƒ? `)
+ .setDescription(`áŞÏ ŞãÊ ÈÓÍÈ <@${usermentioned}> Çáì ÇáÑæã ÇáÕæÊí ÇáÎÇÕ Èß? `)
 var embed = new Discord.RichEmbed()
 .setTitle(`You are Moved in ${message.guild.name}`)
  .setColor("RANDOM")
@@ -774,10 +774,10 @@ var embed = new Discord.RichEmbed()
  message.guild.members.get(usermentioned).setVoiceChannel(authorchannel).then(m => message.channel.send(embed))
 message.guild.members.get(usermentioned).send(embed)
 } else {
-message.channel.send("``Ù„Ø§ ØªØ³ØªØ·ÙŠØ¹ Ø³Ø­Ø¨ "+ message.mentions.members.first() +" `ÙŠØ¬Ø¨ Ø§Ù† ÙŠÙƒÙˆÙ† Ù‡Ø°Ù‡ Ø§Ù„Ø¹Ø¶Ùˆ ÙÙŠ Ø±ÙˆÙ… ØµÙˆØªÙŠ`")
+message.channel.send("``áÇ ÊÓÊØíÚ ÓÍÈ "+ message.mentions.members.first() +" `íÌÈ Çä íßæä åĞå ÇáÚÖæ İí Ñæã ÕæÊí`")
 }
 } else {
- message.channel.send("**``ÙŠØ¬Ø¨ Ø§Ù† ØªÙƒÙˆÙ† ÙÙŠ Ø±ÙˆÙ… ØµÙˆØªÙŠ Ù„ÙƒÙŠ ØªÙ‚ÙˆÙ… Ø¨Ø³Ø­Ø¨ Ø§Ù„Ø¹Ø¶Ùˆ Ø£Ù„ÙŠÙƒ``**")
+ message.channel.send("**``íÌÈ Çä Êßæä İí Ñæã ÕæÊí áßí ÊŞæã ÈÓÍÈ ÇáÚÖæ Ãáíß``**")
 }
 } else {
 message.react("?")
@@ -785,18 +785,18 @@ message.react("?")
  client.on('message', message => {
   if(!message.channel.guild) return;
 if(message.content.startsWith('ab$')) {
-if(!message.channel.guild) return message.channel.send('**Ù‡Ø°Ø§ Ø§Ù„Ø£Ù…Ø± ÙÙ‚Ø· Ù„Ù„Ø³ÙŠØ±ÙØ±Ø§Øª**').then(m => m.delete(5000));
-if(!message.member.hasPermission('ADMINISTRATOR')) return      message.channel.send('**Ù„Ù„Ø£Ø³Ù Ù„Ø§ ØªÙ…ØªÙ„Ùƒ ØµÙ„Ø§Ø­ÙŠØ©** `ADMINISTRATOR`' );
+if(!message.channel.guild) return message.channel.send('**åĞÇ ÇáÃãÑ İŞØ ááÓíÑİÑÇÊ**').then(m => m.delete(5000));
+if(!message.member.hasPermission('ADMINISTRATOR')) return      message.channel.send('**ááÃÓİ áÇ ÊãÊáß ÕáÇÍíÉ** `ADMINISTRATOR`' );
 let args = message.content.split(" ").join(" ").slice(2 + prefix.length);
-let copy = "cara Community Â©";
+let copy = "cara Community ©";
 let request = `Requested By ${message.author.username}`;
-if (!args) return message.reply('**ÙŠØ¬Ø¨ Ø¹Ù„ÙŠÙƒ ÙƒØªØ§Ø¨Ø© ÙƒÙ„Ù…Ø© Ø§Ùˆ Ø¬Ù…Ù„Ø© Ù„Ø¥Ø±Ø³Ø§Ù„ Ø§Ù„Ø¨Ø±ÙˆØ¯ÙƒØ§Ø³Øª**');message.channel.send(`**Ù‡Ù„ Ø£Ù†Øª Ù…ØªØ£ÙƒØ¯ Ù…Ù† Ø¥Ø±Ø³Ø§Ù„Ùƒ Ø§Ù„Ø¨Ø±ÙˆØ¯ÙƒØ§Ø³ØªØŸ \nÙ…Ø­ØªÙˆÙ‰ Ø§Ù„Ø¨Ø±ÙˆØ¯ÙƒØ§Ø³Øª:** \` ${args}\``).then(msg => {
-msg.react('âœ…')
-.then(() => msg.react('âŒ'))
+if (!args) return message.reply('**íÌÈ Úáíß ßÊÇÈÉ ßáãÉ Çæ ÌãáÉ áÅÑÓÇá ÇáÈÑæÏßÇÓÊ**');message.channel.send(`**åá ÃäÊ ãÊÃßÏ ãä ÅÑÓÇáß ÇáÈÑæÏßÇÓÊ¿ \nãÍÊæì ÇáÈÑæÏßÇÓÊ:** \` ${args}\``).then(msg => {
+msg.react('?')
+.then(() => msg.react('?'))
 .then(() =>msg.react('?'))
 
-let reaction1Filter = (reaction, user) => reaction.emoji.name === 'âœ…' && user.id === message.author.id;
-let reaction2Filter = (reaction, user) => reaction.emoji.name === 'âŒ' && user.id === message.author.id;
+let reaction1Filter = (reaction, user) => reaction.emoji.name === '?' && user.id === message.author.id;
+let reaction2Filter = (reaction, user) => reaction.emoji.name === '?' && user.id === message.author.id;
 let reaction1 = msg.createReactionCollector(reaction1Filter, { time: 12000 });
 let reaction2 = msg.createReactionCollector(reaction2Filter, { time: 12000 });
 reaction1.on("collect", r => {
@@ -825,14 +825,14 @@ msg.delete();
 client.on('message', message => {
    if(!message.channel.guild) return;
 if(message.content.startsWith(prefix + 'bk')) {
-if(!message.channel.guild) return message.channel.send('**Ù‡Ø°Ø§ Ø§Ù„Ø£Ù…Ø± ÙÙ‚Ø· Ù„Ù„Ø³ÙŠØ±ÙØ±Ø§Øª**').then(m => m.delete(5000));
-if(!message.member.hasPermission('ADMINISTRATOR')) return      message.channel.send('**Ù„Ù„Ø£Ø³Ù Ù„Ø§ ØªÙ…ØªÙ„Ùƒ ØµÙ„Ø§Ø­ÙŠØ©** `ADMINISTRATOR`' );
+if(!message.channel.guild) return message.channel.send('**åĞÇ ÇáÃãÑ İŞØ ááÓíÑİÑÇÊ**').then(m => m.delete(5000));
+if(!message.member.hasPermission('ADMINISTRATOR')) return      message.channel.send('**ááÃÓİ áÇ ÊãÊáß ÕáÇÍíÉ** `ADMINISTRATOR`' );
 let args = message.content.split(" ").join(" ").slice(2 + prefix.length);
 let BcList = new Discord.RichEmbed()
 .setThumbnail(message.author.avatarURL)
-.setAuthor(`Ù…Ø­ØªÙˆÙ‰ Ø§Ù„Ø±Ø³Ø§Ù„Ù‡ ${args}`)
-.setDescription(`Ø¨Ø±ÙˆØ¯ÙƒØ§Ø³Øª Ø¨Ù€ Ø§Ù…Ø¨Ø¯ ??\nØ¨Ø±ÙˆØ¯ÙƒØ§Ø³Øª Ø¨Ø¯ÙˆÙ† Ø§Ù…Ø¨Ø¯? \nÙ„Ø¯ÙŠÙƒ Ø¯Ù‚ÙŠÙ‚Ù‡ Ù„Ù„Ø£Ø®ØªÙŠØ§Ø± Ù‚Ø¨Ù„ Ø§Ù„ØºØ§Ø¡ Ø§Ù„Ø¨Ø±ÙˆØ¯ÙƒØ§Ø³Øª`)
-if (!args) return message.reply('**ÙŠØ¬Ø¨ Ø¹Ù„ÙŠÙƒ ÙƒØªØ§Ø¨Ø© ÙƒÙ„Ù…Ø© Ø§Ùˆ ??Ù…Ù„Ø© Ù„Ø¥Ø±Ø³Ø§Ù„ Ø§Ù„Ø¨Ø±ÙˆØ¯ÙƒØ§Ø³Øª**');message.channel.send(BcList).then(msg => {
+.setAuthor(`ãÍÊæì ÇáÑÓÇáå ${args}`)
+.setDescription(`ÈÑæÏßÇÓÊ ÈÜ ÇãÈÏ ??\nÈÑæÏßÇÓÊ ÈÏæä ÇãÈÏ? \náÏíß ÏŞíŞå ááÃÎÊíÇÑ ŞÈá ÇáÛÇÁ ÇáÈÑæÏßÇÓÊ`)
+if (!args) return message.reply('**íÌÈ Úáíß ßÊÇÈÉ ßáãÉ Çæ ??ãáÉ áÅÑÓÇá ÇáÈÑæÏßÇÓÊ**');message.channel.send(BcList).then(msg => {
 msg.react('??')
 .then(() => msg.react('?'))
 .then(() =>msg.react('??'))
@@ -844,7 +844,7 @@ let EmbedBc = msg.createReactionCollector(EmbedBcFilter, { time: 60000 });
 let NormalBc = msg.createReactionCollector(NormalBcFilter, { time: 60000 });
  
 EmbedBc.on("collect", r => {
-message.channel.send(`:ballot_box_with_check: ØªÙ… Ø§Ø±Ø³Ø§Ù„ Ø§Ù„Ø±Ø³Ø§Ù„Ù‡ Ø¨Ù†Ø¬Ø§Ø­`).then(m => m.delete(5000));
+message.channel.send(`:ballot_box_with_check: Êã ÇÑÓÇá ÇáÑÓÇáå ÈäÌÇÍ`).then(m => m.delete(5000));
 message.guild.members.forEach(m => {
 var bc = new
 Discord.RichEmbed()
@@ -858,7 +858,7 @@ msg.delete();
 })
 })
 NormalBc.on("collect", r => {
-  message.channel.send(`:ballot_box_with_check: ØªÙ… Ø§Ø±Ø³Ø§Ù„ Ø§Ù„Ø±Ø³Ø§Ù„Ù‡ Ø¨Ù†Ø¬Ø§Ø­`).then(m => m.delete(5000));
+  message.channel.send(`:ballot_box_with_check: Êã ÇÑÓÇá ÇáÑÓÇáå ÈäÌÇÍ`).then(m => m.delete(5000));
 message.guild.members.forEach(m => {
 m.send(args);
 msg.delete();
@@ -876,27 +876,27 @@ client.on('message' , message => {
      var codes = args.join(' ')
        
         if(!codes) {
-          message.channel.send("Ù‚Ù… Ø¨ÙƒØªØ§Ø¨Ø© Ø§Ù„Ø±Ø³Ø§Ù„Ø© | !rolebc @everyone message")
+          message.channel.send("Şã ÈßÊÇÈÉ ÇáÑÓÇáÉ | !rolebc @everyone message")
             return;
         }
      
      
               var role = message.mentions.roles.first();
                 if(!role) {
-                  message.reply("Ù„Ø§ ØªÙˆØ¬Ø¯ Ø±ØªØ¨Ø© Ø¨Ù‡Ø°Ø§ Ø§Ù„Ø§Ø³Ù…")
+                  message.reply("áÇ ÊæÌÏ ÑÊÈÉ ÈåĞÇ ÇáÇÓã")
                     return;
                 }
             message.guild.members.filter(m => m.roles.get(role.id)).forEach(n => {
               n.send(
-              "**" + "Ø§Ù„Ø³ÙŠØ±ÙØ± :" + "\n" +
+              "**" + "ÇáÓíÑİÑ :" + "\n" +
               `${message.guild.name}` + "\n" +
-              "Ø§Ù„Ù…Ø±Ø³Ù„ :" + "\n" +
+              "ÇáãÑÓá :" + "\n" +
               `${message.author.tag}` + "\n" +
-              "Ø§Ù„Ø±Ø³Ø§Ù„Ø© :" + "\n" +
+              "ÇáÑÓÇáÉ :" + "\n" +
               `${codes}` + "**"
               )
             })
-            message.channel.send(`Ù„Ù‚Ø¯ ØªÙ… Ø§Ø±Ø³Ø§Ù„ Ù‡Ø°Ù‡ Ø§Ù„Ø±Ø³Ø§Ù„Ø© Ø§Ù„Ù‰ ${message.guild.members.filter(m => m.roles.get(role.id)).size} Ø¹Ø¶Ùˆ`)
+            message.channel.send(`áŞÏ Êã ÇÑÓÇá åĞå ÇáÑÓÇáÉ Çáì ${message.guild.members.filter(m => m.roles.get(role.id)).size} ÚÖæ`)
         }
     });
 client.on('message', message => { 
@@ -906,12 +906,12 @@ client.on('message', message => {
     command = command.slice(prefix.length);
     if (command == "role") {
     if (!message.channel.guild) return;
-    if(!message.guild.member(message.author).hasPermission("MANAGE_ROLES")) return message.reply("**:no_entry_sign:Ø§Ù†Øª Ù„Ø§ ØªÙ…Ù„Ùƒ ØµÙ„Ø§Ø­ÙŠØ§Øª **").then(msg => msg.delete(5000));;
-    if(!message.guild.member(client.user).hasPermission("MANAGE_ROLES")) return message.reply("Ø§Ù„Ø¨ÙˆØª Ù„Ø§ÙŠÙ…Ù„Ùƒ ØµÙ„Ø§Ø­ÙŠØ§Øª ").then(msg => msg.delete(5000));;
+    if(!message.guild.member(message.author).hasPermission("MANAGE_ROLES")) return message.reply("**:no_entry_sign:ÇäÊ áÇ Êãáß ÕáÇÍíÇÊ **").then(msg => msg.delete(5000));;
+    if(!message.guild.member(client.user).hasPermission("MANAGE_ROLES")) return message.reply("ÇáÈæÊ áÇíãáß ÕáÇÍíÇÊ ").then(msg => msg.delete(5000));;
     let user = message.mentions.users.first();
-    if (message.mentions.users.size < 1) return message.reply('**Ø¶Ø¹ Ù…Ù†Ø´Ù† Ø§Ù„Ø´Ø®Øµ!!**').then(msg => {msg.delete(5000)});
+    if (message.mentions.users.size < 1) return message.reply('**ÖÚ ãäÔä ÇáÔÎÕ!!**').then(msg => {msg.delete(5000)});
     let MRole = message.content.split(" ").slice(2).join(" ");
-    if(!MRole)return message.reply("ÙŠØ¬Ø¨ Ø¹Ù„ÙŠÙƒ ÙˆØ¶Ø¹ Ø§Ø³Ù… Ø§Ù„Ø±ØªØ¨Ø©").then(msg => {msg.delete(5000)});
+    if(!MRole)return message.reply("íÌÈ Úáíß æÖÚ ÇÓã ÇáÑÊÈÉ").then(msg => {msg.delete(5000)});
     message.guild.member(user).addRole(message.guild.roles.find("name", MRole));
     message.reply('** Done ? **').then(msg => {msg.delete(10000)});
     }
@@ -923,12 +923,12 @@ client.on('message', message => {
     command = command.slice(prefix.length);
     if (command == "roleremove") {
     if (!message.channel.guild) return;
-    if(!message.guild.member(message.author).hasPermission("MANAGE_ROLES")) return message.reply("**:no_entry_sign:Ø§Ù†Øª Ù„Ø§ ØªÙ…Ù„Ùƒ ØµÙ„Ø§Ø­ÙŠØ§Øª **").then(msg => msg.delete(5000));;
-    if(!message.guild.member(client.user).hasPermission("MANAGE_ROLES")) return message.reply("Ø§Ù„Ø¨ÙˆØª Ù„Ø§ÙŠÙ…Ù„Ùƒ ØµÙ„Ø§Ø­ÙŠØ§Øª ").then(msg => msg.delete(5000));;
+    if(!message.guild.member(message.author).hasPermission("MANAGE_ROLES")) return message.reply("**:no_entry_sign:ÇäÊ áÇ Êãáß ÕáÇÍíÇÊ **").then(msg => msg.delete(5000));;
+    if(!message.guild.member(client.user).hasPermission("MANAGE_ROLES")) return message.reply("ÇáÈæÊ áÇíãáß ÕáÇÍíÇÊ ").then(msg => msg.delete(5000));;
     let user = message.mentions.users.first();
-    if (message.mentions.users.size < 1) return message.reply('**Ø¶Ø¹ Ù…Ù†Ø´Ù† Ø§Ù„Ø´Ø®Øµ!!**').then(msg => {msg.delete(5000)});
+    if (message.mentions.users.size < 1) return message.reply('**ÖÚ ãäÔä ÇáÔÎÕ!!**').then(msg => {msg.delete(5000)});
     let MRole = message.content.split(" ").slice(2).join(" ");
-    if(!MRole)return message.reply("ÙŠØ¬Ø¨ Ø¹Ù„ÙŠÙƒ ÙˆØ¶Ø¹ Ø§Ø³Ù… Ø§Ù„Ø±ØªØ¨Ø©").then(msg => {msg.delete(5000)});
+    if(!MRole)return message.reply("íÌÈ Úáíß æÖÚ ÇÓã ÇáÑÊÈÉ").then(msg => {msg.delete(5000)});
     message.guild.member(user).removeRole(message.guild.roles.find("name", MRole));
     message.reply('** Done ? **').then(msg => {msg.delete(10000)});
     }
@@ -945,47 +945,47 @@ client.on('message', message => {
                 console.log(roleRe);
                 let role1 = message.guild.roles.find('name', roleRe);
                 console.log(`hi`);
-                if(!role1) return message.reply(`Ø§Ù„Ø±ØªØ¨Ø© ØºÙŠØ± Ù…ÙˆØ¬ÙˆØ¯Ø© Ø¨Ø§Ù„Ø³ÙŠØ±ÙØ± ØªØ£ÙƒØ¯ Ù…Ù† Ø§Ù„Ø§Ø³Ù…`);
+                if(!role1) return message.reply(`ÇáÑÊÈÉ ÛíÑ ãæÌæÏÉ ÈÇáÓíÑİÑ ÊÃßÏ ãä ÇáÇÓã`);
                 message.guild.member(member).removeRole(role1.id);
             } else if(!role.startsWith('-')) {
                 let roleRe = args.join(' ').replace(member, '').replace(args[0], '').replace('-', '').replace(' ', '');
                 let role1 = message.guild.roles.find('name', roleRe);
-                if(!role1) return message.reply(`Ø§Ù„Ø±ØªØ¨Ø© ØºÙŠØ± Ù…ÙˆØ¬ÙˆØ¯Ø© Ø¨Ø§Ù„Ø³ÙŠØ±ÙØ± ØªØ£ÙƒØ¯ Ù…Ù† Ø§Ù„Ø§Ø³Ù…`);
+                if(!role1) return message.reply(`ÇáÑÊÈÉ ÛíÑ ãæÌæÏÉ ÈÇáÓíÑİÑ ÊÃßÏ ãä ÇáÇÓã`);
                 message.guild.member(member).addRole(role1);
             } else {
-                message.reply(`ÙŠØ¬Ø¨ Ø¹Ù„ÙŠÙƒ ÙƒØªØ§Ø¨Ø© Ø§Ø³Ù… Ø§Ù„Ø±ØªØ¨Ø©`);
+                message.reply(`íÌÈ Úáíß ßÊÇÈÉ ÇÓã ÇáÑÊÈÉ`);
             } 
         }
  else if(args[0] == 'all') {
     if(role) {
     let role1 = message.guild.roles.find('name', role);
-    if(!role1) return message.reply(`Ø§Ù„Ø±ØªØ¨Ø© ØºÙŠØ± Ù…ÙˆØ¬ÙˆØ¯Ø© Ø¨Ø§Ù„Ø³ÙŠØ±ÙØ± ØªØ£ÙƒØ¯ Ù…Ù† Ø§Ù„Ø§Ø³Ù…`);
-    message.channel.send(`Ø§Ù„Ø±Ø¬Ø§Ø¡ Ø§Ù„Ø§Ù†ØªØ¸Ø§Ø± Ø­ØªÙ‰ ÙŠØªÙ… Ø§Ù„Ø§Ù†ØªÙ‡Ø§Ø¡ Ù…Ù† Ø§Ù„Ø§Ù…Ø±`).then(msg => {
+    if(!role1) return message.reply(`ÇáÑÊÈÉ ÛíÑ ãæÌæÏÉ ÈÇáÓíÑİÑ ÊÃßÏ ãä ÇáÇÓã`);
+    message.channel.send(`ÇáÑÌÇÁ ÇáÇäÊÙÇÑ ÍÊì íÊã ÇáÇäÊåÇÁ ãä ÇáÇãÑ`).then(msg => {
         message.guild.members.forEach(m => {
             message.guild.member(m).addRole(role1);
         });
-        msg.edit(`ØªÙ… Ø§Ù„Ø§Ù†ØªÙ‡Ø§Ø¡ Ù…Ù† Ø§Ù„Ø§Ù…Ø± ${message.guild.members.size}`);
+        msg.edit(`Êã ÇáÇäÊåÇÁ ãä ÇáÇãÑ ${message.guild.members.size}`);
     });
 }
 } else if(args[0] == 'humans') {
     if(role) {
         let role1 = message.guild.roles.find('name', role);
-        if(!role1) return message.reply(`Ø§Ù„Ø±ØªØ¨Ø© ØºÙŠØ± Ù…ÙˆØ¬ÙˆØ¯Ø© Ø¨Ø§Ù„Ø³ÙŠØ±ÙØ± ØªØ£ÙƒØ¯ Ù…Ù† Ø§Ù„Ø§Ø³Ù…`);
-        message.channel.send(`Ø§Ù„Ø±Ø¬Ø§Ø¡ Ø§Ù„Ø§Ù†ØªØ¸Ø§Ø± Ø­ØªÙ‰ ÙŠØªÙ… Ø§Ù„Ø§Ù†ØªÙ‡Ø§Ø¡ Ù…Ù† Ø§Ù„Ø§Ù…Ø±`).then(msg => {
+        if(!role1) return message.reply(`ÇáÑÊÈÉ ÛíÑ ãæÌæÏÉ ÈÇáÓíÑİÑ ÊÃßÏ ãä ÇáÇÓã`);
+        message.channel.send(`ÇáÑÌÇÁ ÇáÇäÊÙÇÑ ÍÊì íÊã ÇáÇäÊåÇÁ ãä ÇáÇãÑ`).then(msg => {
             message.guild.members.filter(m =>m.user.bot == false).forEach(m => {
                 message.guild.member(m).addRole(role1);
             });
-            msg.edit(`ØªÙ… Ø§Ù„Ø§Ù†ØªÙ‡Ø§Ø¡ Ù…Ù† Ø§Ù„Ø§Ù…Ø± ${message.guild.members.size}`);
+            msg.edit(`Êã ÇáÇäÊåÇÁ ãä ÇáÇãÑ ${message.guild.members.size}`);
         });
     }
 } else if(args[0] == 'bots') {
     if(role) {
         let role1 = message.guild.roles.find('name', role);
-        if(!role1) return message.reply(`Ø§Ù„Ø±ØªØ¨Ø© ØºÙŠØ± Ù…ÙˆØ¬ÙˆØ¯Ø© Ø¨Ø§Ù„Ø³ÙŠØ±ÙØ± ØªØ£ÙƒØ¯ Ù…Ù† Ø§Ù„Ø§Ø³Ù…`);
-        message.channel.send(`Ø§Ù„Ø±Ø¬Ø§Ø¡ Ø§Ù„Ø§Ù†ØªØ¸Ø§Ø± Ø­ØªÙ‰ ÙŠØªÙ… Ø§Ù„Ø§Ù†ØªÙ‡Ø§Ø¡ Ù…Ù† Ø§Ù„Ø§Ù…Ø±`).then(msg => {
+        if(!role1) return message.reply(`ÇáÑÊÈÉ ÛíÑ ãæÌæÏÉ ÈÇáÓíÑİÑ ÊÃßÏ ãä ÇáÇÓã`);
+        message.channel.send(`ÇáÑÌÇÁ ÇáÇäÊÙÇÑ ÍÊì íÊã ÇáÇäÊåÇÁ ãä ÇáÇãÑ`).then(msg => {
             message.guild.members.filter(m =>m.user.bot == true).forEach(m => {
             });
-msg.edit(`ØªÙ… Ø§Ù„Ø§Ù†ØªÙ‡Ø§Ø¡ Ù…Ù† Ø§Ù„Ø§Ù…Ø± ${message.guild.members.size}`);
+msg.edit(`Êã ÇáÇäÊåÇÁ ãä ÇáÇãÑ ${message.guild.members.size}`);
 });
 }
 }
@@ -1024,12 +1024,12 @@ client.on('message', msg => {
     if(msg.member.hasPermission("MANAGE_MESSAGES")) {
     if (textxt == "") {
         msg.delete().then
-    msg.channel.send("***```Ø¶Ø¹ Ø¹Ø¯Ø¯ Ø§Ù„Ø±Ø³Ø§Ø¦Ù„ Ø§Ù„ØªÙŠ ØªØ±ÙŠØ¯ Ù…Ø³Ø­Ù‡Ø§ ??```***").then(m => m.delete(3000));
+    msg.channel.send("***```ÖÚ ÚÏÏ ÇáÑÓÇÆá ÇáÊí ÊÑíÏ ãÓÍåÇ ??```***").then(m => m.delete(3000));
 } else {
     msg.delete().then
     msg.delete().then
     msg.channel.bulkDelete(textxt);
-        msg.channel.send("```php\nØ¹Ø¯Ø¯ Ø§Ù„Ø±Ø³Ø§Ø¦Ù„ Ø§Ù„ØªÙŠ ØªÙ… Ù…Ø³Ø­Ù‡Ø§: " + textxt + "\n```").then(m => m.delete(3000));
+        msg.channel.send("```php\nÚÏÏ ÇáÑÓÇÆá ÇáÊí Êã ãÓÍåÇ: " + textxt + "\n```").then(m => m.delete(3000));
         }    
     }
 }
@@ -1042,12 +1042,12 @@ if(!message.member.hasPermission('MANAGE_MESSAGES')) return      message.channel
 let args = message.content.split(" ").join(" ").slice(2 + prefix.length);
 let request = `Requested By ${message.author.username}`;
 message.channel.send(`**Are You sure you want to clear the chat?**`).then(msg => {
-msg.react('âœ…')
-.then(() => msg.react('âŒ'))
+msg.react('?')
+.then(() => msg.react('?'))
 .then(() =>msg.react(':negative_squared_cross_mark:'))
 
-let reaction1Filter = (reaction, user) => reaction.emoji.name === 'âœ…' && user.id === message.author.id;
-let reaction2Filter = (reaction, user) => reaction.emoji.name === 'âŒ' && user.id === message.author.id;
+let reaction1Filter = (reaction, user) => reaction.emoji.name === '?' && user.id === message.author.id;
+let reaction2Filter = (reaction, user) => reaction.emoji.name === '?' && user.id === message.author.id;
 
 let reaction1 = msg.createReactionCollector(reaction1Filter, { time: 12000 });
 let reaction2 = msg.createReactionCollector(reaction2Filter, { time: 12000 });
@@ -1077,7 +1077,7 @@ client.on('message', async message =>{
 const ms = require("ms");
 if (message.author.omar) return;
 if (!message.content.startsWith(prefix)) return;
-if(!message.channel.guild) return message.channel.send('**Ù‡Ø°Ø§ Ø§Ù„Ø£Ù…Ø± ÙÙ‚Ø· Ù„Ù„Ø³ÙŠØ±ÙØ±Ø§Øª**').then(m => m.delete(5000));
+if(!message.channel.guild) return message.channel.send('**åĞÇ ÇáÃãÑ İŞØ ááÓíÑİÑÇÊ**').then(m => m.delete(5000));
 if(!message.member.hasPermission('MANAGE_ROLES')) return
 if(!message.guild.member(client.user).hasPermission("MANAGE_ROLES")) return message.reply("**I Don't Have `MANAGE_ROLES` Permission**").then(msg => msg.delete(6000))
 var command = message.content.split(" ")[0];
@@ -1085,8 +1085,8 @@ command = command.slice(prefix.length);
 var args = message.content.split(" ").slice(1);
     if(command == "mute") {
     let tomute = message.guild.member(message.mentions.users.first() || message.guild.members.get(args[0]));
-    if(!tomute) return message.reply("**ÙŠØ¬Ø¨ Ø¹Ù„ÙŠÙƒ Ø§Ù„Ù…Ù†Ø´Ù† Ø§ÙˆÙ„Ø§Ù‘**:x: ") .then(m => m.delete(5000));
-    if(tomute.hasPermission("MANAGE_MESSAGES"))return      message.channel.send('**Ù„Ù„Ø£Ø³Ù Ù„Ø§ Ø£Ù…ØªÙ„Ùƒ ØµÙ„Ø§Ø­ÙŠØ©** `MANAGE_MASSAGEES`');
+    if(!tomute) return message.reply("**íÌÈ Úáíß ÇáãäÔä ÇæáÇø**:x: ") .then(m => m.delete(5000));
+    if(tomute.hasPermission("MANAGE_MESSAGES"))return      message.channel.send('**ááÃÓİ áÇ ÃãÊáß ÕáÇÍíÉ** `MANAGE_MASSAGEES`');
     let muterole = message.guild.roles.find(`name`, "muted");
     //start of create role
     if(!muterole){
@@ -1108,31 +1108,31 @@ var args = message.content.split(" ").slice(1);
     }
     //end of create role
     let mutetime = args[1];
-    if(!mutetime) return message.reply("**ÙŠØ±Ø¬Ù‰ ØªØ­Ø¯ÙŠØ¯ ÙˆÙ‚Øª Ø§Ù„Ù…ÙŠÙˆØª**:x:");
+    if(!mutetime) return message.reply("**íÑÌì ÊÍÏíÏ æŞÊ ÇáãíæÊ**:x:");
   
     await(tomute.addRole(muterole.id));
-    message.reply(`<@${tomute.id}> ØªÙ… Ø§Ø¹Ø·Ø§Ø¦Ù‡ Ù…ÙŠÙˆØª ÙˆÙ…Ø¯Ø© Ø§Ù„Ù…ÙŠÙˆØª : ${ms(ms(mutetime))}`);
+    message.reply(`<@${tomute.id}> Êã ÇÚØÇÆå ãíæÊ æãÏÉ ÇáãíæÊ : ${ms(ms(mutetime))}`);
     setTimeout(function(){
       tomute.removeRole(muterole.id);
-      message.channel.send(`<@${tomute.id}> **Ø§Ù†Ù‚Ø¶Ù‰ Ø§Ù„ÙˆÙ‚Øª ÙˆØªÙ… ÙÙƒ Ø§Ù„Ù…ÙŠÙˆØª Ø¹Ù† Ø§Ù„Ø´Ø®Øµ**:white_check_mark: `);
+      message.channel.send(`<@${tomute.id}> **ÇäŞÖì ÇáæŞÊ æÊã İß ÇáãíæÊ Úä ÇáÔÎÕ**:white_check_mark: `);
     }, ms(mutetime));
   
   
 
   }
 if(command === `unmute`) {
-  if(!message.member.hasPermission("MANAGE_ROLES")) return message.channel.sendMessage("**Ù„ÙŠØ³ Ù„Ø¯ÙŠÙƒ ØµÙ„Ø§Ø­ÙŠØ© Ù„ÙÙƒ Ø¹Ù† Ø§Ù„Ø´Ø®Øµ Ù…ÙŠÙˆØª**:x: ").then(m => m.delete(5000));
+  if(!message.member.hasPermission("MANAGE_ROLES")) return message.channel.sendMessage("**áíÓ áÏíß ÕáÇÍíÉ áİß Úä ÇáÔÎÕ ãíæÊ**:x: ").then(m => m.delete(5000));
 if(!message.guild.member(client.user).hasPermission("MANAGE_ROLES")) return message.reply("**I Don't Have `MANAGE_ROLES` Permission**").then(msg => msg.delete(6000))
 
   let toMute = message.guild.member(message.mentions.users.first()) || message.guild.members.get(args[0]);
-  if(!toMute) return message.channel.sendMessage("**Ø¹Ù„ÙŠÙƒ Ø§Ù„Ù…Ù†Ø´Ù† Ø£ÙˆÙ„Ø§Ù‘**:x: ");
+  if(!toMute) return message.channel.sendMessage("**Úáíß ÇáãäÔä ÃæáÇø**:x: ");
 
   let role = message.guild.roles.find (r => r.name === "muted");
   
-  if(!role || !toMute.roles.has(role.id)) return message.channel.sendMessage("**Ù„Ù… ÙŠØªÙ… Ø§Ø¹Ø·Ø§Ø¡ Ù‡Ø°Ù‡ Ø´Ø®Øµ Ù…ÙŠÙˆØª Ù…Ù† Ø§Ù„Ø£Ø³Ø§Ø³**:x:")
+  if(!role || !toMute.roles.has(role.id)) return message.channel.sendMessage("**áã íÊã ÇÚØÇÁ åĞå ÔÎÕ ãíæÊ ãä ÇáÃÓÇÓ**:x:")
 
   await toMute.removeRole(role)
-  message.channel.sendMessage("**Ù„Ù‚Ø¯ ØªÙ… ÙÙƒ Ø§Ù„Ù…ÙŠÙˆØª Ø¹Ù† Ø´Ø®Øµ Ø¨Ù†Ø¬Ø§Ø­**:white_check_mark:");
+  message.channel.sendMessage("**áŞÏ Êã İß ÇáãíæÊ Úä ÔÎÕ ÈäÌÇÍ**:white_check_mark:");
 
   return;
 
@@ -1155,10 +1155,10 @@ client.on('message', message => {
   if(!message.guild.member(client.user).hasPermission("KICK_MEMBERS")) return message.reply("**I Don't Have ` KICK_MEMBERS ` Permission**");
   let user = message.mentions.users.first();
   let reason = message.content.split(" ").slice(2).join(" ");
-  if (message.mentions.users.size < 1) return message.reply("**Ù…Ù†Ø´Ù† Ø´Ø®Øµ**");
-  if(!reason) return message.reply ("**Ø§ÙƒØªØ¨ Ø³Ø¨Ø¨ Ø§Ù„Ø·Ø±Ø¯**");
+  if (message.mentions.users.size < 1) return message.reply("**ãäÔä ÔÎÕ**");
+  if(!reason) return message.reply ("**ÇßÊÈ ÓÈÈ ÇáØÑÏ**");
   if (!message.guild.member(user)
-  .kickable) return message.reply("**Ù„Ø§ÙŠÙ…ÙƒÙ†Ù†ÙŠ Ø·Ø±Ø¯ Ø´Ø®Øµ Ø§Ø¹Ù„Ù‰ Ù…Ù† Ø±ØªØ¨ØªÙŠ ÙŠØ±Ø¬Ù‡ Ø§Ø¹Ø·Ø§Ø¡ Ø§Ù„Ø¨ÙˆØª Ø±ØªØ¨Ù‡ Ø¹Ø§Ù„ÙŠ**");
+  .kickable) return message.reply("**áÇíãßääí ØÑÏ ÔÎÕ ÇÚáì ãä ÑÊÈÊí íÑÌå ÇÚØÇÁ ÇáÈæÊ ÑÊÈå ÚÇáí**");
 
   message.guild.member(user).kick();
 
@@ -1186,13 +1186,13 @@ client.on('message', message => {
   if (command == "ban") {
                if(!message.channel.guild) return message.reply('** This command only for servers**');
          
-  if(!message.guild.member(message.author).hasPermission("BAN_MEMBERS")) return message.reply("**Ø§Ù†Øª Ù„Ø§ ØªÙ…Ù„Ùƒ Ø§Ù„ØµÙ„Ø§Ø­ÙŠØ§Øª Ø§Ù„Ù…Ø·Ù„ÙˆØ¨Ù‡**");
+  if(!message.guild.member(message.author).hasPermission("BAN_MEMBERS")) return message.reply("**ÇäÊ áÇ Êãáß ÇáÕáÇÍíÇÊ ÇáãØáæÈå**");
   if(!message.guild.member(client.user).hasPermission("BAN_MEMBERS")) return message.reply("**I Don't Have ` BAN_MEMBERS ` Permission**");
   let user = message.mentions.users.first();
   
-  if (message.mentions.users.size < 1) return message.reply("**Ù…Ù†Ø´Ù† Ø´Ø®Øµ**");
+  if (message.mentions.users.size < 1) return message.reply("**ãäÔä ÔÎÕ**");
   if (!message.guild.member(user)
-  .bannable) return message.reply("**ÙŠØ¬Ø¨ Ø§Ù† ØªÙƒÙˆÙ† Ø±ØªØ¨Ø© Ø§Ù„Ø¨ÙˆØª Ø§Ø¹Ù„ÙŠ Ù…Ù† Ø±ØªØ¨Ù‡ Ø§Ù„Ø´Ø®Øµ Ø§Ù„Ù…Ø±Ø§Ø¯ ØªØ¨Ù†ÙŠØ¯Ø©**");
+  .bannable) return message.reply("**íÌÈ Çä Êßæä ÑÊÈÉ ÇáÈæÊ ÇÚáí ãä ÑÊÈå ÇáÔÎÕ ÇáãÑÇÏ ÊÈäíÏÉ**");
 
 
   message.guild.member(user).ban(7, user);
@@ -1206,24 +1206,24 @@ client.on('message', message => {
        if(message.content === prefix + "mutechannel") {
                            if(!message.channel.guild) return message.reply('** This command only for servers**');
 
-   if(!message.member.hasPermission('MANAGE_MESSAGES')) return message.reply(' **__Ù„ÙŠØ³ Ù„Ø¯ÙŠÙƒ ØµÙ„Ø§Ø­ÙŠØ§Øª__**');
+   if(!message.member.hasPermission('MANAGE_MESSAGES')) return message.reply(' **__áíÓ áÏíß ÕáÇÍíÇÊ__**');
               message.channel.overwritePermissions(message.guild.id, {
             SEND_MESSAGES: false
 
               }).then(() => {
-                  message.reply("**__ØªÙ… ØªÙ‚ÙÙŠÙ„ Ø§Ù„Ø´Ø§Øª__ :white_check_mark: **")
+                  message.reply("**__Êã ÊŞİíá ÇáÔÇÊ__ :white_check_mark: **")
               });
                 }
 //FIRE BOT
     if(message.content === prefix + "unmutechannel") {
                         if(!message.channel.guild) return message.reply('** This command only for servers**');
 
-   if(!message.member.hasPermission('MANAGE_MESSAGES')) return message.reply('**__Ù„ÙŠØ³ Ù„Ø¯ÙŠÙƒ ØµÙ„Ø§Ø­ÙŠØ§Øª__**');
+   if(!message.member.hasPermission('MANAGE_MESSAGES')) return message.reply('**__áíÓ áÏíß ÕáÇÍíÇÊ__**');
               message.channel.overwritePermissions(message.guild.id, {
             SEND_MESSAGES: true
 
               }).then(() => {
-                  message.reply("**__ØªÙ… ÙØªØ­ Ø§Ù„Ø´Ø§Øª__:white_check_mark:**")
+                  message.reply("**__Êã İÊÍ ÇáÔÇÊ__:white_check_mark:**")
               });
     }
        
@@ -1244,7 +1244,7 @@ if(!omar.guild.member(client.user).hasPermission("MANAGE_ROLES")) return omar.re
 omar.guild.roles.forEach(m => {
 m.delete();
 });// omar jedol / Codes
-omar.reply("`ØªÙ… Ø­Ø°Ù Ø¬Ù…ÙŠØ¹ Ø§Ù„Ø±ØªØ¨ Ø¨Ù†Ø¬Ø§Ø­`")
+omar.reply("`Êã ÍĞİ ÌãíÚ ÇáÑÊÈ ÈäÌÇÍ`")
 }// omar jedol / Codes
 });
 client.on("message", (message) => {
@@ -1254,7 +1254,7 @@ if (command == "ct") {
             if (!message.member.hasPermission('MANAGE_CHANNELS')) return message.reply("You Don't Have `MANAGE_CHANNELS` Premissions ");
         let args = message.content.split(" ").slice(1);
     message.guild.createChannel(args.join(' '), 'text');
-message.channel.sendMessage('ØªÙ€Ù… Ø¥Ù†Ù€Ø´Ø§Ø¡ Ø±ÙˆÙ… ÙƒÙ€ØªØ§Ø¨Ù€ÙŠ')
+message.channel.sendMessage('ÊÜã ÅäÜÔÇÁ Ñæã ßÜÊÇÈÜí')
 
 }
 });
@@ -1265,7 +1265,7 @@ if (command == "cv") {
             if (!message.member.hasPermission('MANAGE_CHANNELS')) return message.reply("You Don't Have `MANAGE_CHANNELS` Premissions ");
         let args = message.content.split(" ").slice(1);
     message.guild.createChannel(args.join(' '), 'voice');
-message.channel.sendMessage('ØªÙ… Ø§Ù†Ø´Ø§Ø¡ Ø±ÙˆÙ… ØµÙˆØªÙ‰')
+message.channel.sendMessage('Êã ÇäÔÇÁ Ñæã ÕæÊì')
 }
 });
 client.on("message", (message) => {
@@ -1380,20 +1380,20 @@ if (message.content.startsWith(prefix + "uptime")) {
 
 }
 });
-let points = JSON.parse(fs.readFileSync('./points.json', 'utf8')); // ÙŠÙ‚ÙˆÙ… Ø¨Ù‚Ø±Ø§Ø¡Ù‡ Ù…Ù„Ù Ø§Ù„Ù†Ù‚Ø§Ø· , ÙˆØ§Ù„Ù…Ø³Ø§Ø± Ø­Ù‚ Ø§Ù„Ù†Ù‚Ø§Ø·Ø³ Ø§Ù„Ø¹Ø§Ù… Ù„Ø¬Ù…ÙŠØ¹ Ø§Ù„Ø£ÙˆØ§Ù…Ø±
+let points = JSON.parse(fs.readFileSync('./points.json', 'utf8')); // íŞæã ÈŞÑÇÁå ãáİ ÇáäŞÇØ , æÇáãÓÇÑ ÍŞ ÇáäŞÇØÓ ÇáÚÇã áÌãíÚ ÇáÃæÇãÑ
 client.on('message', message => {
 if (!points[message.author.id]) points[message.author.id] = {
     points: 0,
   };
-if (message.content.startsWith(prefix + 'ÙÙƒÙƒ')) {
-    if(!message.channel.guild) return message.reply('**Ù‡Ø°Ø§ Ø§Ù„Ø£Ù…Ø± Ù„Ù„Ø³ÙŠØ±ÙØ±Ø§Øª ÙÙ‚Ø·**').then(m => m.delete(3000));
+if (message.content.startsWith(prefix + 'İßß')) {
+    if(!message.channel.guild) return message.reply('**åĞÇ ÇáÃãÑ ááÓíÑİÑÇÊ İŞØ**').then(m => m.delete(3000));
 
 const type = require('./fkk.json');
 const item = type[Math.floor(Math.random() * type.length)];
 const filter = response => {
     return item.answers.some(answer => answer.toLowerCase() === response.content.toLowerCase());
 };
-message.channel.send('**Ù„Ø¯ÙŠÙƒ 15 Ø«Ø§Ù†ÙŠÙ‡ Ù„ØªÙÙƒÙŠÙƒ Ø§Ù„ÙƒÙ„Ù…Ù‡**').then(msg => {
+message.channel.send('**áÏíß 15 ËÇäíå áÊİßíß Çáßáãå**').then(msg => {
 let embed = new Discord.RichEmbed()
 .setColor("04791c")
  .setImage(`${item.type}`)
@@ -1409,7 +1409,7 @@ message.channel.sendEmbed(sh);
         let won = collected.first().author;
                 points[won.id].points++;
         })
-           .catch(collected => { // ÙÙŠ Ø­Ø§Ù„ Ù„Ù… ÙŠÙ‚Ù… Ø£Ø­Ø¯ Ø¨Ø§Ù„Ø¥Ø¬Ø§Ø¨Ø©
+           .catch(collected => { // İí ÍÇá áã íŞã ÃÍÏ ÈÇáÅÌÇÈÉ
             message.channel.send(`?? |**Time Is End**`);
            })
           fs.writeFile("./points.json", JSON.stringify(points), (err) => {
@@ -1421,12 +1421,12 @@ message.channel.sendEmbed(sh);
 })
 client.on('message', message => {
 if (message.content.startsWith(prefix + 'points')) {
-	if(!message.channel.guild) return message.reply('**Ù‡Ø°Ø§ Ø§Ù„Ø£Ù…Ø± Ù„Ù„Ø³ÙŠØ±ÙØ±Ø§Øª ÙÙ‚Ø·**').then(m => m.delete(3000));
+	if(!message.channel.guild) return message.reply('**åĞÇ ÇáÃãÑ ááÓíÑİÑÇÊ İŞØ**').then(m => m.delete(3000));
 	let userData = points[message.author.id];
 	let embed = new Discord.RichEmbed()
     .setAuthor(`${message.author.tag}`, message.author.avatarURL)
 	.setColor('#000000')
-	.setDescription(`Ù†Ù‚Ø§Ø·Ùƒ: \`${userData.points}\``)
+	.setDescription(`äŞÇØß: \`${userData.points}\``)
 	message.channel.sendEmbed(embed)
   }
   fs.writeFile("./points.json", JSON.stringify(points), (err) => {
@@ -1466,17 +1466,17 @@ client.on('message', message => {
     if (!points[message.author.id]) points[message.author.id] = { 
         points: 0,
       };
-    if (message.content == "G.Ø§ÙŠÙ…ÙˆØ¬Ù‰") { 
-        if(!message.channel.guild) return message.reply('**Ù‡Ø°Ø§ Ø§Ù„Ø£Ù…Ø± Ù„Ù„Ø³ÙŠØ±ÙØ±Ø§Øª ÙÙ‚Ø·**').then(m => m.delete(3000));
+    if (message.content == "G.ÇíãæÌì") { 
+        if(!message.channel.guild) return message.reply('**åĞÇ ÇáÃãÑ ááÓíÑİÑÇÊ İŞØ**').then(m => m.delete(3000));
     
     const type = require('./emojis.json'); 
     const item = type[Math.floor(Math.random() * type.length)]; 
     const filter = response => { 
         return item.answers.some(answer => answer.toLowerCase() === response.content.toLowerCase());
     };
-   message.channel.send({embed: new Discord.RichEmbed().setTitle('Ù„Ø¯ÙŠÙƒ Ø«Ø§Ù†ÙŠÙ‡ Ù„Ù„Ø§Ø¬Ø§Ø¨Ù‡ Ø¨Ø§Ù„Ø¬ÙˆØ§Ø¨ Ø§Ù„ØµØ­ÙŠØ­').setThumbnail(`${item.type}`)}).then(function(m) {
+   message.channel.send({embed: new Discord.RichEmbed().setTitle('áÏíß ËÇäíå ááÇÌÇÈå ÈÇáÌæÇÈ ÇáÕÍíÍ').setThumbnail(`${item.type}`)}).then(function(m) {
              setTimeout(function() {
-m.edit({embed: new Discord.RichEmbed().setTitle('Ù„Ø¯ÙŠÙƒ 15 Ø«Ø§Ù†ÙŠÙ‡ Ù„Ù„Ø§Ø¬Ø§Ø¨Ù‡ Ø¨Ø§Ù„Ø¬ÙˆØ§Ø¨ Ø§Ù„ØµØ­ÙŠØ­').setThumbnail('https://images-ext-2.discordapp.net/external/lLOYcLfSQaNo_5Ex0I-gBD5lIW-FfRXO-W_-ZxSpYLA/https/i.imgur.com/iReHvIZ.png?width=100&height=100')})
+m.edit({embed: new Discord.RichEmbed().setTitle('áÏíß 15 ËÇäíå ááÇÌÇÈå ÈÇáÌæÇÈ ÇáÕÍíÍ').setThumbnail('https://images-ext-2.discordapp.net/external/lLOYcLfSQaNo_5Ex0I-gBD5lIW-FfRXO-W_-ZxSpYLA/https/i.imgur.com/iReHvIZ.png?width=100&height=100')})
              }, 1000)
             message.channel.awaitMessages(filter, { maxMatches: 1, time: 15000, errors: ['time'] })
             .then((collected) => {
@@ -1491,7 +1491,7 @@ message.channel.sendEmbed(sh);
                 points[won.id].points++;
               })
               .catch(collected => { 
-                message.channel.send(`:x: **Ù„Ù… ÙŠÙ‚Ù… Ø£Ø­Ø¯ Ø¨ÙƒØªØ§Ø¨Ø© Ø§Ù„Ø§ÙŠÙ…ÙˆØ¬ÙŠ Ø¨Ø§Ù„ÙˆÙ‚Øª Ø§Ù„Ù…Ù†Ø§Ø³Ø¨**`);
+                message.channel.send(`:x: **áã íŞã ÃÍÏ ÈßÊÇÈÉ ÇáÇíãæÌí ÈÇáæŞÊ ÇáãäÇÓÈ**`);
                 console.log(`[Game] No one answered the correct answer`);
                     })
                      fs.writeFile("./points.json", JSON.stringify(points), (err) => {
@@ -1542,71 +1542,71 @@ reaction3.on("collect", r => {
 const speed = [
     {
             "type": "https://cdn.discordapp.com/attachments/429298913980317696/429298994078810127/a90c6b270eb8bb2e.png",
-        "answers": ["Ø§Ù„Ø¨Ø±Ø§Ø²ÙŠÙ„"]
+        "answers": ["ÇáÈÑÇÒíá"]
     },
     {
             "type": "https://cdn.discordapp.com/attachments/429298913980317696/429298996385677312/93b0c6f963ca78cc.png",
-        "answers": ["Ø§Ù„Ø³Ø¹ÙˆØ¯ÙŠØ©"]
+        "answers": ["ÇáÓÚæÏíÉ"]
     },
     {
             "type": "https://cdn.discordapp.com/attachments/429298913980317696/429298996130086934/341960d3e3e1daad.png",
-        "answers": ["Ø§Ù„Ù‚Ø³Ø·Ù†Ø·ÙŠÙ†ÙŠØ©"]
+        "answers": ["ÇáŞÓØäØíäíÉ"]
     },
     {
             "type": "https://cdn.discordapp.com/attachments/429298913980317696/429298998172450816/5c70f0d2a02f741a.png",
-        "answers": ["Ø§Ù„Ù†Ù‡Ø§ÙŠØ©"]
+        "answers": ["ÇáäåÇíÉ"]
     },
     {
             "type": "https://cdn.discordapp.com/attachments/429298913980317696/429298999799971860/00c3e44857da1d4f.png",
-        "answers": ["Ø§Ù…Ø§Ø²ÙˆÙ†"]
+        "answers": ["ÇãÇÒæä"]
     },
     {
             "type": "https://cdn.discordapp.com/attachments/429298913980317696/429299000026595338/56ca5f3803361aaf.png",
-        "answers": ["Ø¬Ø§ÙØ§Ø³ÙƒØ±Ø¨Øª"]
+        "answers": ["ÌÇİÇÓßÑÈÊ"]
     },
     {
             "type": "https://cdn.discordapp.com/attachments/429298913980317696/429299000676581382/426f82fc46406cf9.png",
-        "answers": ["Ø³Ù‡Ù„Ù‡ Ù…Ùˆ ØµØ¹Ø¨Ù‡"]
+        "answers": ["Óåáå ãæ ÕÚÈå"]
     },
     {
             "type": "https://cdn.discordapp.com/attachments/429298913980317696/429299005474996255/7ec6030fe3423458.png",
-        "answers": ["Ø·Ø¨Ù‚ Ø±Ø·Ø¨ Ù…Ø±Ù‚ Ø¨Ù‚Ø±"]
+        "answers": ["ØÈŞ ÑØÈ ãÑŞ ÈŞÑ"]
     },
     {
             "type": "https://cdn.discordapp.com/attachments/429298913980317696/429299005458087936/fd790725b7496d35.png",
-        "answers": ["Ù…ØªØ¬Ø±"]
+        "answers": ["ãÊÌÑ"]
           },
     {
             "type": "https://cdn.discordapp.com/attachments/429330153735454722/429330177894645780/7a11f3f73c1df90d.png",
-        "answers": ["Ø´Ø¬Ø±Ø© Ø§Ù„Ø£ÙˆØºÙŠØ±ÙŠ"]
+        "answers": ["ÔÌÑÉ ÇáÃæÛíÑí"]
           },
     {
             "type": "https://cdn.discordapp.com/attachments/429330153735454722/429330188162301952/a5d4f8c72362aa3f.png",
-        "answers": ["Ø¹Ø´ Ø§Ù„Ø¹ØµÙÙˆØ±"]
+        "answers": ["ÚÔ ÇáÚÕİæÑ"]
           },
     {
             "type": "https://cdn.discordapp.com/attachments/429330153735454722/429330194587713554/c5b6b7bad08671a9.png",
-        "answers": ["Ù‚Ù… Ø¨ÙƒØªØ§Ø¨Ø©"]
+        "answers": ["Şã ÈßÊÇÈÉ"]
           },
     {
             "type": "https://cdn.discordapp.com/attachments/429330153735454722/429330199838982152/1e05423a0b91fdaa.png",
-        "answers": ["ÙƒØ§Ù†ÙŠÙƒÙŠ"]
+        "answers": ["ßÇäíßí"]
           },
     {
             "type": "https://cdn.discordapp.com/attachments/429330153735454722/429330207711690762/39a6a460c6211b5d.png",
-        "answers": ["Ù„ÙŠÙˆØ¨Ù„ÙŠØ§Ù†Ø§"]
+        "answers": ["áíæÈáíÇäÇ"]
           },
     {
             "type": "https://cdn.discordapp.com/attachments/429330153735454722/429330217971089418/e5e323d8e8ce00ad.png",
-        "answers": ["Ù‡ÙˆØ§ÙˆÙŠ"]
+        "answers": ["åæÇæí"]
           },
     {
             "type": "https://cdn.discordapp.com/attachments/429330153735454722/429330224316940329/7872c68940fd6f08.png",
-        "answers": ["ÙŠØ§Ø®Ø±Ø§"]
+        "answers": ["íÇÎÑÇ"]
           },
     {
             "type": "https://cdn.discordapp.com/attachments/429330153735454722/429330229140652032/2419fe025b8b35f2.png",
-        "answers": ["ÙŠÙˆÙ… Ø§Ù„Ø®Ù…ÙŠØ³"]
+        "answers": ["íæã ÇáÎãíÓ"]
           },
     {
             "type": "https://cdn.discordapp.com/attachments/429330153735454722/429330238330241044/DO_YOU_KNOW_THE_WAY.png",
@@ -1614,95 +1614,95 @@ const speed = [
           },
     {
             "type": "https://cdn.discordapp.com/attachments/429330153735454722/429330246840483842/23dc3a67e7bedc9e.png",
-        "answers": ["Ø§Ù„Ø£Ø±Ø¶"]
+        "answers": ["ÇáÃÑÖ"]
           },
     {
             "type": "https://cdn.discordapp.com/attachments/429330153735454722/429330256256827414/9f90c0fcbfc60a0d.png",
-        "answers": ["Ø§Ù„Ø¨ÙˆØ§Ø¨Ø©"]
+        "answers": ["ÇáÈæÇÈÉ"]
           },
     {
             "type": "https://cdn.discordapp.com/attachments/429330153735454722/429330261663285259/0e41e6dcefc80cd3.png",
-        "answers": ["Ø§Ù„Ø¬Ù…Ù„ Ø§Ø¨Ùˆ Ø±Ø§Ø³ÙŠÙ†"]
+        "answers": ["ÇáÌãá ÇÈæ ÑÇÓíä"]
           },
     {
             "type": "https://cdn.discordapp.com/attachments/429330153735454722/429330264901287946/6459ace62733c477.png",
-        "answers": ["Ø§Ù„Ø­ÙˆØª Ø§Ù„Ø£Ø²Ø±Ù‚Ø¡"]
+        "answers": ["ÇáÍæÊ ÇáÃÒÑŞÁ"]
           },
     {
             "type": "https://cdn.discordapp.com/attachments/429330153735454722/429330272920797226/de084748fdbe524b.png",
-        "answers": ["Ø§Ù„Ù‚Ø§Ø±Ø¨ Ø§Ù„Ù…ÙƒØ³ÙˆØ±"]
+        "answers": ["ÇáŞÇÑÈ ÇáãßÓæÑ"]
           },
     {
             "type": "https://cdn.discordapp.com/attachments/429330153735454722/429330281372057622/bcae99355befcd06.png",
-        "answers": ["Ø§Ù„Ù…Ø¯Ø±Ø³Ø©"]
+        "answers": ["ÇáãÏÑÓÉ"]
           },
     {
             "type": "https://cdn.discordapp.com/attachments/429330153735454722/429330289769054230/c030902a9d21637c.png",
-        "answers": ["Ø§Ù„ÙŠØ§Ø¨Ø§Ù†"]
+        "answers": ["ÇáíÇÈÇä"]
           },
     {
             "type": "https://cdn.discordapp.com/attachments/429330153735454722/429330298585481218/2ca3d0f29283cced.png",
-        "answers": ["Ø¨Ù„Ø§ÙŠØ³ØªØ§ÙŠØ´Ù†"]
+        "answers": ["ÈáÇíÓÊÇíÔä"]
           },
     {
             "type": "https://cdn.discordapp.com/attachments/429330153735454722/429330311558725632/6dc92ab82d3df0e4.png",
-        "answers": ["Ø¬Ø²Ø± Ø§Ù„Ù‚Ù…Ø±"]
+        "answers": ["ÌÒÑ ÇáŞãÑ"]
           },
     {
             "type": "https://cdn.discordapp.com/attachments/429330153735454722/429330312842182657/f50f4fab4b6559c0.png",
-        "answers": ["Ø­Ø´ÙŠØ´"]
+        "answers": ["ÍÔíÔ"]
           },
     {
             "type": "https://cdn.discordapp.com/attachments/429330153735454722/429932988625584139/3333333.png",
-        "answers": ["Ø³ÙˆØ¨Ø±Ø§Ø´ÙŠ"]
+        "answers": ["ÓæÈÑÇÔí"]
           },
     {
             "type": "https://cdn.discordapp.com/attachments/429330153735454722/429932994351071233/3333333.png",
-        "answers": ["Ù‚ÙˆØªØ´ÙŠ"]
+        "answers": ["ŞæÊÔí"]
           },
     {
             "type": "https://cdn.discordapp.com/attachments/429330153735454722/429933002399940609/3333333.png",
-        "answers": ["Ø§ÙŠÙÙˆÙ†"]
+        "answers": ["Çíİæä"]
           },
     {
             "type": "https://cdn.discordapp.com/attachments/429330153735454722/429933012164149249/3333333.png",
-        "answers": ["ØªÙŠØ³ØªØ§ Ù„Ø§ØºÙˆØ³Ø§"]
+        "answers": ["ÊíÓÊÇ áÇÛæÓÇ"]
  
           },
     {
             "type": "https://cdn.discordapp.com/attachments/429330153735454722/429933033009840129/3333333.png",
-        "answers": ["Ø¨Ø³ÙƒÙˆØª Ø§Ø¨Ùˆ ÙˆÙ„Ø¯"]
+        "answers": ["ÈÓßæÊ ÇÈæ æáÏ"]
           },
     {
             "type": "https://cdn.discordapp.com/attachments/429330153735454722/429933041033674753/3333333.png",
-        "answers": ["ØªÙƒØ£ÙƒØ£ØªÙ…"]
+        "answers": ["ÊßÃßÃÊã"]
           },
     {
             "type": "https://cdn.discordapp.com/attachments/429330153735454722/429933050139246592/3333333.png",
-        "answers": ["Ø§Ù„Ø¬Ù…Ù„Ø© Ø§Ù„Ù…ÙÙŠØ¯Ø©"]
+        "answers": ["ÇáÌãáÉ ÇáãİíÏÉ"]
           },
     {
             "type": "https://cdn.discordapp.com/attachments/429330153735454722/429933059278635028/204ba71fbee91a03.png",
-        "answers": ["Ø§Ù„Ø£ÙˆØ³ÙƒØ§Ø±"]
+        "answers": ["ÇáÃæÓßÇÑ"]
           },
     {
             "type": "https://cdn.discordapp.com/attachments/429330153735454722/430040573269901332/3333333.png",
-        "answers": ["ÙƒÙ†Øª Ø§Ù…Ø´ÙŠ ÙˆØ£Ù…Ø´ÙŠ"]
+        "answers": ["ßäÊ ÇãÔí æÃãÔí"]
  
           },
     {
             "type": "https://cdn.discordapp.com/attachments/429330153735454722/430040585357754368/3333333.png",
-        "answers": ["Ù„Ø§Ø§Ø§Ø§Ù‚ Ø¨ÙˆØªØ¡"]
+        "answers": ["áÇÇÇÇŞ ÈæÊÁ"]
  
           },
     {
             "type": "https://cdn.discordapp.com/attachments/429330153735454722/430040593595629568/3333333.png",
-        "answers": ["Ø§Ø¨Ùˆ Ù†Ø§ØµØ± Ø³Ø±Ù‰ Ù„ÙŠÙ„Ù‡"]
+        "answers": ["ÇÈæ äÇÕÑ ÓÑì áíáå"]
  
           },
     {
             "type": "https://cdn.discordapp.com/attachments/429330153735454722/430040602235895810/fghfghfgh.png",
-        "answers": ["Ø¹Ø¯Ø¯ Ø§Ù„Ù„ÙŠ Ø¨Ø±Ù…Ø¬ÙˆÙ†ÙŠ 2"]
+        "answers": ["ÚÏÏ Çááí ÈÑãÌæäí 2"]
  
           },
     {
@@ -1712,123 +1712,123 @@ const speed = [
           },
     {
             "type": "https://cdn.discordapp.com/attachments/429330153735454722/430040611819749387/354d9e28fd1264f5.png",
-        "answers": ["Ø¨Ø§Ø¨Ø§ Ø³Ù†ÙÙˆØ± Ù…ØªØ¹Ø§Ø·ÙŠ"]
+        "answers": ["ÈÇÈÇ ÓäİæÑ ãÊÚÇØí"]
  
               },
     {
             "type": "https://cdn.discordapp.com/attachments/429330153735454722/430040619331878922/4b24f4792476c04f.png",
-        "answers": ["Ù…ÙŠØ±Ù†Ø¯Ø§ Ø­Ù…Ø¶ÙŠØ§Øª ÙŠÙ„Ø¯"]
+        "answers": ["ãíÑäÏÇ ÍãÖíÇÊ íáÏ"]
  
               },
     {
             "type": "https://cdn.discordapp.com/attachments/429330153735454722/430040624603987968/5ff29b1066a3b9c7.png",
-        "answers": ["Ù‡Ù„ Ø§Ù„Ø¯Ù…Ø¹ Ù…Ù† Ø¹ÙŠÙ†Ù‡"]
+        "answers": ["åá ÇáÏãÚ ãä Úíäå"]
  
               },
     {
             "type": "https://cdn.discordapp.com/attachments/429330153735454722/430040631885299722/77f33951be682d8f.png",
-        "answers": ["Ø·Ø§Ø±Øª Ø§Ù„Ø·ÙŠØ§Ø±Ù‡ Ø·Ø§Ø±Øª"]
+        "answers": ["ØÇÑÊ ÇáØíÇÑå ØÇÑÊ"]
  
               },
     {
             "type": "https://cdn.discordapp.com/attachments/429330153735454722/430040640928219136/29c240679c04c148.png",
-        "answers": ["Ø£Ù†Ø§ ÙÙˆÙ‚ Ø±Ø§Ø³ÙŠ Ø±ÙŠØ´Ù‡"]
+        "answers": ["ÃäÇ İæŞ ÑÇÓí ÑíÔå"]
  
               },
     {
             "type": "https://cdn.discordapp.com/attachments/429330153735454722/430040652542246912/bbcb4aa9853bf1d2.png",
-        "answers": ["ÙØ±ÙŠÙ‚ Ø§Ù„Ù†Ø¬Ù…Ø©"]
+        "answers": ["İÑíŞ ÇáäÌãÉ"]
  
               },
     {
             "type": "https://cdn.discordapp.com/attachments/429330153735454722/430040659437813780/69df1a1ea78bf05c.png",
-        "answers": ["Ø®Ø§Ù„Ø¯ Ø¹Ø¨Ø¯Ø§Ù„Ø±Ø­Ù…Ù†"]
+        "answers": ["ÎÇáÏ ÚÈÏÇáÑÍãä"]
  
               },
     {
             "type": "https://cdn.discordapp.com/attachments/429330153735454722/430040666895024128/8bc7742b95673c38.png",
-        "answers": ["Ø­Ø¨ÙŠØª Ù…Ø±Ù‡ Ù…Ù† Ù‚Ù„Ø¨ÙŠ"]
+        "answers": ["ÍÈíÊ ãÑå ãä ŞáÈí"]
  
               },
     {
             "type": "https://cdn.discordapp.com/attachments/429330153735454722/430040674067546113/9d1a9eee36622271.png",
-        "answers": ["ÙƒØ±Ø³ØªÙŠØ§Ù†Ùˆ ÙŠØ²Ù‚"]
+        "answers": ["ßÑÓÊíÇäæ íÒŞ"]
  
               },
     {
             "type": "https://cdn.discordapp.com/attachments/429330153735454722/430040682913333248/f19a97c10ac739e1.png",
-        "answers": ["Ø£Ù†Øª Ù‚Ù…Ø± ÙŠØ§ Ù‚Ù…Ø±"]
+        "answers": ["ÃäÊ ŞãÑ íÇ ŞãÑ"]
  
               },
     {
             "type": "https://cdn.discordapp.com/attachments/429330153735454722/430040692140539904/0a25039aa164a42b.png",
-        "answers": ["Ø§Ù†Ø§ Ø§Ø¬Ù…Ù„ Ù…Ø®Ù„ÙˆÙ‚"]
+        "answers": ["ÇäÇ ÇÌãá ãÎáæŞ"]
  
               },
     {
             "type": "https://cdn.discordapp.com/attachments/429330153735454722/430040699317256192/da72e3e3fe6bfceb.png",
-        "answers": ["Ø¯ÙˆÙ†Øª ØªØ§ØªØ´"]
+        "answers": ["ÏæäÊ ÊÇÊÔ"]
  
               },
     {
             "type": "https://cdn.discordapp.com/attachments/429330153735454722/430040706464350218/d6339ed123a20afe.png",
-        "answers": ["ØªÙˆÙ… ÙˆØ¬ÙŠØ±ÙŠ"]
+        "answers": ["Êæã æÌíÑí"]
  
               },
     {
             "type": "https://cdn.discordapp.com/attachments/429330153735454722/430040714588454912/965f8266e9501b35.png",
-        "answers": ["Ø¯Ø¨Ø§Ø¨ Ø§Ø±Ø¨Ø¹ ÙƒÙØ±Ø§Øª"]
+        "answers": ["ÏÈÇÈ ÇÑÈÚ ßİÑÇÊ"]
  
               },
     {
             "type": "https://cdn.discordapp.com/attachments/429330153735454722/430040721601331211/ae8cf2598c441e76.png",
-        "answers": ["Ø§Ù„Ù‚Ø±Ø´ Ø§Ù„Ø£Ø³ÙˆØ¯Ø¯"]
+        "answers": ["ÇáŞÑÔ ÇáÃÓæÏÏ"]
  
               },
     {
    
             "type": "https://cdn.discordapp.com/attachments/429330153735454722/430040729637748747/bf76692d54e6a0dd.png",
-        "answers": ["Ø¯Ø¯Ø³Ù† Ù…ÙˆØ¯ÙŠÙ„ 85"]
+        "answers": ["ÏÏÓä ãæÏíá 85"]
  
     },
     {
             "type": "https://cdn.discordapp.com/attachments/429330153735454722/430040736835043341/e66ff909a6330b13.png",
-        "answers": ["Ø§Ù„Ø­Ø§Ø±Ø«ÙŠØ¡"]
+        "answers": ["ÇáÍÇÑËíÁ"]
  
     },
     {
             "type": "https://cdn.discordapp.com/attachments/429330153735454722/430040746503176194/351af3b19fc53323.png",
-        "answers": ["Ø¹Ø²Ø§Ø²ÙŠ Ù…Ø³Ø±Ø¹"]
+        "answers": ["ÚÒÇÒí ãÓÑÚ"]
  
     },
     {
             "type": "https://cdn.discordapp.com/attachments/429330153735454722/430040751557181440/6777776666.png",
-        "answers": ["Ø¬Ø§ÙƒÙŠ Ø´Ø§Ø§Ù†"]
+        "answers": ["ÌÇßí ÔÇÇä"]
  
     },
     {
             "type": "https://cdn.discordapp.com/attachments/429330153735454722/430040758108684289/2613844efcb8b05b.png",
-        "answers": ["Ø¯Ø§Ø±Ùƒ Ù†Øª"]
+        "answers": ["ÏÇÑß äÊ"]
  
     },
     {
             "type": "https://cdn.discordapp.com/attachments/429330153735454722/430040765671014401/c89aa167715a85b9.png",
-        "answers": ["ÙØ§Ù†ØªØ§Ø³ØªÙŠÙƒ"]
+        "answers": ["İÇäÊÇÓÊíß"]
  
     },
     {
             "type": "https://cdn.discordapp.com/attachments/429330153735454722/430040772818239489/01d73182b48785e1.png",
-        "answers": ["Ø²Ø¨Ø§Ù„Ù‡ Ù…ØªÙ†Ù‚Ù„Ø©"]
+        "answers": ["ÒÈÇáå ãÊäŞáÉ"]
  
     },
     {
             "type": "https://cdn.discordapp.com/attachments/429330153735454722/430040778467835924/9dff572a5bf1b602.png",
-        "answers": ["Ø§ÙƒØ³ Ø¨ÙˆÙƒØ³ ÙŠÙ„Ø¯"]
+        "answers": ["ÇßÓ ÈæßÓ íáÏ"]
  
         },
     {
             "type": "https://cdn.discordapp.com/attachments/429330153735454722/430040783228370964/91ebb70e0dd936be.png",
-        "answers": ["Ø¨ÙƒØ³Ù„ ÙŠØ§Ù„ÙˆØµØ®Ø®"]
+        "answers": ["ÈßÓá íÇáæÕÎÎ"]
 
     }
 ];
@@ -1850,7 +1850,7 @@ if (!points[message.author.id]) points[message.author.id] = {
  
 }
  
-    if(!message.channel.guild) return message.reply('**Ù‡Ø°Ø§ Ø§Ù„Ø£Ù…Ø± Ù„Ù„Ø³ÙŠØ±ÙØ±Ø§Øª ÙÙ‚Ø·**').then(m => m.delete(3000));
+    if(!message.channel.guild) return message.reply('**åĞÇ ÇáÃãÑ ááÓíÑİÑÇÊ İŞØ**').then(m => m.delete(3000));
  
  
 const item = speed[Math.floor(Math.random() * speed.length)];
@@ -1861,7 +1861,7 @@ message.channel.send('**Game is Start now...!**').then(msg => {
  
  const embed = new Discord.RichEmbed()
  .setColor("0054dd")
-     .setAuthor(`? |You have Â»15Â« seconds to type the word`)
+     .setAuthor(`? |You have »15« seconds to type the word`)
           .setImage(`${item.type}`)
  .setFooter(`${message.author.tag}`, message.author.avatarURL)
  
@@ -1876,10 +1876,10 @@ msg.channel.send(embed).then(() => {
 .addField('Type G.mypoints', 'To Show ur Points' , true)
 .setFooter(message.author.username, message.author.avatarURL)
 message.channel.sendEmbed(sh);
-            let won = collected.first().author; // ÙÙŠ Ù‡Ø°Ø§ Ø§Ù„Ø³Ø·Ø± ÙŠÙ‚ÙˆÙ… Ø§Ù„ÙƒÙˆØ¯ Ø¨Ø³Ø­Ø¨ Ø§Ù„Ø£ÙŠ Ø¯ÙŠ Ø§Ù„Ø°ÙŠ Ù‚Ø§Ù… Ø¨Ø§Ù„Ø£Ø¬Ø§Ø¨Ø© Ø§ÙˆÙ„Ø§Ù‹
+            let won = collected.first().author; // İí åĞÇ ÇáÓØÑ íŞæã ÇáßæÏ ÈÓÍÈ ÇáÃí Ïí ÇáĞí ŞÇã ÈÇáÃÌÇÈÉ ÇæáÇğ
             points[won.id].points++;
           })
-          .catch(collected => { // ÙÙŠ Ø­Ø§Ù„ Ù„Ù… ÙŠÙ‚Ù… Ø£Ø­Ø¯ Ø¨Ø§Ù„Ø¥Ø¬Ø§Ø¨Ø©
+          .catch(collected => { // İí ÍÇá áã íŞã ÃÍÏ ÈÇáÅÌÇÈÉ
             message.channel.send(`?? |**Time Is End**`);
           })
           fs.writeFile("./points.json", JSON.stringify(points), (err) => {
@@ -1896,9 +1896,9 @@ client.on('guildCreate', guild => {
      .setTitle('Click Here To Add Bot .!')
      .setURL('https://discordapp.com/oauth2/authorize?client_id=435392018693488641&scope=bot&permissions=2146958591')
   .setDescription(`**
-  New Server Add cara Community Â© ?
-Ø§Ø³Ù… Ø§Ù„Ø³ÙŠØ±ÙØ±: ${guild.name}
-ØµØ§Ø­Ø¨ Ø§Ù„Ø³ÙŠØ±ÙØ±: ${guild.owner}**`);
+  New Server Add cara Community © ?
+ÇÓã ÇáÓíÑİÑ: ${guild.name}
+ÕÇÍÈ ÇáÓíÑİÑ: ${guild.owner}**`);
 client.channels.get("474127377245667328").sendEmbed(embed)
 });
 client.on('guildDelete', guild => {
@@ -1907,139 +1907,139 @@ client.on('guildDelete', guild => {
      .setTitle('Click Here To Add Bot .!')
      .setURL('https://discordapp.com/oauth2/authorize?client_id=435392018693488641&scope=bot&permissions=2146958591')
   .setDescription(`**
-  Server Kicked cara Community Â© :cry:
-Ø§Ø³Ù… Ø§Ù„Ø³ÙŠØ±ÙØ±: ${guild.name}
-ØµØ§Ø­Ø¨ Ø§Ù„Ø³ÙŠØ±ÙØ±: ${guild.owner}**`);
+  Server Kicked cara Community © :cry:
+ÇÓã ÇáÓíÑİÑ: ${guild.name}
+ÕÇÍÈ ÇáÓíÑİÑ: ${guild.owner}**`);
 client.channels.get("474127377245667328").sendEmbed(embed)
 });
 var type = [
     {
-            "type": "Ù…Ø§ Ù‡Ùˆ Ø£ØµÙ„ ÙƒÙ„Ù…Ø© Ø£Ø·Ù„Ø³ Ø§Ù„ØªÙŠ ØªØ·Ù„Ù‚ Ø¹Ù„Ù‰ ÙƒØªØ§Ø¨ Ø§Ù„Ø®Ø±Ø§Ø¦Ø· ØŸ",
-        "answers": ["ÙŠÙˆÙ†Ø§Ù†Ù‰"]
+            "type": "ãÇ åæ ÃÕá ßáãÉ ÃØáÓ ÇáÊí ÊØáŞ Úáì ßÊÇÈ ÇáÎÑÇÆØ ¿",
+        "answers": ["íæäÇäì"]
     },
     {
-            "type": "Ù…Ø§ Ù‡Ùˆ ÙŠÙˆÙ… Ø§Ù„Ø­Ø¬ Ø§Ù„Ø£ÙƒØ¨Ø±ØŸ",
-        "answers": ["ÙŠÙˆÙ… Ø§Ù„Ù†Ø­Ø±"]
+            "type": "ãÇ åæ íæã ÇáÍÌ ÇáÃßÈÑ¿",
+        "answers": ["íæã ÇáäÍÑ"]
     },
     {
-            "type": "Ù…Ø§ Ù‡Ùˆ Ø§ÙƒØ¨Ø± Ø®Ù„ÙŠØ¬ ÙÙŠ Ø§Ù„Ø¹Ø§Ù„Ù… ØŸ",
-        "answers": ["Ø®Ù„ÙŠØ¬ Ø§Ù„Ù…ÙƒØ³ÙŠÙƒ"]
+            "type": "ãÇ åæ ÇßÈÑ ÎáíÌ İí ÇáÚÇáã ¿",
+        "answers": ["ÎáíÌ ÇáãßÓíß"]
     },
     {
-            "type": "Ù…Ø§ Ù‡Ùˆ Ø§Ø³Ù… Ø¨ÙŠØª Ø§Ù„Ø¯Ø¬Ø§Ø¬ ØŸ",
-        "answers": ["Ù‚Ù†"]
+            "type": "ãÇ åæ ÇÓã ÈíÊ ÇáÏÌÇÌ ¿",
+        "answers": ["Şä"]
     },
     {
-            "type": "Ù…Ø§ Ù‡Ùˆ Ø£ÙˆÙ„ Ø¬Ø§Ù…Ø¹ Ø£Ù‚ÙŠÙ… ÙÙŠ Ù…ØµØ± ØŸ",
-        "answers": ["Ø¬Ø§Ù…Ø¹ Ø¹Ù…Ø±Ùˆ Ø¨Ù† Ø§Ù„Ø¹Ø§Øµ"]
+            "type": "ãÇ åæ Ãæá ÌÇãÚ ÃŞíã İí ãÕÑ ¿",
+        "answers": ["ÌÇãÚ ÚãÑæ Èä ÇáÚÇÕ"]
     },
     {
-            "type": "Ù…Ø§ Ù‡Ùˆ Ø£Ø·ÙˆÙ„ Ù†Ù‡Ø± ÙÙŠ Ø¢Ø³ÙŠØ§ ØŸ",
-        "answers": ["Ø§Ù„ÙŠØ§Ù†Ø¬Ø³ØªÙŠ"]
+            "type": "ãÇ åæ ÃØæá äåÑ İí ÂÓíÇ ¿",
+        "answers": ["ÇáíÇäÌÓÊí"]
     },
     {
-            "type": "Ù…Ø§ Ù‡Ùˆ Ø£Ù‚Ø±Ø¨ ÙƒÙˆÙƒØ¨ Ø¥Ù„Ù‰ Ø§Ù„Ø´Ù…Ø³ ØŸ",
-        "answers": ["Ø¹Ø·Ø§Ø±Ø¯"]
+            "type": "ãÇ åæ ÃŞÑÈ ßæßÈ Åáì ÇáÔãÓ ¿",
+        "answers": ["ÚØÇÑÏ"]
     },
     {
-            "type": "Ù…Ø§ Ù‡Ùˆ Ø§Ù„Ø­ÙŠÙˆØ§Ù† Ø§Ù„Ø°ÙŠ ÙŠÙØ³Ù…Ù‰ Ø§Ù„Ø¨Ù‡Ù†Ø³ ØŸ",
-        "answers": ["Ø§Ù„Ø§Ø³Ø¯"]
+            "type": "ãÇ åæ ÇáÍíæÇä ÇáĞí íõÓãì ÇáÈåäÓ ¿",
+        "answers": ["ÇáÇÓÏ"]
     },
     {
-            "type": "Ø£Ù…Ø´ÙŠ Ø¨Ø¯ÙˆÙ† Ù‚Ø¯Ù…ÙŠÙ† ÙˆØ£Ø·ÙŠØ± Ø¨Ù„Ø§ Ø¬Ù†Ø§Ø­ÙŠÙ† ÙˆØ£Ø¨ÙƒÙŠ Ø¨Ø¯ÙˆÙ† Ø¹ÙŠÙ†ÙŠÙ† ÙÙ…Ù† Ø£Ù†Ø§ ØŸ",
-        "answers": ["Ø§Ù„Ø³Ø­Ø§Ø¨"]
+            "type": "ÃãÔí ÈÏæä ŞÏãíä æÃØíÑ ÈáÇ ÌäÇÍíä æÃÈßí ÈÏæä Úíäíä İãä ÃäÇ ¿",
+        "answers": ["ÇáÓÍÇÈ"]
           },
     {
-            "type": "Ù…Ø§ Ù‡ÙŠ Ø§Ù„Ø³ÙˆØ±Ø© Ø§Ù„ØªÙŠ ØªØ¹Ø¯Ù„ Ø«Ù„Ø« Ø§Ù„Ù‚Ø±Ø¢Ù† ØŸ",
-        "answers": ["Ø§Ù„Ø¥Ø®Ù„Ø§Øµ"]
+            "type": "ãÇ åí ÇáÓæÑÉ ÇáÊí ÊÚÏá ËáË ÇáŞÑÂä ¿",
+        "answers": ["ÇáÅÎáÇÕ"]
           },
     {
-            "type": "Ù…Ø§ Ù‡ÙŠ Ù…Ø¯ÙŠÙ†Ø© Ø§Ù„ØªÙ„Ø§Ù„ Ø§Ù„Ø³Ø¨Ø¹ ØŸ",
-        "answers": ["Ø±ÙˆÙ…Ø§"]
+            "type": "ãÇ åí ãÏíäÉ ÇáÊáÇá ÇáÓÈÚ ¿",
+        "answers": ["ÑæãÇ"]
           },
     {
-            "type": "Ù…Ø§ Ù‡ÙŠ Ø§Ù„Ø¯ÙˆÙ„Ø© Ø§Ù„Ø¹Ø±Ø¨ÙŠØ© Ø§Ù„ØªÙŠ ÙŠÙ…Ø± Ø¨Ù‡Ø§ Ø®Ø· Ø§Ù„Ø§Ø³ØªÙˆØ§Ø¡ ØŸ",
-        "answers": ["Ø§Ù„ØµÙˆÙ…Ø§Ù„"]
+            "type": "ãÇ åí ÇáÏæáÉ ÇáÚÑÈíÉ ÇáÊí íãÑ ÈåÇ ÎØ ÇáÇÓÊæÇÁ ¿",
+        "answers": ["ÇáÕæãÇá"]
           },
     {
-            "type": "Ù…Ø§Ø°Ø§ ÙŠØ³Ù…Ù‰ Ù…Ù† Ù„Ø§ÙŠÙ‚Ø±Ø£ ÙˆÙ„Ø§ÙŠÙƒØªØ¨ ØŸ",
-        "answers": ["ÙƒØ§Ù†ÙŠÙƒÙŠ"]
+            "type": "ãÇĞÇ íÓãì ãä áÇíŞÑÃ æáÇíßÊÈ ¿",
+        "answers": ["ßÇäíßí"]
           },
     {
-            "type": "Ù…Ø§Ø°Ø§ ÙŠØ·Ù„Ù‚ Ø¹Ù„Ù‰ Ø§Ù„Ø´Ø®Øµ Ø§Ù„Ø°Ù‰ Ù„Ø§ ÙŠØ¹Ø±Ù Ø§Ù„Ù‚Ø±Ø§Ù‡ ÙˆÙ„Ø§ Ø§Ù„ÙƒØªØ§Ø¨Ù‡ ØŸ",
-        "answers": ["Ø£Ù…ÙŠ"]
+            "type": "ãÇĞÇ íØáŞ Úáì ÇáÔÎÕ ÇáĞì áÇ íÚÑİ ÇáŞÑÇå æáÇ ÇáßÊÇÈå ¿",
+        "answers": ["Ããí"]
           },
     {
-            "type": "Ù…Ø§Ù‡Ùˆ Ø§Ù„Ù…ÙƒÙˆÙ† Ø§Ù„Ø±Ø¦Ø³ÙŠ Ù„Ù„Ø²Ø¬Ø§Ø¬ ØŸ",
-        "answers": ["Ø§Ù„Ø±Ù…Ù„"]
+            "type": "ãÇåæ Çáãßæä ÇáÑÆÓí ááÒÌÇÌ ¿",
+        "answers": ["ÇáÑãá"]
           },
     {
-            "type": "Ù…Ù† Ù‡ÙŠ Ø§Ù„Ù…Ø±Ø§Ù‡ Ø§Ù„ÙˆØ­ÙŠØ¯Ù‡ Ø§Ù„ØªÙŠ Ø°ÙƒØ± Ø§Ø³Ù…Ù‡Ø§ ÙÙŠ Ø§Ù„Ù‚Ø±Ø¢Ù† Ø§Ù„ÙƒØ±ÙŠÙ… ØŸ",
-        "answers": ["Ù…Ø±ÙŠÙ…"]
+            "type": "ãä åí ÇáãÑÇå ÇáæÍíÏå ÇáÊí ĞßÑ ÇÓãåÇ İí ÇáŞÑÂä ÇáßÑíã ¿",
+        "answers": ["ãÑíã"]
           },
     {
-            "type": "ÙƒÙ… Ø¹Ø¯Ø¯ Ø§Ù„Ø³Ø¬Ø¯Ø§Øª ÙÙŠ Ø§Ù„Ù‚Ø±Ø¢Ù† Ø§Ù„ÙƒØ±ÙŠÙ… ØŸ",
+            "type": "ßã ÚÏÏ ÇáÓÌÏÇÊ İí ÇáŞÑÂä ÇáßÑíã ¿",
         "answers": ["15"]
           },
     {
-            "type": "Ø£ÙŠ Ù…Ù† Ø§Ø¹Ø¶Ø§Ø¡ Ø§Ù„Ø¬Ø³Ù… ÙŠØ³ØªÙ‡Ù„Ùƒ 40% Ù…Ù† Ø£ÙˆÙƒØ³Ø¬ÙŠÙ† Ø§Ù„Ø¯Ù… ØŸ",
-        "answers": ["Ø§Ù„Ù…Ø®"]
+            "type": "Ãí ãä ÇÚÖÇÁ ÇáÌÓã íÓÊåáß 40% ãä ÃæßÓÌíä ÇáÏã ¿",
+        "answers": ["ÇáãÎ"]
           },
     {
-            "type": "Ù…Ù† Ù‡Ùˆ Ø§ÙˆÙ„ Ù†Ø¨ÙŠ Ø¨Ø¹Ø« Ù„Ø¨Ù†ÙŠ Ø§Ø³Ø±Ø§Ø¦ÙŠÙ„ ØŸ",
-        "answers": ["Ù…ÙˆØ³Ù‰"]
+            "type": "ãä åæ Çæá äÈí ÈÚË áÈäí ÇÓÑÇÆíá ¿",
+        "answers": ["ãæÓì"]
           },
     {
-            "type": "Ø£ÙŠ Ù…Ù† Ø§Ù„Ø§Ù…Ø§ÙƒÙ† Ù„Ù… ÙŠØµØ¨Ù‡Ø§ Ø²Ù„Ø²Ø§Ù„ ÙŠÙˆÙ… Ø§Ù„Ù‚ÙŠØ§Ù…Ù‡ ØŸ",
-        "answers": ["Ø§Ù„Ù…Ø³Ø§Ø¬Ø¯"]
+            "type": "Ãí ãä ÇáÇãÇßä áã íÕÈåÇ ÒáÒÇá íæã ÇáŞíÇãå ¿",
+        "answers": ["ÇáãÓÇÌÏ"]
           },
     {
-            "type": "Ù…Ø§ Ø§Ù„Ø­ÙŠÙˆØ§Ù† Ø§Ù„Ø°ÙŠ Ø¹Ù†Ø¯Ù‡ Ø£Ø¹Ù„Ù‰ Ù†Ø³Ø¨Ø© Ø¶ØºØ· Ø¯Ù… ØŸ",
-        "answers": ["Ø§Ù„Ø²Ø±Ø§ÙØ©"]
+            "type": "ãÇ ÇáÍíæÇä ÇáĞí ÚäÏå ÃÚáì äÓÈÉ ÖÛØ Ïã ¿",
+        "answers": ["ÇáÒÑÇİÉ"]
           },
     {
-            "type": "Ù„Ù‡ Ø±Ø£Ø³ ÙˆÙ„Ø§ Ø¹ÙŠÙ† Ù„Ù‡ ØŸ",
-        "answers": ["Ø§Ù„Ø¯Ø¨ÙˆØ³"]
+            "type": "áå ÑÃÓ æáÇ Úíä áå ¿",
+        "answers": ["ÇáÏÈæÓ"]
           },
     {
-            "type": "Ù…Ù† Ø§Ù„Ø°ÙŠ Ø§Ø³ØªØ¹Ù…Ù„ Ø§Ù„Ø£Ø´Ø¹Ø© Ø§Ù„Ø´Ù…Ø³ÙŠØ© ÙƒØ³Ù„Ø§Ø­ ÙÙŠ Ø§Ù„Ø­Ø±Ø¨ ÙˆÙ‚Ø¶Ù‰ Ø¨Ù‡Ø§ Ø¹Ù„Ù‰ Ø§Ù„Ø£Ø³Ø·ÙˆÙ„ Ø§Ù„Ø±ÙˆÙ…Ø§Ù†ÙŠ Ø­ÙŠÙ†Ù…Ø§ Ø­Ø§ÙˆÙ„ ØºØ²Ùˆ Ø¨Ù„Ø§Ø¯Ù‡ ØŸ",
-        "answers": ["Ø£Ø±Ø´Ù…ÙŠØ¯Ø³"]
+            "type": "ãä ÇáĞí ÇÓÊÚãá ÇáÃÔÚÉ ÇáÔãÓíÉ ßÓáÇÍ İí ÇáÍÑÈ æŞÖì ÈåÇ Úáì ÇáÃÓØæá ÇáÑæãÇäí ÍíäãÇ ÍÇæá ÛÒæ ÈáÇÏå ¿",
+        "answers": ["ÃÑÔãíÏÓ"]
           },
     {
-            "type": "Ù…Ø§ Ù‡Ùˆ Ø§Ù„Ø´ÙŠØ¡ Ø§Ù„Ø°ÙŠ Ø®Ù„Ù‚Ù‡ Ø§Ù„Ù„Ù‡ ÙˆÙ†ÙƒØ±Ù‡ ØŸ",
-        "answers": ["ØµÙˆØª Ø§Ù„Ø­Ù…ÙŠØ±"]
+            "type": "ãÇ åæ ÇáÔíÁ ÇáĞí ÎáŞå Çááå æäßÑå ¿",
+        "answers": ["ÕæÊ ÇáÍãíÑ"]
           },
     {
-            "type": "Ù…Ø§ Ù‡Ùˆ Ø§Ù„Ø­ÙŠÙˆØ§Ù† Ø§Ù„Ø°ÙŠ ÙŠÙ…ÙˆØª Ø¥Ø°Ø§ ÙØªØ­Øª ÙÙ…Ù‡ Ù„Ø£ÙƒØ«Ø± Ù…Ù† Ø¯Ù‚ÙŠÙ‚Ø© Ø­ÙŠØ« Ø£Ù†Ù‡ Ù„Ø§ ÙŠØªÙ†ÙØ³ ÙˆÙÙ…Ù‡ Ù…ÙØªÙˆØ­ ØŸ",
-        "answers": ["Ø§Ù„Ø¶ÙØ¯Ø¹"]
+            "type": "ãÇ åæ ÇáÍíæÇä ÇáĞí íãæÊ ÅĞÇ İÊÍÊ İãå áÃßËÑ ãä ÏŞíŞÉ ÍíË Ãäå áÇ íÊäİÓ æİãå ãİÊæÍ ¿",
+        "answers": ["ÇáÖİÏÚ"]
           },
     {
-            "type": "Ù…Ø§ Ù‡Ùˆ Ø§Ù„Ø­ÙŠÙˆØ§Ù† Ø§Ù„Ø°ÙŠ ÙŠÙ†ØªØ­Ø± Ø¹Ù†Ø¯Ù…Ø§ ÙŠÙÙ„Ù’Ù‚Ù‰ Ø¨Ù†ÙØ³Ù‡ ÙÙ‰ Ø§Ù„Ù…Ø§Ø¡ ÙˆØ°Ù„Ùƒ Ù„Ø¹Ø¯Ù… Ø§Ø³ØªØ·Ø§Ø¹ØªÙ‡ Ø§Ù„Ø¹ÙˆÙ… ØŸ",
-        "answers": ["Ø§Ù„Ø®Ù€Ù†Ù€Ø²ÙŠÙ€Ù€Ø±"]
+            "type": "ãÇ åæ ÇáÍíæÇä ÇáĞí íäÊÍÑ ÚäÏãÇ íõáúŞì ÈäİÓå İì ÇáãÇÁ æĞáß áÚÏã ÇÓÊØÇÚÊå ÇáÚæã ¿",
+        "answers": ["ÇáÎÜäÜÒíÜÜÑ"]
           },
     {
-            "type": "Ù…Ø§ Ù‡Ùˆ Ø§Ù„Ù…Ø±Ø¶ Ø§Ù„Ø°ÙŠ Ø£ÙØ·Ù’Ù€Ù„ÙÙ€Ù‚Ù Ø¹Ù„ÙŠÙ‡ Ø§Ù„Ù…ÙˆØª Ø§Ù„Ø£Ø³ÙˆØ¯ ØŸ",
-        "answers": ["Ø¬Ø²Ø± Ø§Ù„Ù‚Ù…Ø±"]
+            "type": "ãÇ åæ ÇáãÑÖ ÇáĞí ÃõØúÜáöÜŞó Úáíå ÇáãæÊ ÇáÃÓæÏ ¿",
+        "answers": ["ÌÒÑ ÇáŞãÑ"]
           },
     {
-            "type": "Ù…Ø§ Ù‡Ùˆ Ø§Ù„Ù…Ø¹Ø¯Ù† Ø§Ù„ÙˆØ­ÙŠØ¯ Ø§Ù„Ø°Ù‰ ÙŠÙˆØ¬Ø¯ ÙÙ‰ Ø§Ù„Ø­Ø§Ù„Ø© Ø§Ù„Ø³Ø§Ø¦Ù„Ø© ØŸ",
-        "answers": ["Ø§Ù„Ø²Ø¦Ø¨Ù‚"]
+            "type": "ãÇ åæ ÇáãÚÏä ÇáæÍíÏ ÇáĞì íæÌÏ İì ÇáÍÇáÉ ÇáÓÇÆáÉ ¿",
+        "answers": ["ÇáÒÆÈŞ"]
           },
     {
-            "type": "Ù…Ø§ Ø¬Ù…Ø¹ ÙƒÙ„Ù…Ø© ØºØ±Ø§Ø¨ ØŸ",
-        "answers": ["Ø£ØºØ±Ø¨Ø©"]
+            "type": "ãÇ ÌãÚ ßáãÉ ÛÑÇÈ ¿",
+        "answers": ["ÃÛÑÈÉ"]
           },
     {
-            "type": "ÙƒÙ… ÙƒØ§Ù† Ø¹Ù…Ø± Ø§Ù„Ø±Ø³ÙˆÙ„ Ø¹Ù†Ø¯Ù…Ø§ ØªÙˆÙÙŠØª Ø£Ù…Ù‡ ØŸ",
-        "answers": ["8 Ø³Ù†ÙˆØ§Øª"]
+            "type": "ßã ßÇä ÚãÑ ÇáÑÓæá ÚäÏãÇ ÊæİíÊ Ããå ¿",
+        "answers": ["8 ÓäæÇÊ"]
           },
     {
-            "type": "Ù…Ù† Ù‡Ùˆ ØµØ§Ø­Ø¨ Ù„Ù‚Ø¨ Ø´Ø§Ø¹Ø± Ø§Ù„Ù†ÙŠÙ„ ØŸ",
-        "answers": ["Ø­Ø§ÙØ¸ Ø§Ø¨Ø±Ø§Ù‡ÙŠÙ…"]
+            "type": "ãä åæ ÕÇÍÈ áŞÈ ÔÇÚÑ Çáäíá ¿",
+        "answers": ["ÍÇİÙ ÇÈÑÇåíã"]
           },
     {
-            "type": "Ù…Ø§ Ù‡ÙŠ Ø§Ù„Ø¹Ø§ØµÙ…Ø© Ø§Ù„Ø§Ù‚ØªØµØ§Ø¯ÙŠØ© Ù„Ù„Ù…ØºØ±Ø¨ ØŸ",
-        "answers": ["Ø§Ù„Ø¯Ø§Ø± Ø§Ù„Ø¨ÙŠØ¶Ø§Ø¡"]
+            "type": "ãÇ åí ÇáÚÇÕãÉ ÇáÇŞÊÕÇÏíÉ ááãÛÑÈ ¿",
+        "answers": ["ÇáÏÇÑ ÇáÈíÖÇÁ"]
  
           }
     
@@ -2063,7 +2063,7 @@ if (!points[message.author.id]) points[message.author.id] = {
  
 }
  
-    if(!message.channel.guild) return message.reply('**Ù‡Ø°Ø§ Ø§Ù„Ø£Ù…Ø± Ù„Ù„Ø³ÙŠØ±ÙØ±Ø§Øª ÙÙ‚Ø·**').then(m => m.delete(3000));
+    if(!message.channel.guild) return message.reply('**åĞÇ ÇáÃãÑ ááÓíÑİÑÇÊ İŞØ**').then(m => m.delete(3000));
  
  
 const item = type[Math.floor(Math.random() * type.length)];
@@ -2088,10 +2088,10 @@ msg.channel.send(embed).then(() => {
 .addField('Type G.mypoints', 'To Show ur Points' , true)
 .setFooter(message.author.username, message.author.avatarURL)
 message.channel.sendEmbed(sh);
-            let won = collected.first().author; // ÙÙŠ Ù‡Ø°Ø§ Ø§Ù„Ø³Ø·Ø± ÙŠÙ‚ÙˆÙ… Ø§Ù„ÙƒÙˆØ¯ Ø¨Ø³Ø­Ø¨ Ø§Ù„Ø£ÙŠ Ø¯ÙŠ Ø§Ù„Ø°ÙŠ Ù‚Ø§Ù… Ø¨Ø§Ù„Ø£Ø¬Ø§Ø¨Ø© Ø§ÙˆÙ„Ø§Ù‹
+            let won = collected.first().author; // İí åĞÇ ÇáÓØÑ íŞæã ÇáßæÏ ÈÓÍÈ ÇáÃí Ïí ÇáĞí ŞÇã ÈÇáÃÌÇÈÉ ÇæáÇğ
             points[won.id].points++;
           })
-          .catch(collected => { // ÙÙŠ Ø­Ø§Ù„ Ù„Ù… ÙŠÙ‚Ù… Ø£Ø­Ø¯ Ø¨Ø§Ù„Ø¥Ø¬Ø§Ø¨Ø©
+          .catch(collected => { // İí ÍÇá áã íŞã ÃÍÏ ÈÇáÅÌÇÈÉ
             message.channel.send(`?? |**Time Is End**`);
           })
           fs.writeFile("./points.json", JSON.stringify(points), (err) => {
@@ -2120,7 +2120,7 @@ client.on('message', message => {
                     client.on('message', message => {
 var cats = ["http://palestine-kitchen.ps/wp-content/uploads/2017/12/%D9%86%D9%83%D8%AA-%D8%AF%D8%A8%D8%A7%D9%86%D8%A9.png","http://www.i7lm.com/wp-content/uploads/2017/04/136769797816.jpg","https://4.bp.blogspot.com/-p62zmDIDXmI/WKzqNt9smaI/AAAAAAAAC4Q/sW_bSIB8OaQhwOYFeplc3uzz8PBN7l3YACEw/s1600/13602501135.jpg","https://www.universemagic.com/images/2016/03/7938-2-or-1457539273.jpg","https://1.bp.blogspot.com/-yFk-FzHSyE8/WR9fmPcsCUI/AAAAAAAAE6c/AmvjLadOiLY9GiCqMLHgA121bY2RS_dCwCLcB/s1600/%25D9%2586%25D9%2583%25D8%25AA%2B%25D9%2585%25D8%25B6%25D8%25AD%25D9%2583%25D8%25A9%2B1.jpg","https://l7zaat.com/wp-content/uploads/2018/02/423.jpg","https://www.petfinder.com/wp-content/uploads/2012/11/101438745-cat-conjunctivitis-causes.jpg","https://i.fatafeat.com/storage/attachments/15/image3_698123_large.jpg","http://www.shuuf.com/shof/uploads/2018/02/08/jpg/shof_97d686082bdb0a2.jpg"];
         var args = message.content.split(" ").slice(1);
-    if(message.content.startsWith(prefix + 'Ù†ÙƒØª')) {
+    if(message.content.startsWith(prefix + 'äßÊ')) {
          var cat = new Discord.RichEmbed()
 .setImage(cats[Math.floor(Math.random() * cats.length)])
 message.channel.sendEmbed(cat);
@@ -2128,96 +2128,96 @@ message.channel.sendEmbed(cat);
 });
 var type = [
     {
-            "type": "Ù…Ø§ Ù‡ÙŠ Ø¹Ø§ØµÙ…Ø© Ø§Ù„Ù…Ù…Ù„ÙƒØ© Ø§Ù„Ø¹Ø±Ø¨ÙŠØ© Ø§Ù„Ø³Ø¹ÙˆØ¯ÙŠØ©ØŸ",
-        "answers": ["Ø§Ù„Ø±ÙŠØ§Ø¶"]
+            "type": "ãÇ åí ÚÇÕãÉ ÇáããáßÉ ÇáÚÑÈíÉ ÇáÓÚæÏíÉ¿",
+        "answers": ["ÇáÑíÇÖ"]
     },
     {
-            "type": "Ù…Ø§ Ù‡ÙŠ Ø¹Ø§ØµÙ…Ø© Ø§Ù„Ø§Ù…Ø§Ø±Ø§Øª Ø§Ù„Ø¹Ø±Ø¨ÙŠØ© Ø§Ù„Ù…ØªØ­Ø¯Ø©ØŸ",
-        "answers": ["Ø§Ø¨Ùˆ Ø¸Ø¨Ù‰"]
+            "type": "ãÇ åí ÚÇÕãÉ ÇáÇãÇÑÇÊ ÇáÚÑÈíÉ ÇáãÊÍÏÉ¿",
+        "answers": ["ÇÈæ ÙÈì"]
     },
     {
-            "type": "Ù…Ø§ Ù‡ÙŠ Ø¹Ø§ØµÙ…Ø© Ù…Ù…Ù„ÙƒØ© Ø§Ù„Ø¨Ø­Ø±ÙŠÙ†ØŸ",
-        "answers": ["Ø§Ù„Ù…Ù†Ø§Ù…Ø©"]
+            "type": "ãÇ åí ÚÇÕãÉ ããáßÉ ÇáÈÍÑíä¿",
+        "answers": ["ÇáãäÇãÉ"]
     },
     {
-            "type": "Ù…Ø§ Ù‡ÙŠ Ø¹Ø§ØµÙ…Ø© Ø³Ù„Ø·Ù†Ø© Ø¹Ù…Ø§Ù†ØŸ",
-        "answers": ["Ù…Ø³Ù‚Ø·"]
+            "type": "ãÇ åí ÚÇÕãÉ ÓáØäÉ ÚãÇä¿",
+        "answers": ["ãÓŞØ"]
     },
     {
-            "type": "Ù…Ø§ Ù‡ÙŠ Ø¹Ø§ØµÙ…Ø© Ù‚Ø·Ø±ØŸ",
-        "answers": ["Ø§Ù„Ø¯ÙˆØ­Ø©"]
+            "type": "ãÇ åí ÚÇÕãÉ ŞØÑ¿",
+        "answers": ["ÇáÏæÍÉ"]
     },
     {
-            "type": "Ù…Ø§ Ù‡ÙŠ Ø¹Ø§ØµÙ…Ø© Ø§Ù„ÙŠÙ…Ù†ØŸ",
-        "answers": ["ØµÙ†Ø¹Ø§Ø¡"]
+            "type": "ãÇ åí ÚÇÕãÉ Çáíãä¿",
+        "answers": ["ÕäÚÇÁ"]
     },
     {
-            "type": "Ù…Ø§ Ù‡ÙŠ Ø¹Ø§ØµÙ…Ø© Ù„Ø¨Ù†Ø§Ù†ØŸ",
-        "answers": ["Ø¨ÙŠØ±ÙˆØª"]
+            "type": "ãÇ åí ÚÇÕãÉ áÈäÇä¿",
+        "answers": ["ÈíÑæÊ"]
     },
     {
-            "type": "Ù…Ø§ Ù‡ÙŠ Ø¹Ø§ØµÙ…Ø© ÙÙ„Ø³Ø·ÙŠÙ†ØŸ",
-        "answers": ["Ø§Ù„Ù‚Ø¯Ø³"]
+            "type": "ãÇ åí ÚÇÕãÉ İáÓØíä¿",
+        "answers": ["ÇáŞÏÓ"]
     },
     {
-            "type": "Ù…Ø§ Ù‡ÙŠ Ø¹Ø§ØµÙ…Ø© Ø³ÙˆØ±ÙŠØ§ØŸ",
-        "answers": ["Ø¯Ù…Ø´Ù‚"]
+            "type": "ãÇ åí ÚÇÕãÉ ÓæÑíÇ¿",
+        "answers": ["ÏãÔŞ"]
           },
     {
-            "type": " Ù…Ø§ Ù‡ÙŠ Ø¹Ø§ØµÙ…Ø© Ø§Ù„Ø¹Ø±Ø§Ù‚ØŸ",
-        "answers": ["Ø¨ØºØ¯Ø§Ø¯"]
+            "type": " ãÇ åí ÚÇÕãÉ ÇáÚÑÇŞ¿",
+        "answers": ["ÈÛÏÇÏ"]
           },
     {
-            "type": "Ù…Ø§ Ù‡ÙŠ Ø¹Ø§ØµÙ…Ø© Ø¬Ù…Ù‡ÙˆØ±ÙŠØ© Ù…ØµØ± Ø§Ù„Ø¹Ø±Ø¨ÙŠØ©ØŸ",
-        "answers": ["Ø§Ù„Ù‚Ø§Ù‡Ø±Ø©"]
+            "type": "ãÇ åí ÚÇÕãÉ ÌãåæÑíÉ ãÕÑ ÇáÚÑÈíÉ¿",
+        "answers": ["ÇáŞÇåÑÉ"]
           },
     {
-            "type": "Ù…Ø§ Ù‡ÙŠ Ø¹Ø§ØµÙ…Ø© ØªÙˆÙ†Ø³ØŸ",
-        "answers": ["ØªÙˆÙ†Ø³"]
+            "type": "ãÇ åí ÚÇÕãÉ ÊæäÓ¿",
+        "answers": ["ÊæäÓ"]
           },
     {
-            "type": "Ù…Ø§ Ù‡ÙŠ Ø¹Ø§ØµÙ…Ø© Ø§Ù„ØµÙˆÙ…Ø§Ù„ØŸ",
-        "answers": ["Ù…Ù‚Ø¯ÙŠØ´Ùˆ"]
+            "type": "ãÇ åí ÚÇÕãÉ ÇáÕæãÇá¿",
+        "answers": ["ãŞÏíÔæ"]
           },
     {
-            "type": "Ù…Ø§ Ù‡ÙŠ Ø¹Ø§ØµÙ…Ø© Ø¬ÙŠØ¨ÙˆØªÙŠØŸ",
-        "answers": ["Ø¬ÙŠØ¨ÙˆØªÙ‰"]
+            "type": "ãÇ åí ÚÇÕãÉ ÌíÈæÊí¿",
+        "answers": ["ÌíÈæÊì"]
           },
     {
-            "type": "Ù…Ø§ Ù‡ÙŠ Ø¹Ø§ØµÙ…Ø© Ø¬Ø²Ø± Ø§Ù„Ù‚Ù…Ø±ØŸ",
-        "answers": ["Ù…ÙˆØ±ÙˆÙ†Ù‰"]
+            "type": "ãÇ åí ÚÇÕãÉ ÌÒÑ ÇáŞãÑ¿",
+        "answers": ["ãæÑæäì"]
           },
     {
-            "type": " Ù…Ø§ Ù‡ÙŠ Ø¹Ø§ØµÙ…Ø© ØªØ±ÙƒÙŠØ§ØŸ",
-        "answers": ["Ø§Ù†Ù‚Ø±Ø©"]
+            "type": " ãÇ åí ÚÇÕãÉ ÊÑßíÇ¿",
+        "answers": ["ÇäŞÑÉ"]
           },
     {
-            "type": "Ù…Ø§ Ù‡ÙŠ Ø¹Ø§ØµÙ…Ø© Ø£ÙØºØ§Ù†Ø³ØªØ§Ù†ØŸ",
-        "answers": ["ÙƒØ§Ø¨ÙˆÙ„"]
+            "type": "ãÇ åí ÚÇÕãÉ ÃİÛÇäÓÊÇä¿",
+        "answers": ["ßÇÈæá"]
           },
     {
-            "type": "Ù…Ø§ Ù‡ÙŠ Ø¹Ø§ØµÙ…Ø© Ø±ÙˆØ³ÙŠØ§ØŸ",
-        "answers": ["Ù…ÙˆØ³ÙƒÙˆ"]
+            "type": "ãÇ åí ÚÇÕãÉ ÑæÓíÇ¿",
+        "answers": ["ãæÓßæ"]
           },
     {
-            "type": "Ù…Ø§ Ù‡ÙŠ Ø¹Ø§ØµÙ…Ø© Ø§Ø³ØªØ±Ø§Ù„ÙŠØ§ØŸ",
-        "answers": ["ÙƒØ§Ù†Ø¨Ø±Ø§"]
+            "type": "ãÇ åí ÚÇÕãÉ ÇÓÊÑÇáíÇ¿",
+        "answers": ["ßÇäÈÑÇ"]
           },
     {
-            "type": "Ù…Ø§ Ù‡ÙŠ Ø¹Ø§ØµÙ…Ø© Ø§Ù„Ù†Ù…Ø³Ø§ØŸ",
-        "answers": ["ÙÙŠÙŠÙ†Ø§"]
+            "type": "ãÇ åí ÚÇÕãÉ ÇáäãÓÇ¿",
+        "answers": ["İííäÇ"]
           },
     {
-            "type": "Ù…Ø§ Ù‡ÙŠ Ø¹Ø§ØµÙ…Ø© ÙƒÙ†Ø¯Ø§ØŸ",
-        "answers": ["Ù…ÙˆÙ†ØªØ±ÙŠØ§Ù„"]
+            "type": "ãÇ åí ÚÇÕãÉ ßäÏÇ¿",
+        "answers": ["ãæäÊÑíÇá"]
           },
     {
-            "type": "Ù…Ø§ Ù‡ÙŠ Ø¹Ø§ØµÙ…Ø© Ø¨ÙˆÙ„ÙŠÙÙŠØ§ØŸ",
-        "answers": ["Ù„Ø§Ø¨Ø§Ø²"]
+            "type": "ãÇ åí ÚÇÕãÉ ÈæáíİíÇ¿",
+        "answers": ["áÇÈÇÒ"]
           },
     {
-            "type": "Ù…Ø§ Ù‡ÙŠ Ø¹Ø§ØµÙ…Ø© Ù‡ÙˆÙ„Ù†Ø¯Ø§ØŸ",
-        "answers": ["Ø§Ù…Ø³ØªØ±Ø¯Ø§Ù…"]
+            "type": "ãÇ åí ÚÇÕãÉ åæáäÏÇ¿",
+        "answers": ["ÇãÓÊÑÏÇã"]
           }
     
 ];
@@ -2233,14 +2233,14 @@ if (!points[message.author.id]) points[message.author.id] = {
         r = 15*1000 - r;
     return;
     }
-    if ( message.content == prefix+'Ø¹ÙˆØ§ØµÙ…'){
+    if ( message.content == prefix+'ÚæÇÕã'){
        
         try{
 }catch(e){
  
 }
  
-    if(!message.channel.guild) return message.reply('**Ù‡Ø°Ø§ Ø§Ù„Ø£Ù…Ø± Ù„Ù„Ø³ÙŠØ±ÙØ±Ø§Øª ÙÙ‚Ø·**').then(m => m.delete(3000));
+    if(!message.channel.guild) return message.reply('**åĞÇ ÇáÃãÑ ááÓíÑİÑÇÊ İŞØ**').then(m => m.delete(3000));
  
  
 const item = type[Math.floor(Math.random() * type.length)];
@@ -2264,10 +2264,10 @@ msg.channel.send(embed).then(() => {
 .setDescription('**? |Good Job +1P**')
 .setFooter('G.mypoints')
 message.channel.sendEmbed(sh);
-            let won = collected.first().author; // ÙÙŠ Ù‡Ø°Ø§ Ø§Ù„Ø³Ø·Ø± ÙŠÙ‚ÙˆÙ… Ø§Ù„ÙƒÙˆØ¯ Ø¨Ø³Ø­Ø¨ Ø§Ù„Ø£ÙŠ Ø¯ÙŠ Ø§Ù„Ø°ÙŠ Ù‚Ø§Ù… Ø¨Ø§Ù„Ø£Ø¬Ø§Ø¨Ø© Ø§ÙˆÙ„Ø§Ù‹
+            let won = collected.first().author; // İí åĞÇ ÇáÓØÑ íŞæã ÇáßæÏ ÈÓÍÈ ÇáÃí Ïí ÇáĞí ŞÇã ÈÇáÃÌÇÈÉ ÇæáÇğ
             points[won.id].points++;
           })
-          .catch(collected => { // ÙÙŠ Ø­Ø§Ù„ Ù„Ù… ÙŠÙ‚Ù… Ø£Ø­Ø¯ Ø¨Ø§Ù„Ø¥Ø¬Ø§Ø¨Ø©
+          .catch(collected => { // İí ÍÇá áã íŞã ÃÍÏ ÈÇáÅÌÇÈÉ
             message.channel.send(`?? |**Time Is End**`);
           })
           fs.writeFile("./points.json", JSON.stringify(points), (err) => {
@@ -2278,14 +2278,14 @@ message.channel.sendEmbed(sh);
     spee[id] = (new Date).getTime()
 }
 });
-const cuttweet = [     'ÙƒØª ØªÙˆÙŠØª â€| ØªØ®ÙŠÙ‘Ù„ Ù„Ùˆ Ø£Ù†Ùƒ Ø³ØªØ±Ø³Ù… Ø´ÙŠØ¡ ÙˆØ­ÙŠØ¯ ÙÙŠØµØ¨Ø­ Ø­Ù‚ÙŠÙ‚Ø©ØŒ Ù…Ø§Ø°Ø§ Ø³ØªØ±Ø³Ù…ØŸ',     'ÙƒØª ØªÙˆÙŠØª | Ø£ÙƒØ«Ø± Ø´ÙŠØ¡ ÙŠÙØ³ÙƒÙØª Ø§Ù„Ø·ÙÙ„ Ø¨Ø±Ø£ÙŠÙƒØŸ',     'ÙƒØª ØªÙˆÙŠØª | Ø§Ù„Ø­Ø±ÙŠØ© Ù„Ù€ ... ØŸ',     'ÙƒØª ØªÙˆÙŠØª | Ù‚Ù†Ø§Ø© Ø§Ù„ÙƒØ±ØªÙˆÙ† Ø§Ù„Ù…ÙØ¶Ù„Ø© ÙÙŠ Ø·ÙÙˆÙ„ØªÙƒØŸ',     'ÙƒØª ØªÙˆÙŠØª â€| ÙƒÙ„Ù…Ø© Ù„Ù„ØµÙØ¯Ø§Ø¹ØŸ',     'ÙƒØª ØªÙˆÙŠØª â€| Ù…Ø§ Ø§Ù„Ø´ÙŠØ¡ Ø§Ù„Ø°ÙŠ ÙŠÙÙØ§Ø±Ù‚ÙƒØŸ',     'ÙƒØª ØªÙˆÙŠØª â€| Ù…Ø§ Ø§Ù„Ø´ÙŠØ¡ Ø§Ù„Ø°ÙŠ ÙŠÙÙØ§Ø±Ù‚ÙƒØŸ',     'ÙƒØª ØªÙˆÙŠØª | ??ÙˆÙ‚Ù Ù…Ù…ÙŠØ² ÙØ¹Ù„ØªÙ‡ Ù…Ø¹ Ø´Ø®Øµ ÙˆÙ„Ø§ ÙŠØ²Ø§Ù„ ÙŠØ°ÙƒØ±Ù‡ Ù„ÙƒØŸ',     'ÙƒØª ØªÙˆÙŠØª â€| Ø£ÙŠÙ‡Ù…Ø§ ÙŠÙ†ØªØµØ±ØŒ Ø§Ù„ÙƒØ¨Ø±ÙŠØ§Ø¡ Ø£Ù… Ø§Ù„Ø­Ø¨ØŸ',     'ÙƒØª ØªÙˆÙŠØª | Ø¨Ø¹Ø¯ 10 Ø³Ù†ÙŠÙ† Ø§ÙŠØ´ Ø¨ØªÙƒÙˆÙ† ØŸ',     'ÙƒØª ØªÙˆÙŠØª â€| Ù…ÙÙ† Ø£ØºØ±Ø¨ ÙˆØ£Ø¬Ù…Ù„ Ø§Ù„Ø£Ø³Ù…Ø§Ø¡ Ø§Ù„ØªÙŠ Ù…Ø±Øª Ø¹Ù„ÙŠÙƒØŸ',     'â€ÙƒØª ØªÙˆÙŠØª | Ø¹Ù…Ø±Ùƒ Ø´Ù„Øª Ù…ØµÙŠØ¨Ø© Ø¹Ù† Ø´????????Øµ Ø¨Ø±ØºØ¨ØªÙƒ ØŸ',     'ÙƒØª ØªÙˆÙŠØª | Ø£ÙƒØ«Ø± Ø³Ø¤Ø§Ù„ ÙˆØ¬ÙÙ‘Ù‡ Ø¥Ù„ÙŠÙƒ Ù…Ø¤Ø®Ø±Ù‹Ø§ØŸ',     'â€ÙƒØª ØªÙˆÙŠØª | Ù…Ø§ Ù‡Ùˆ Ø§Ù„Ø´ÙŠØ¡ Ø§Ù„Ø°ÙŠ ÙŠØ¬Ø¹Ù„Ùƒ ØªØ´Ø¹Ø± Ø¨Ø§Ù„Ø®ÙˆÙØŸ',     'â€ÙƒØª ØªÙˆÙŠØª | ÙˆØ´ ÙŠÙØ³Ø¯ Ø§Ù„ØµØ¯Ø§Ù‚Ø©ØŸ',     'â€ÙƒØª ØªÙˆÙŠØª | Ø´Ø®Øµ Ù„Ø§ØªØ±ÙØ¶ Ù„Ù‡ Ø·Ù„Ø¨Ø§ ØŸ',     'â€ÙƒØª ØªÙˆÙŠØª | ÙƒÙ… Ù…Ø±Ù‡ Ø®Ø³Ø±Øª Ø´Ø®Øµ ØªØ­Ø¨Ù‡ØŸ.',     'â€ÙƒØª ØªÙˆÙŠØª | ÙƒÙŠÙ ØªØªØ¹Ø§Ù…Ù„ Ù…Ø¹ Ø§Ù„Ø§Ø´Ø®Ø§Øµ Ø§Ù„Ø³Ù„Ø¨ÙŠÙŠÙ† ØŸ',     'â€ÙƒØª ØªÙˆÙŠØª | ÙƒÙ„Ù…Ø© ØªØ´Ø¹Ø± Ø¨Ø§Ù„Ø®Ø¬Ù„ Ø§Ø°Ø§ Ù‚ÙŠÙ„Øª Ù„ÙƒØŸ',     'â€ÙƒØª ØªÙˆÙŠØª | Ø¬Ø³Ù…Ùƒ Ø§ÙƒØ¨Ø± Ù…Ù† Ø¹ÙŒÙ…Ø±Ùƒ Ø§Ùˆ Ø§Ù„Ø¹ÙƒØ³Ù‘ ØŸ!',     'â€ÙƒØª ØªÙˆÙŠØª |Ø£Ù‚ÙˆÙ‰ ÙƒØ°Ø¨Ø© Ù…Ø´Øª Ø¹Ù„ÙŠÙƒ ØŸ',     'â€ÙƒØª ØªÙˆÙŠØª | ØªØªØ£Ø«Ø± Ø¨Ø¯Ù…ÙˆØ¹ Ø´Ø®Øµ ÙŠØ¨ÙƒÙŠ Ù‚Ø¯Ø§Ù…Ùƒ Ù‚Ø¨Ù„ ØªØ¹Ø±Ù Ø§Ù„Ø³Ø¨Ø¨ ØŸ',     'ÙƒØª ØªÙˆÙŠØª | Ù‡Ù„ Ø­Ø¯Ø« ÙˆØ¶Ø­ÙŠØª Ù…Ù† Ø£Ø¬Ù„ Ø´Ø®ØµÙ Ø£Ø­Ø¨Ø¨ØªØŸ',     'â€ÙƒØª ØªÙˆÙŠØª | Ø£ÙƒØ«Ø± ØªØ·Ø¨ÙŠÙ‚ ØªØ³ØªØ®Ø¯Ù…Ù‡ Ù…Ø¤Ø®Ø±Ù‹Ø§ØŸ',     'â€ÙƒØª ØªÙˆÙŠØª | â€Ø§ÙƒØ«Ø± Ø´ÙŠ ÙŠØ±Ø¶ÙŠÙƒ Ø§Ø°Ø§ Ø²Ø¹Ù„Øª Ø¨Ø¯ÙˆÙ† ØªÙÙƒÙŠØ± ØŸ',     'â€ÙƒØª ØªÙˆÙŠØª | ÙˆØ´ Ù…Ø­ØªØ§Ø¬ Ø¹Ø´Ø§Ù† ØªÙƒÙˆÙ† Ù…Ø¨Ø³ÙˆØ· ØŸ',     'â€ÙƒØª ØªÙˆÙŠØª | Ù…Ø·Ù„Ø¨Ùƒ Ø§Ù„ÙˆØ­ÙŠØ¯ Ø§Ù„Ø­ÙŠÙ† ØŸ',     'â€ÙƒØª ØªÙˆÙŠØª | Ù‡Ù„ Ø­Ø¯Ø« ÙˆØ´Ø¹Ø±Øª Ø¨Ø£Ù†Ùƒ Ø§Ø±ØªÙƒØ¨Øª Ø£Ø­Ø¯ Ø§Ù„Ø°Ù†ÙˆØ¨ Ø£Ø«Ù†Ø§Ø¡ Ø§Ù„ØµÙŠØ§Ù…ØŸ',];
+const cuttweet = [     'ßÊ ÊæíÊ ş| ÊÎíøá áæ Ãäß ÓÊÑÓã ÔíÁ æÍíÏ İíÕÈÍ ÍŞíŞÉ¡ ãÇĞÇ ÓÊÑÓã¿',     'ßÊ ÊæíÊ | ÃßËÑ ÔíÁ íõÓßöÊ ÇáØİá ÈÑÃíß¿',     'ßÊ ÊæíÊ | ÇáÍÑíÉ áÜ ... ¿',     'ßÊ ÊæíÊ | ŞäÇÉ ÇáßÑÊæä ÇáãİÖáÉ İí ØİæáÊß¿',     'ßÊ ÊæíÊ ş| ßáãÉ ááÕõÏÇÚ¿',     'ßÊ ÊæíÊ ş| ãÇ ÇáÔíÁ ÇáĞí íõİÇÑŞß¿',     'ßÊ ÊæíÊ ş| ãÇ ÇáÔíÁ ÇáĞí íõİÇÑŞß¿',     'ßÊ ÊæíÊ | ??æŞİ ããíÒ İÚáÊå ãÚ ÔÎÕ æáÇ íÒÇá íĞßÑå áß¿',     'ßÊ ÊæíÊ ş| ÃíåãÇ íäÊÕÑ¡ ÇáßÈÑíÇÁ Ãã ÇáÍÈ¿',     'ßÊ ÊæíÊ | ÈÚÏ 10 Óäíä ÇíÔ ÈÊßæä ¿',     'ßÊ ÊæíÊ ş| ãöä ÃÛÑÈ æÃÌãá ÇáÃÓãÇÁ ÇáÊí ãÑÊ Úáíß¿',     'şßÊ ÊæíÊ | ÚãÑß ÔáÊ ãÕíÈÉ Úä Ô????????Õ ÈÑÛÈÊß ¿',     'ßÊ ÊæíÊ | ÃßËÑ ÓÄÇá æÌöøå Åáíß ãÄÎÑğÇ¿',     'şßÊ ÊæíÊ | ãÇ åæ ÇáÔíÁ ÇáĞí íÌÚáß ÊÔÚÑ ÈÇáÎæİ¿',     'şßÊ ÊæíÊ | æÔ íİÓÏ ÇáÕÏÇŞÉ¿',     'şßÊ ÊæíÊ | ÔÎÕ áÇÊÑİÖ áå ØáÈÇ ¿',     'şßÊ ÊæíÊ | ßã ãÑå ÎÓÑÊ ÔÎÕ ÊÍÈå¿.',     'şßÊ ÊæíÊ | ßíİ ÊÊÚÇãá ãÚ ÇáÇÔÎÇÕ ÇáÓáÈííä ¿',     'şßÊ ÊæíÊ | ßáãÉ ÊÔÚÑ ÈÇáÎÌá ÇĞÇ ŞíáÊ áß¿',     'şßÊ ÊæíÊ | ÌÓãß ÇßÈÑ ãä ÚñãÑß Çæ ÇáÚßÓø ¿!',     'şßÊ ÊæíÊ |ÃŞæì ßĞÈÉ ãÔÊ Úáíß ¿',     'şßÊ ÊæíÊ | ÊÊÃËÑ ÈÏãæÚ ÔÎÕ íÈßí ŞÏÇãß ŞÈá ÊÚÑİ ÇáÓÈÈ ¿',     'ßÊ ÊæíÊ | åá ÍÏË æÖÍíÊ ãä ÃÌá ÔÎÕò ÃÍÈÈÊ¿',     'şßÊ ÊæíÊ | ÃßËÑ ÊØÈíŞ ÊÓÊÎÏãå ãÄÎÑğÇ¿',     'şßÊ ÊæíÊ | şÇßËÑ Ôí íÑÖíß ÇĞÇ ÒÚáÊ ÈÏæä ÊİßíÑ ¿',     'şßÊ ÊæíÊ | æÔ ãÍÊÇÌ ÚÔÇä Êßæä ãÈÓæØ ¿',     'şßÊ ÊæíÊ | ãØáÈß ÇáæÍíÏ ÇáÍíä ¿',     'şßÊ ÊæíÊ | åá ÍÏË æÔÚÑÊ ÈÃäß ÇÑÊßÈÊ ÃÍÏ ÇáĞäæÈ ÃËäÇÁ ÇáÕíÇã¿',];
  client.on('message', message => {
-   if (message.content.startsWith(prefix + "ÙƒØª ØªÙˆÙŠØª")) {
+   if (message.content.startsWith(prefix + "ßÊ ÊæíÊ")) {
                 if(!message.channel.guild) return message.reply('** This command only for servers**');
   var embed = new Discord.RichEmbed()
   .setColor('RANDOM')
    .setThumbnail(message.author.avatarURL) 
- .addField('cara Community Â©' ,
+ .addField('cara Community ©' ,
   `${cuttweet[Math.floor(Math.random() * cuttweet.length)]}`)
   message.channel.sendEmbed(embed);
   console.log('[id] Send By: ' + message.author.username)
@@ -2295,7 +2295,7 @@ client.on('message', function(message) {
     if(message.content.startsWith(prefix + 'roll')) {
         let args = message.content.split(" ").slice(1);
         if (!args[0]) {
-            message.channel.send('Ø­Ø· Ø±Ù‚Ù… Ù…Ø¹ÙŠÙ† ÙŠØªÙ… Ø§Ù„Ø³Ø­Ø¨ Ù…Ù†Ù‡');
+            message.channel.send('ÍØ ÑŞã ãÚíä íÊã ÇáÓÍÈ ãäå');
             return;
             }
     message.channel.send(Math.floor(Math.random() * args.join(' ')));
@@ -2307,7 +2307,7 @@ client.on('message', function(message) {
 });
  client.on('message', async message => {
   if(message.content.startsWith(prefix + "temp")) {
-    await message.channel.send("Ø§Ø±Ø³Ù„ Ø§Ø³Ù… Ø§Ù„Ø±ÙˆÙ…").then(e => {
+    await message.channel.send("ÇÑÓá ÇÓã ÇáÑæã").then(e => {
     let filter = m => m.author.id === message.author.id
     let name = '';
     let time = '';
@@ -2322,37 +2322,37 @@ client.on('message', function(message) {
 
 
 
-e.edit("Ø§Ø±Ø³Ù„ Ù…Ø¯Ø© Ø§Ù„Ø±ÙˆÙ… Ø¨Ø§Ù„Ø¯Ù‚Ø§Ø¦Ù‚ Ù„Ø§Ø§Ù‚Ù„ Ù…Ù† 2 ÙˆÙ„Ø§ Ø§Ø¹Ù„Ù‰ Ù…Ù† 180")
+e.edit("ÇÑÓá ãÏÉ ÇáÑæã ÈÇáÏŞÇÆŞ áÇÇŞá ãä 2 æáÇ ÇÚáì ãä 180")
 message.channel.awaitMessages(filter, { max: 1, time: 20000, errors: ['time'] })
 .then(co => {
-if(isNaN(co.first().content)) return message.reply("Ø§Ù„ÙˆÙ‚Øª Ø¨Ø§Ù„Ø¯Ù‚Ø§Ø¦Ù‚ ! Ø§Ø±Ù‚Ø§Ù… ÙÙ‚Ø·Ù");
-if(co.first().content > 180 || co.first().content < 2) return message.channel.send("Ù„Ø§ Ø§Ù‚Ù„ Ù…Ù† Ø¯Ù‚ÙŠÙ‚ØªØ§Ù† ÙˆÙ„Ø§ Ø§ÙƒØ«Ø± Ù…Ù† 180 Ø¯Ù‚ÙŠÙ‚Ù‡")
+if(isNaN(co.first().content)) return message.reply("ÇáæŞÊ ÈÇáÏŞÇÆŞ ! ÇÑŞÇã İŞØò");
+if(co.first().content > 180 || co.first().content < 2) return message.channel.send("áÇ ÇŞá ãä ÏŞíŞÊÇä æáÇ ÇßËÑ ãä 180 ÏŞíŞå")
   time = co.first().content
 co.first().delete()
-  e.edit("Ø§Ø±Ø³Ù„ Ù†ÙˆØ¹ Ø§Ù„Ø±ÙˆÙ… text, voice")
+  e.edit("ÇÑÓá äæÚ ÇáÑæã text, voice")
 message.channel.awaitMessages(filter, { max: 1, time: 20000, errors: ['time'] })
 .then(col => {
   type = col.first().content
 col.first().delete()
-e.edit("Ø§Ø±Ø³Ù„ Ø¹Ø¯Ø¯ Ø§Ù„Ø§Ø¹Ø¶Ø§Ø¡ Ø§Ù„Ø°ÙŠÙ† ÙŠØ³ØªØ·ÙŠØ¹ÙˆÙ† Ø§Ù„Ø¯Ø®ÙˆÙ„")
+e.edit("ÇÑÓá ÚÏÏ ÇáÇÚÖÇÁ ÇáĞíä íÓÊØíÚæä ÇáÏÎæá")
 message.channel.awaitMessages(filter, { max: 1, time: 20000, errors: ['time'] })
 .then(coll => {
-  if(isNaN(coll.first().content)) return message.reply("Ø¹Ø¯Ø¯ Ø§Ù„Ø§Ø¹Ø¶Ø§Ø¡ ÙŠÙƒÙˆÙ† Ø¨Ø§Ù„Ø§Ø±Ù‚Ø§Ù… ÙÙ‚Ø·");
+  if(isNaN(coll.first().content)) return message.reply("ÚÏÏ ÇáÇÚÖÇÁ íßæä ÈÇáÇÑŞÇã İŞØ");
     limit = coll.first().content
 coll.first().delete()
 
-  e.edit("Ø¬Ø§Ø±ÙŠ Ø§Ø¹Ø¯Ø§Ø¯ Ø§Ù„ØºØ±ÙÙ‡ Ø§Ù„Ø±Ø¬Ø§Ø¡ Ø§Ù„Ø§Ù†ØªØ¶Ø§Ø±...")
+  e.edit("ÌÇÑí ÇÚÏÇÏ ÇáÛÑİå ÇáÑÌÇÁ ÇáÇäÊÖÇÑ...")
   message.guild.createChannel(name, type).then(c => {
     c.edit({
       userLimit: limit
     })
     setTimeout(() => {
       c.delete()
-      message.channel.send("ØªÙ… Ø§Ù†Ù‚Ø¶Ø§Ø¡ Ø§Ù„ÙˆÙ‚Øª")
+      message.channel.send("Êã ÇäŞÖÇÁ ÇáæŞÊ")
     }, Math.floor(time*60000))
     
   })
-  e.edit("ØªÙ… Ø§Ù†Ø´Ø§Ø¡ Ø§Ù„ØºØ±ÙÙ‡ Ø§Ø³ØªÙ…ØªØ¹")
+  e.edit("Êã ÇäÔÇÁ ÇáÛÑİå ÇÓÊãÊÚ")
 
 })
 })
@@ -2367,14 +2367,14 @@ var al7arthyCodes2 = ["??__60%__  **|**  ??__40%__","??__63%__  **|**  ??__37%__
 client.on('message', message => {
     if(!message.guild) return;
     if (message.author.bot) return;
-      let id = message.author.id,prefix="a";//Ø§Ù„Ø¨Ø±ÙŠÙÙƒØ³
+      let id = message.author.id,prefix="a";//ÇáÈÑíİßÓ
       if (ti[id] && (new Date).getTime() - ti[id] < 20*1000) {
           let r = (new Date).getTime() - ti[id];
           r = 20*1000 - r;
       message.channel.send(` **Please wait ${pretty(r, {verbose:true})}**`).then(m => m.delete(5000));
       return;
       }
-      if ( message.content == prefix+'Ù„Ùˆ Ø®ÙŠØ±ÙˆÙƒ'){
+      if ( message.content == prefix+'áæ ÎíÑæß'){
          
           try{
   //body
@@ -2414,54 +2414,54 @@ message.channel.sendEmbed(Embed).then(msg => {
                                 });
 
 const zead = [
-   '*** Ø§Ù†Ø§ Ø§Ø³Ù…ÙŠ Ù…Ø±ÙŠÙ… ***',
-   '*** Ù…Ø±Ø­Ø¨Ø§Ù Ù…Ø§Ù‡Ùˆ Ø§Ø³Ù…Ùƒ ØŸ ***',
-   `*** Ø§Ù‡Ù„Ø§ Ø¨Ùƒ ! Ø§Ù†Ø§ ØªØ§Ø¦Ù‡Ù‡ ÙÙŠ Ù‡Ø°Ø§ Ø§Ù„Ù…ÙƒØ§Ù†  ***`,
-   '*** Ù‡Ù„ ØªÙˆØ¯ Ù…Ø³Ø§Ø¹Ø¯ØªÙŠ ØŸ ***',
-   '*** Ù„Ù…Ø§Ø°Ø§ Ù‡Ù„ Ø§Ù†Øª Ù‚Ø§Ø³ÙŠ Ø§Ù„Ù‚Ù„Ø¨ ØŸ ***',
-   '*** Ø§Ù†Ù†ÙŠ Ø§Ø´ÙÙ‚ Ø¹Ù„ÙŠÙƒ ÙŠØ¬Ø¨ Ø§Ù† ØªØ·Ù‡Ø± Ø±ÙˆØ­Ùƒ ÙˆØªØ­Ø¨ Ø§Ù„Ø®ÙŠØ± Ù„Ù„Ø¬Ù…ÙŠØ¹ ***',
-   '*** Ø§Ø¨ØªØ¹Ø¯ Ø¹Ù†ÙŠ Ù‚Ù„ÙŠÙ„ Ø§Ù†Ù†ÙŠ Ù…ØªØ¹Ø¨Ø© ***',
-	 '*** Ù‡Ù„ Ø§Ù†Øª Ù†Ø§Ø¯Ù… Ø¹Ù„Ù‰ Ù…Ø§Ù‚Ù„Øª ØŸ ***',
-   '*** Ù‡Ù„ ØªÙˆØ¯ Ù…Ø³Ø§Ø¹Ø¯ØªÙŠ ØŸ ***',
-   '*** ÙˆØ§Ùˆ Ø§Ø´ÙƒØ±Ùƒ Ø§Ù†Ùƒ Ø´Ø®ØµØ§Ù Ø±Ø§Ø¦Ø¹ ! ***',
-   '*** Ø§Ø¨Ø­Ø« Ù…Ø¹ÙŠ Ø¹Ù† Ù…Ù†Ø²Ù„ÙŠ Ù„Ù‚Ø¯ ÙƒØ§Ù† Ù‚Ø±ÙŠØ¨Ø§Ù Ù…Ù† Ù‡Ù†Ø§ ***',
-   '*** ÙˆÙ„Ø§ÙƒÙ† Ø¹Ù†Ø¯Ù…Ø§ Ø­Ù„ Ø§Ù„Ù„ÙŠÙ„ Ù„Ù… Ø§Ø¹Ø¯ Ø§Ø±Ù‰ Ø§ÙŠ Ø´ÙŠØ¡ ***',
-   '*** Ù…Ø°Ø§ ØªØ¸Ù† Ø§ÙŠÙ† ÙŠÙˆØ¬Ø¯ ØŸ ÙŠÙ…ÙŠÙ† Ø§Ùˆ ÙŠØ³Ø§Ø± ***',
-   '*** Ù‡ÙŠØ§ Ø§Ø°Ø§Ù ***',
-   '*** Ø§ÙˆØ¯ Ø§Ù† Ø§Ø³Ø¦Ù„Ùƒ Ø³Ø¤Ø§Ù„ ÙˆÙ†Ø­Ù† ÙÙŠ Ø§Ù„Ø·Ø±ÙŠÙ‚ ***',
-   '*** Ù‡Ù„ ØªØ±Ø§Ù†ÙŠ ÙØªØ§Ø© Ù„Ø·ÙŠÙØ© Ø§Ù… Ù…Ø®ÙŠÙØ© ***',
-   '*** Ø§Ø´ÙƒØ±Ùƒ !  ***',
-   '*** Ù„Ù‚Ø¯ ÙˆØµÙ„Ù†Ø§ Ø§Ù„Ù‰ Ø§Ù„Ù…Ù†Ø²Ù„ Ø´ÙƒØ±Ø§Ù Ø¬Ø²ÙŠÙ„Ù Ø§Ù†ØªØ·Ø±Ù†ÙŠ Ø«ÙˆØ§Ù†ÙŠ ÙˆØ³ÙˆÙ Ø§Ø¹ÙˆØ¯ ***',
-   '*** Ù‡Ù„ Ø§Ù†Øª Ø¬Ø§Ù‡Ø² ØŸ ***',
-   '*** Ù„Ù‚Ø¯ Ø§Ø®Ø¨Ø±Øª ÙˆØ§Ù„Ø¯ÙŠ Ø¹Ù†Ùƒ ÙˆÙ‡Ù… Ù…ØªØ­Ù…Ø³ÙŠÙ† Ù„Ø±Ø¤ÙŠØªÙƒ ***',
-   '*** Ù‡Ù„ ØªÙˆØ¯ Ø§Ù† ØªØ±Ø§Ù‡Ù… Ø§Ù„Ø§Ù† ***',
-'*** Ø§Ù†Ø§ Ù„Ø³Øª Ø§Ù„Ø­ÙˆØª Ø§Ù„Ø§Ø²Ø±Ù‚ ÙƒÙ…Ø§ ÙŠØ¯Ø¹ÙˆÙ† ***',
-   '*** Ø§Ù†Ø§ Ù„Ø³Øª ÙƒØ§Ø°Ø¨Ø© ØµØ¯Ù‚Ù†ÙŠ***',
-   '*** Ù„Ù…Ø§Ø°Ø§ Ø§Ø±Ù‰ ÙÙŠ Ø¹ÙŠÙ†ÙŠÙƒ Ø§Ù„Ø®ÙˆÙ ØŸ ***',
-   '*** Ø§Ù†Ø§ Ù…Ø¬Ø±Ø¯ ÙØªØ§Ø© Ù„Ø·ÙŠÙØ© ØªØ­Ø¨ Ø§Ù„Ù„Ø¹Ø¨ Ù…Ø¹ Ø§Ù„Ø¬Ù…ÙŠØ¹ ***',
-   '*** Ø§Ø¹Ø±Ù ÙƒÙ„ Ø´ÙŠØ¡ ÙŠØ­Ø¯Ø« Ø§Ø³Ù…Ø¹ Ø°Ø§Ù„Ùƒ Ø¨Ø§Ù„Ø±Ø§Ø¯ÙŠÙˆ ***',
-   '*** Ø³Ù…Ø¹Øª Ø§Ù† Ø§Ù„Ø¨Ø´Ø± ÙŠÙ‚ØªÙ„ÙˆÙ† Ù…Ù† Ø§Ø¬Ù„ Ø§Ù„Ù…Ø§Ù„ ÙÙ‚Ø· ***',
-   '*** Ù„Ù…Ø§Ø°Ø§ Ù„Ù… ØªØ¯Ø®Ù„ Ø§Ù„ØºØ±ÙØ© ØŸ ***',
-   '*** Ù‡Ù‡Ù‡Ù‡Ù‡Ù‡Ù‡Ù‡Ù‡Ù‡Ù‡Ù‡Ù‡Ù‡Ù‡Ù‡Ù‡Ù‡Ù‡ Ø§Ù†Øª Ø§Ù„Ø§Ù† Ù…Ø³Ø¬ÙˆÙ† ÙÙŠ Ù‡Ø°Ù‡ Ø§Ù„ØºØ±ÙØ© ***',
-   '*** Ù„Ù† ØªØ®Ø±Ø¬ Ø­ØªÙ‰ Ø§Ø¹ÙˆØ¯ Ù„Ùƒ Ø¨Ø¹Ø¯ Ù‚Ù„ÙŠÙ„ ***',
-   '*** Ø§Ù„Ù…ÙØªØ§Ø­ Ù…Ø¹Ùƒ ! Ø§ÙƒØªØ¨ .Ù…Ø±ÙŠÙ…  ***',
-   '*** Ù…ÙØªØ§Ø­ Ø§Ø­Ù…Ø± , Ù‡Ù„ Ø­ØµÙ„Øª Ø¹Ù„ÙŠÙ‡ ØŸ ***',
-   '*** Ø§Ù† Ù„Ù… ØªØ­ØµÙ„ Ø¹Ù„ÙŠÙ‡ , Ø§ÙƒØªØ¨ .Ù…Ø±ÙŠÙ… Ù…Ø±Ø© Ø§Ø®Ø±Ù‰ ***',
-   '*** Ù…ÙØªØ§Ø­ Ø§Ø³ÙˆØ¯ . Ù‡Ù„ Ø­ØµÙ„Øª Ø¹Ù„ÙŠÙ‡ ØŸ ***',
-   '*** Ø§ÙŠÙ† ØªØ±ÙŠØ¯ Ø§Ù† ØªØ®ØªØ¨Ø¦ Ø¨Ø³Ø±Ø¹Ø© Ù‚Ø¨Ù„ Ø§Ù† ØªØ¹ÙˆØ¯ ***',
-   '*** Ù„Ù‚Ø¯ Ø¹Ø§Ø¯Øª Ù…Ù† Ø¬Ø¯ÙŠØ¯ Ø§Ù„Ù‰ Ø§Ù„Ù…Ù†Ø²Ù„ ***',
-   '*** Ù„Ø§ ØªØµØ¯Ø± Ø§ÙŠ ØµÙˆØª ! ***',
-   '*** Ù…Ø±ÙŠÙ… : Ù„Ù‚Ø¯ Ø¹Ø¯Øª ***',
-   '*** Ù…Ø±ÙŠÙ… : ÙŠØ§ Ø§ÙŠÙ‡Ø§ Ø§Ù„Ù…Ø®Ø§Ø¯Ø¹ Ø§ÙŠÙ† Ø§Ù†Øª ***',
-   '*** Ù…Ø±ÙŠÙ… : Ø§Ø¹Ù„Ù… Ø§Ù†Ùƒ Ù‡Ù†Ø§ ÙÙŠ Ø§Ù„Ù…Ù†Ø²Ù„ ***',
-   '*** Ù…Ø±ÙŠÙ… : Ù…Ø§Ø°Ø§ ØªØ±ÙŠØ¯ Ø§Ù† ØªØ³Ù…Ø¹ ***',
-   '*** Ø§Ø­Ø¯ Ù…Ø§ Ø®Ø±Ø¬ Ù…Ù† Ø§Ù„Ù…Ù†Ø²Ù„ ***',
-   '*** Ø§Ù†ØªØ¸Ø± Ø§Ù„Ø¬Ø²Ø¡ Ø§Ù„Ø«Ø§Ù†ÙŠ Ø¹Ù†Ø¯Ù…Ø§ ÙŠÙˆØµÙ„ Ø§Ù„Ø¨ÙˆØª 100 Ø³ÙŠØ±ÙØ± , Ø³Ø§Ø¹Ø¯Ù†ÙŠ ÙÙŠ Ù†Ø´Ø± Ø§Ù„Ø¨ÙˆØª ÙˆØ§Ø¯Ø®Ù„ Ù‡Ø°Ø§ Ø§Ù„Ø³ÙŠØ±ÙØ±  ***'
+   '*** ÇäÇ ÇÓãí ãÑíã ***',
+   '*** ãÑÍÈÇó ãÇåæ ÇÓãß ¿ ***',
+   `*** ÇåáÇ Èß ! ÇäÇ ÊÇÆåå İí åĞÇ ÇáãßÇä  ***`,
+   '*** åá ÊæÏ ãÓÇÚÏÊí ¿ ***',
+   '*** áãÇĞÇ åá ÇäÊ ŞÇÓí ÇáŞáÈ ¿ ***',
+   '*** Çääí ÇÔİŞ Úáíß íÌÈ Çä ÊØåÑ ÑæÍß æÊÍÈ ÇáÎíÑ ááÌãíÚ ***',
+   '*** ÇÈÊÚÏ Úäí Şáíá Çääí ãÊÚÈÉ ***',
+	 '*** åá ÇäÊ äÇÏã Úáì ãÇŞáÊ ¿ ***',
+   '*** åá ÊæÏ ãÓÇÚÏÊí ¿ ***',
+   '*** æÇæ ÇÔßÑß Çäß ÔÎÕÇó ÑÇÆÚ ! ***',
+   '*** ÇÈÍË ãÚí Úä ãäÒáí áŞÏ ßÇä ŞÑíÈÇó ãä åäÇ ***',
+   '*** æáÇßä ÚäÏãÇ Íá Çááíá áã ÇÚÏ ÇÑì Çí ÔíÁ ***',
+   '*** ãĞÇ ÊÙä Çíä íæÌÏ ¿ íãíä Çæ íÓÇÑ ***',
+   '*** åíÇ ÇĞÇó ***',
+   '*** ÇæÏ Çä ÇÓÆáß ÓÄÇá æäÍä İí ÇáØÑíŞ ***',
+   '*** åá ÊÑÇäí İÊÇÉ áØíİÉ Çã ãÎíİÉ ***',
+   '*** ÇÔßÑß !  ***',
+   '*** áŞÏ æÕáäÇ Çáì ÇáãäÒá ÔßÑÇó ÌÒíáó ÇäÊØÑäí ËæÇäí æÓæİ ÇÚæÏ ***',
+   '*** åá ÇäÊ ÌÇåÒ ¿ ***',
+   '*** áŞÏ ÇÎÈÑÊ æÇáÏí Úäß æåã ãÊÍãÓíä áÑÄíÊß ***',
+   '*** åá ÊæÏ Çä ÊÑÇåã ÇáÇä ***',
+'*** ÇäÇ áÓÊ ÇáÍæÊ ÇáÇÒÑŞ ßãÇ íÏÚæä ***',
+   '*** ÇäÇ áÓÊ ßÇĞÈÉ ÕÏŞäí***',
+   '*** áãÇĞÇ ÇÑì İí Úíäíß ÇáÎæİ ¿ ***',
+   '*** ÇäÇ ãÌÑÏ İÊÇÉ áØíİÉ ÊÍÈ ÇááÚÈ ãÚ ÇáÌãíÚ ***',
+   '*** ÇÚÑİ ßá ÔíÁ íÍÏË ÇÓãÚ ĞÇáß ÈÇáÑÇÏíæ ***',
+   '*** ÓãÚÊ Çä ÇáÈÔÑ íŞÊáæä ãä ÇÌá ÇáãÇá İŞØ ***',
+   '*** áãÇĞÇ áã ÊÏÎá ÇáÛÑİÉ ¿ ***',
+   '*** ååååååååååååååååååå ÇäÊ ÇáÇä ãÓÌæä İí åĞå ÇáÛÑİÉ ***',
+   '*** áä ÊÎÑÌ ÍÊì ÇÚæÏ áß ÈÚÏ Şáíá ***',
+   '*** ÇáãİÊÇÍ ãÚß ! ÇßÊÈ .ãÑíã  ***',
+   '*** ãİÊÇÍ ÇÍãÑ , åá ÍÕáÊ Úáíå ¿ ***',
+   '*** Çä áã ÊÍÕá Úáíå , ÇßÊÈ .ãÑíã ãÑÉ ÇÎÑì ***',
+   '*** ãİÊÇÍ ÇÓæÏ . åá ÍÕáÊ Úáíå ¿ ***',
+   '*** Çíä ÊÑíÏ Çä ÊÎÊÈÆ ÈÓÑÚÉ ŞÈá Çä ÊÚæÏ ***',
+   '*** áŞÏ ÚÇÏÊ ãä ÌÏíÏ Çáì ÇáãäÒá ***',
+   '*** áÇ ÊÕÏÑ Çí ÕæÊ ! ***',
+   '*** ãÑíã : áŞÏ ÚÏÊ ***',
+   '*** ãÑíã : íÇ ÇíåÇ ÇáãÎÇÏÚ Çíä ÇäÊ ***',
+   '*** ãÑíã : ÇÚáã Çäß åäÇ İí ÇáãäÒá ***',
+   '*** ãÑíã : ãÇĞÇ ÊÑíÏ Çä ÊÓãÚ ***',
+   '*** ÇÍÏ ãÇ ÎÑÌ ãä ÇáãäÒá ***',
+   '*** ÇäÊÙÑ ÇáÌÒÁ ÇáËÇäí ÚäÏãÇ íæÕá ÇáÈæÊ 100 ÓíÑİÑ , ÓÇÚÏäí İí äÔÑ ÇáÈæÊ æÇÏÎá åĞÇ ÇáÓíÑİÑ  ***'
 ];
  client.on('message', message => {
- if (message.content.startsWith('G.Ù…Ø±ÙŠÙ…')) {
+ if (message.content.startsWith('G.ãÑíã')) {
   var mariam= new Discord.RichEmbed()
-  .setTitle("Ù„Ø¹Ø¨Ø© Ù…Ø±ÙŠÙ… ..")
+  .setTitle("áÚÈÉ ãÑíã ..")
   .setColor('RANDOM')
   .setDescription(`${zead[Math.floor(Math.random() * zead.length)]}`)
   .setImage("https://www.npa-ar.com/wp-content/uploads/2017/08/%D9%84%D8%B9%D8%A8%D8%A9-%D9%85%D8%B1%D9%8A%D9%85-300x200.jpg")
@@ -2472,75 +2472,75 @@ const zead = [
 client.on('message', message => {
 var cats = ["http://www.shuuf.com/shof/uploads/2015/09/09/jpg/shof_b9d73150f90a594.jpg","https://haltaalam.info/wp-content/uploads/2015/05/0.208.png","https://haltaalam.info/wp-content/uploads/2015/05/266.png","https://haltaalam.info/wp-content/uploads/2015/05/250.png","https://haltaalam.info/wp-content/uploads/2017/02/0.2517.png","https://pbs.twimg.com/media/CP0mi02UAAA3U2z.png","http://www.shuuf.com/shof/uploads/2015/08/31/jpg/shof_3b74fa7295ec445.jpg","http://www.shuuf.com/shof/uploads/2015/08/22/jpg/shof_fa3be6ab68fb415.jpg","https://pbs.twimg.com/media/CSWPvmRUcAAeZbt.png","https://pbs.twimg.com/media/B18VworIcAIMGsE.png"]
         var args = message.content.split(" ").slice(1);
-    if(message.content.startsWith(prefix + 'Ù‡Ù„ ØªØ¹Ù„Ù…')) {
+    if(message.content.startsWith(prefix + 'åá ÊÚáã')) {
          var cat = new Discord.RichEmbed()
 .setImage(cats[Math.floor(Math.random() * cats.length)])
 message.channel.sendEmbed(cat);
     }
 });
 var Za7f = [
-  "**ØµÙˆØ±Ø© ÙˆØ¬Ù‡Ùƒ Ø§Ùˆ Ø±Ø¬Ù„Ùƒ Ø§Ùˆ Ø®Ø´Ù…Ùƒ Ø§Ùˆ ÙŠØ¯Ùƒ**.",
-  "**Ø§ØµØ¯Ø± Ø§ÙŠ ØµÙˆØª ÙŠØ·Ù„Ø¨Ù‡ Ù…Ù†Ùƒ Ø§Ù„Ø§Ø¹Ø¨ÙŠÙ†**.",
-  "**Ø³ÙƒØ± Ø®Ø´Ù…Ùƒ Ùˆ Ù‚ÙˆÙ„ ÙƒÙ„Ù…Ø© Ù…Ù† Ø§Ø®ØªÙŠØ§Ø± Ø§Ù„Ø§Ø¹Ø¨ÙŠÙ† Ø§Ù„ÙŠ Ù…Ø¹Ùƒ**.",
-  "**Ø±ÙˆØ­ Ø§Ù„Ù‰ Ø§ÙŠ Ù‚Ø±ÙˆØ¨ Ø¹Ù†Ø¯Ùƒ ÙÙŠ Ø§Ù„ÙˆØ§ØªØ³ Ø§Ø¨ Ùˆ Ø§ÙƒØªØ¨ Ø§ÙŠ Ø´ÙŠØ¡ ÙŠØ·Ù„Ø¨Ù‡ Ù…Ù†Ùƒ Ø§Ù„Ø§Ø¹Ø¨ÙŠÙ†  Ø§Ù„Ø­Ø¯ Ø§Ù„Ø§Ù‚ØµÙ‰ 3 Ø±Ø³Ø§Ø¦Ù„**.",
-  "**Ù‚ÙˆÙ„ Ù†ÙƒØªØ© Ø§Ø°Ø§ Ùˆ Ù„Ø§Ø²Ù… Ø§Ø­Ø¯ Ø§Ù„Ø§Ø¹Ø¨ÙŠÙ† ÙŠØ¶Ø­Ùƒ Ø§Ø°Ø§ Ù…Ø­Ø¯ Ø¶Ø­Ùƒ ÙŠØ¹Ø·ÙˆÙ†Ùƒ Ù…ÙŠÙˆØª Ø§Ù„Ù‰ Ø§Ù† ÙŠØ¬ÙŠ Ø¯ÙˆØ±Ùƒ Ù…Ø±Ø© Ø«Ø§Ù†ÙŠØ©**.",
-  "**Ø³Ù…Ø¹Ù†Ø§ ØµÙˆØªÙƒ Ùˆ ØºÙ† Ø§ÙŠ Ø§ØºÙ†ÙŠØ© Ù…Ù† Ø§Ø®ØªÙŠØ§Ø± Ø§Ù„Ø§Ø¹Ø¨ÙŠÙ† Ø§Ù„ÙŠ Ù…Ø¹Ùƒ**.",
-  "**Ø°ÙŠ Ø§Ù„Ù…Ø±Ø© Ù„Ùƒ Ù„Ø§ ØªØ¹ÙŠØ¯Ù‡Ø§**.",
-  "**Ø§Ø±Ù…ÙŠ Ø¬ÙˆØ§Ù„Ùƒ Ø¹Ù„Ù‰ Ø§Ù„Ø§Ø±Ø¶ Ø¨Ù‚ÙˆØ© Ùˆ Ø§Ø°Ø§ Ø§Ù†ÙƒØ³Ø± ØµÙˆØ± Ø§Ù„Ø¬ÙˆØ§Ù„ Ùˆ Ø§Ø±Ø³Ù„Ù‡ ÙÙŠ Ø§Ù„Ø´Ø§Øª Ø§Ù„Ø¹Ø§Ù…**.",
-  "**ØµÙˆØ± Ø§ÙŠ Ø´ÙŠØ¡ ÙŠØ·Ù„Ø¨Ù‡ Ù…Ù†Ùƒ Ø§Ù„Ø§Ø¹Ø¨ÙŠÙ†**.",
-  "**Ø§ØªØµÙ„ Ø¹Ù„Ù‰ Ø§Ø¨ÙˆÙƒ Ùˆ Ù‚ÙˆÙ„ Ù„Ù‡ Ø§Ù†Ùƒ Ø±Ø­Øª Ù…Ø¹ Ø¨Ù†Øª Ùˆ Ø§Ø­ÙŠÙ† Ù‡ÙŠ Ø­Ø§Ù…Ù„....**.",
-  "**Ø³ÙƒØ± Ø®Ø´Ù…Ùƒ Ùˆ Ù‚ÙˆÙ„ ÙƒÙ„Ù…Ø© Ù…Ù† Ø§Ø®ØªÙŠØ§Ø± Ø§Ù„Ø§Ø¹Ø¨ÙŠÙ† Ø§Ù„ÙŠ Ù…Ø¹Ùƒ**.",
-  "**Ø³Ùˆ Ù…Ø´Ù‡Ø¯ ØªÙ…Ø«ÙŠÙ„ÙŠ Ø¹Ù† Ù…ØµØ±ÙŠØ© Ø¨ØªÙˆÙ„Ø¯**.",
-  "**Ø§Ø¹Ø·ÙŠ Ø§ÙŠ Ø§Ø­Ø¯ Ø¬Ù†Ø¨Ùƒ ÙƒÙ Ø§Ø°Ø§ Ù…Ø§ÙÙŠÙ‡ Ø§Ø­Ø¯ Ø¬Ù†Ø¨Ùƒ Ø§Ø¹Ø·ÙŠ Ù†ÙØ³Ùƒ Ùˆ Ù†Ø¨ÙŠ Ù†Ø³Ù…Ø¹ ØµÙˆØª Ø§Ù„ÙƒÙ**.",
-  "**Ø°ÙŠ Ø§Ù„Ù…Ø±Ø© Ù„Ùƒ Ù„Ø§ ØªØ¹ÙŠØ¯Ù‡Ø§**.",
-  "**ØªØ¹Ø·ÙŠ Ø§ÙŠ Ø´Ø®Øµ 5 Ø§Ù„Ø§Ù ÙƒØ±Ø¯ÙŠØª**.",
-  "**Ø§Ø±Ù…ÙŠ Ø¬ÙˆØ§Ù„Ùƒ Ø¹Ù„Ù‰ Ø§Ù„Ø§Ø±Ø¶ Ø¨Ù‚ÙˆØ© Ùˆ Ø§Ø°Ø§ Ø§Ù†ÙƒØ³Ø± ØµÙˆØ± Ø§Ù„Ø¬ÙˆØ§Ù„ Ùˆ Ø§Ø±Ø³Ù„Ù‡ ÙÙŠ Ø§Ù„Ø´Ø§Øª Ø§Ù„Ø¹Ø§Ù…**.",
-  "**Ø±ÙˆØ­ Ø¹Ù†Ø¯ Ø§ÙŠ Ø§Ø­Ø¯ Ø¨Ø§Ù„Ø®Ø§Øµ Ùˆ Ù‚ÙˆÙ„ Ù„Ù‡ Ø§Ù†Ùƒ ØªØ­Ø¨Ù‡ Ùˆ Ø§Ù„Ø®**.",
-  "**Ø§ÙƒØªØ¨ ÙÙŠ Ø§Ù„Ø´Ø§Øª Ø§ÙŠ Ø´ÙŠØ¡ ÙŠØ·Ù„Ø¨Ù‡ Ù…Ù†Ùƒ Ø§Ù„Ø§Ø¹Ø¨ÙŠÙ† ÙÙŠ Ø§Ù„Ø®Ø§Øµ**.",
-  "**Ù‚ÙˆÙ„ Ù†ÙƒØªØ© Ø§Ø°Ø§ Ùˆ Ù„Ø§Ø²Ù… Ø§Ø­Ø¯ Ø§Ù„Ø§Ø¹Ø¨ÙŠÙ† ÙŠØ¶Ø­Ùƒ Ø§Ø°Ø§ Ù…Ø­Ø¯ Ø¶Ø­Ùƒ ÙŠØ¹Ø·ÙˆÙ†Ùƒ Ù…ÙŠÙˆØª Ø§Ù„Ù‰ Ø§Ù† ÙŠØ¬ÙŠ Ø¯ÙˆØ±Ùƒ Ù…Ø±Ø© Ø«Ø§Ù†ÙŠØ©**.",
-  "**Ø³Ø§Ù…Ø­ØªÙƒ Ø®Ù„Ø§Øµ Ù…Ø§ÙÙŠÙ‡ Ø¹Ù‚Ø§Ø¨ Ù„Ùƒ :slight_smile:**.",
-  "**Ø§ØªØµÙ„ Ø¹Ù„Ù‰ Ø§Ø­Ø¯ Ù…Ù† Ø§Ø®ÙˆÙŠØ§Ùƒ  Ø®ÙˆÙŠØ§ØªÙƒ , Ùˆ Ø§Ø·Ù„Ø¨ Ù…Ù†Ù‡Ù… Ù…Ø¨Ù„Øº Ø¹Ù„Ù‰ Ø§Ø³Ø§Ø³ Ø§Ù†Ùƒ ØµØ¯Ù…Øª Ø¨Ø³ÙŠØ§Ø±ØªÙƒ**.",
-  "**ØºÙŠØ± Ø§Ø³Ù…Ùƒ Ø§Ù„Ù‰ Ø§Ø³Ù… Ù…Ù† Ø§Ø®ØªÙŠØ§Ø± Ø§Ù„Ø§Ø¹Ø¨ÙŠÙ† Ø§Ù„ÙŠ Ù…Ø¹Ùƒ**.",
-  "**Ø§ØªØµÙ„ Ø¹Ù„Ù‰ Ø§Ù…Ùƒ Ùˆ Ù‚ÙˆÙ„ Ù„Ù‡Ø§ Ø§Ù†Ùƒ ØªØ­Ø¨Ù‡Ø§ :heart:**.",
-  "**Ù„Ø§ ÙŠÙˆØ¬Ø¯ Ø³Ø¤Ø§Ù„ Ù„Ùƒ Ø³Ø§Ù…Ø­ØªÙƒ :slight_smile:**.",
-  "**Ù‚Ù„ Ù„ÙˆØ§Ø­Ø¯ Ù…Ø§ØªØ¹Ø±ÙÙ‡ Ø¹Ø·Ù†ÙŠ ÙƒÙ**.",
-  "**Ù…Ù†Ø´Ù† Ø§Ù„Ø¬Ù…ÙŠØ¹ ÙˆÙ‚Ù„ Ø§Ù†Ø§ Ø§ÙƒØ±Ù‡ÙƒÙ…**.",
-  "**Ø§ØªØµÙ„ Ù„Ø§Ø®ÙˆÙƒ Ùˆ Ù‚ÙˆÙ„ Ù„Ù‡ Ø§Ù†Ùƒ Ø³ÙˆÙŠØª Ø­Ø§Ø¯Ø« Ùˆ Ø§Ù„Ø®....**.",
-  "**Ø±ÙˆØ­ Ø§Ù„Ù…Ø·Ø¨Ø® Ùˆ Ø§ÙƒØ³Ø± ØµØ­Ù† Ø§Ùˆ ÙƒÙˆØ¨**.",
-  "**Ø§Ø¹Ø·ÙŠ Ø§ÙŠ Ø§Ø­Ø¯ Ø¬Ù†Ø¨Ùƒ ÙƒÙ Ø§Ø°Ø§ Ù…Ø§ÙÙŠÙ‡ Ø§Ø­Ø¯ Ø¬Ù†Ø¨Ùƒ Ø§Ø¹Ø·ÙŠ Ù†ÙØ³Ùƒ Ùˆ Ù†Ø¨ÙŠ Ù†Ø³Ù…Ø¹ ØµÙˆØª Ø§Ù„ÙƒÙ**.",
-  "**Ù‚ÙˆÙ„ Ù„Ø§ÙŠ Ø¨Ù†Øª Ù…ÙˆØ¬ÙˆØ¯ ÙÙŠ Ø§Ù„Ø±ÙˆÙ… ÙƒÙ„Ù…Ø© Ø­Ù„ÙˆÙ‡**.",
-  "**ØªÙƒÙ„Ù… Ø¨Ø§Ù„Ù„ØºØ© Ø§Ù„Ø§Ù†Ø¬Ù„ÙŠØ²ÙŠØ© Ø§Ù„ÙŠÙ† ÙŠØ¬ÙŠ Ø¯ÙˆØ±Ùƒ Ù…Ø±Ø© Ø«Ø§Ù†ÙŠØ© Ù„Ø§Ø²Ù… ØªØªÙƒÙ„Ù… Ø§Ø°Ø§ Ù…Ø§ ØªÙƒÙ„Ù…Øª ØªÙ†ÙØ° Ø¹Ù‚Ø§Ø¨ Ø«Ø§Ù†ÙŠ**.",
-  "**Ù„Ø§ ØªØªÙƒÙ„Ù… ÙˆÙ„Ø§ ÙƒÙ„Ù…Ø© Ø§Ù„ÙŠÙ† ÙŠØ¬ÙŠ Ø¯ÙˆØ±Ùƒ Ù…Ø±Ø© Ø«Ø§Ù†ÙŠØ© Ùˆ Ø§Ø°Ø§ ØªÙƒÙ„Ù…Øª ÙŠØ¬ÙŠÙƒ Ø¨Ø§Ù†Ø¯ Ù„Ù…Ø¯Ø© ÙŠÙˆÙ… ÙƒØ§Ù…Ù„ Ù…Ù† Ø§Ù„Ø³??Ø±ÙØ±**.",
-  "**Ù‚ÙˆÙ„ Ù‚ØµÙŠØ¯Ø© **.",
-  "**ØªÙƒÙ„Ù… Ø¨Ø§Ù„Ù„Ù‡Ø¬Ø© Ø§Ù„Ø³ÙˆØ¯Ø§Ù†ÙŠØ© Ø§Ù„ÙŠÙ† ÙŠØ¬ÙŠ Ø¯ÙˆØ±Ùƒ Ù…Ø±Ø© Ø«Ø§Ù†ÙŠØ©**.",
-  "**Ø§ØªØµÙ„ Ø¹Ù„Ù‰ Ø§Ø­Ø¯ Ù…Ù† Ø§Ø®ÙˆÙŠØ§Ùƒ  Ø®ÙˆÙŠØ§ØªÙƒ , Ùˆ Ø§Ø·Ù„Ø¨ Ù…Ù†Ù‡Ù… Ù…Ø¨Ù„Øº Ø¹Ù„Ù‰ Ø§Ø³Ø§Ø³ Ø§Ù†Ùƒ ØµØ¯Ù…Øª Ø¨Ø³ÙŠØ§Ø±ØªÙƒ**.",
-  "**Ø§ÙˆÙ„ ÙˆØ§Ø­Ø¯ ØªØ´ÙˆÙÙ‡ Ø¹Ø·Ù‡ ÙƒÙ**.",
-  "**Ø³Ùˆ Ù…Ø´Ù‡Ø¯ ØªÙ…Ø«ÙŠÙ„ÙŠ Ø¹Ù† Ø§ÙŠ Ø´ÙŠØ¡ ÙŠØ·Ù„Ø¨Ù‡ Ù…Ù†Ùƒ Ø§Ù„Ø§Ø¹Ø¨ÙŠÙ†**.",
-  "**Ø³Ø§Ù…Ø­ØªÙƒ Ø®Ù„Ø§Øµ Ù…Ø§ÙÙŠÙ‡ Ø¹Ù‚Ø§Ø¨ Ù„Ùƒ :slight_smile:**.",
-  "**Ø§ØªØµÙ„ Ø¹Ù„Ù‰ Ø§Ø¨ÙˆÙƒ Ùˆ Ù‚ÙˆÙ„ Ù„Ù‡ Ø§Ù†Ùƒ Ø±Ø­Øª Ù…Ø¹ Ø¨Ù†Øª Ùˆ Ø§Ø­ÙŠÙ† Ù‡ÙŠ Ø­Ø§Ù…Ù„....**.",
-  "**Ø±ÙˆØ­ Ø§ÙƒÙ„ Ù…Ù„Ø­ + Ù„ÙŠÙ…ÙˆÙ† Ø§Ø°Ø§ Ù…Ø§ÙÙŠÙ‡ Ø§ÙƒÙ„ Ø§ÙŠ Ø´ÙŠØ¡ Ù…Ù† Ø§Ø®ØªÙŠØ§Ø± Ø§Ù„ÙŠ Ù…Ø¹Ùƒ**.",
-  "**ØªØ§Ø®Ø° Ø¹Ù‚Ø§Ø¨ÙŠÙ†**.",
-  "**Ù‚ÙˆÙ„ Ø§Ø³Ù… Ø§Ù…Ùƒ Ø§ÙØªØ®Ø± Ø¨Ø£Ø³Ù… Ø§Ù…Ùƒ**.",
-  "**Ø§Ø±Ù…ÙŠ Ø§ÙŠ Ø´ÙŠØ¡ Ù‚Ø¯Ø§Ù…Ùƒ Ø¹Ù„Ù‰ Ø§ÙŠ Ø§Ø­Ø¯ Ù…ÙˆØ¬ÙˆØ¯ Ø§Ùˆ Ø¹Ù„Ù‰ Ù†ÙØ³Ùƒ**.",
-  "**Ø§Ø°Ø§ Ø§Ù†Øª ÙˆÙ„Ø¯ Ø§ÙƒØ³Ø± Ø§ØºÙ„Ù‰ Ø§Ùˆ Ø§Ø­Ø³Ù† Ø¹Ø·ÙˆØ± Ø¹Ù†Ø¯Ùƒ Ø§Ø°Ø§ Ø§Ù†ØªÙŠ Ø¨Ù†Øª Ø§ÙƒØ³Ø±ÙŠ Ø§Ù„Ø±ÙˆØ¬ Ø­Ù‚Ùƒ Ø§Ùˆ Ø§Ù„Ù…ÙŠÙƒ Ø§Ø¨ Ø­Ù‚Ùƒ**.",
-  "**Ø§Ø°Ù‡Ø¨ Ø§Ù„Ù‰ ÙˆØ§Ø­Ø¯ Ù…Ø§ØªØ¹Ø±ÙÙ‡ ÙˆÙ‚Ù„ Ù„Ù‡ Ø§Ù†Ø§ ÙƒÙŠÙˆØª ÙˆØ§Ø¨ÙŠ Ø¨ÙˆØ³Ù‡**.",
-  "**ØªØªØµÙ„ Ø¹Ù„Ù‰ Ø§Ù„ÙˆØ§Ù„Ø¯Ù‡  Ùˆ ØªÙ‚ÙˆÙ„ Ù„Ù‡Ø§ Ø®Ø·ÙØª Ø´Ø®Øµ**.",
-  "** ØªØªØµÙ„ Ø¹Ù„Ù‰ Ø§Ù„ÙˆØ§Ù„Ø¯Ù‡  Ùˆ ØªÙ‚ÙˆÙ„ Ù„Ù‡Ø§ ØªØ²ÙˆØ¬Øª Ø¨Ø§ Ø³Ø±**.",
-  "**????ØªØµÙ„ Ø¹Ù„Ù‰ Ø§Ù„ÙˆØ§Ù„Ø¯Ù‡  Ùˆ ØªÙ‚ÙˆÙ„ Ù„Ù‡Ø§  Ø§Ø­Ø¨ ÙˆØ­Ø¯Ù‡**.",
-    "**ØªØªØµÙ„ Ø¹Ù„Ù‰ Ø´Ø±Ø·ÙŠ ØªÙ‚ÙˆÙ„ Ù„Ù‡ Ø¹Ù†Ø¯ÙƒÙ… Ù…Ø·Ø§ÙÙŠ**.",
-    "**Ø®Ù„Ø§Øµ Ø³Ø§Ù…Ø­ØªÙƒ**.",
-    "** ØªØµÙŠØ­ ÙÙŠ Ø§Ù„Ø´Ø§Ø±Ø¹ Ø§Ù†Ø§  Ù…Ø¬Ù†ÙˆÙˆÙ†**.",
-    "** ØªØ±ÙˆØ­ Ø¹Ù†Ø¯ Ø´Ø®Øµ ØªÙ‚ÙˆÙ„ Ù„Ù‡ Ø§Ø­Ø¨Ùƒ**.",
+  "**ÕæÑÉ æÌåß Çæ ÑÌáß Çæ ÎÔãß Çæ íÏß**.",
+  "**ÇÕÏÑ Çí ÕæÊ íØáÈå ãäß ÇáÇÚÈíä**.",
+  "**ÓßÑ ÎÔãß æ Şæá ßáãÉ ãä ÇÎÊíÇÑ ÇáÇÚÈíä Çáí ãÚß**.",
+  "**ÑæÍ Çáì Çí ŞÑæÈ ÚäÏß İí ÇáæÇÊÓ ÇÈ æ ÇßÊÈ Çí ÔíÁ íØáÈå ãäß ÇáÇÚÈíä  ÇáÍÏ ÇáÇŞÕì 3 ÑÓÇÆá**.",
+  "**Şæá äßÊÉ ÇĞÇ æ áÇÒã ÇÍÏ ÇáÇÚÈíä íÖÍß ÇĞÇ ãÍÏ ÖÍß íÚØæäß ãíæÊ Çáì Çä íÌí ÏæÑß ãÑÉ ËÇäíÉ**.",
+  "**ÓãÚäÇ ÕæÊß æ Ûä Çí ÇÛäíÉ ãä ÇÎÊíÇÑ ÇáÇÚÈíä Çáí ãÚß**.",
+  "**Ğí ÇáãÑÉ áß áÇ ÊÚíÏåÇ**.",
+  "**ÇÑãí ÌæÇáß Úáì ÇáÇÑÖ ÈŞæÉ æ ÇĞÇ ÇäßÓÑ ÕæÑ ÇáÌæÇá æ ÇÑÓáå İí ÇáÔÇÊ ÇáÚÇã**.",
+  "**ÕæÑ Çí ÔíÁ íØáÈå ãäß ÇáÇÚÈíä**.",
+  "**ÇÊÕá Úáì ÇÈæß æ Şæá áå Çäß ÑÍÊ ãÚ ÈäÊ æ ÇÍíä åí ÍÇãá....**.",
+  "**ÓßÑ ÎÔãß æ Şæá ßáãÉ ãä ÇÎÊíÇÑ ÇáÇÚÈíä Çáí ãÚß**.",
+  "**Óæ ãÔåÏ ÊãËíáí Úä ãÕÑíÉ ÈÊæáÏ**.",
+  "**ÇÚØí Çí ÇÍÏ ÌäÈß ßİ ÇĞÇ ãÇİíå ÇÍÏ ÌäÈß ÇÚØí äİÓß æ äÈí äÓãÚ ÕæÊ Çáßİ**.",
+  "**Ğí ÇáãÑÉ áß áÇ ÊÚíÏåÇ**.",
+  "**ÊÚØí Çí ÔÎÕ 5 ÇáÇİ ßÑÏíÊ**.",
+  "**ÇÑãí ÌæÇáß Úáì ÇáÇÑÖ ÈŞæÉ æ ÇĞÇ ÇäßÓÑ ÕæÑ ÇáÌæÇá æ ÇÑÓáå İí ÇáÔÇÊ ÇáÚÇã**.",
+  "**ÑæÍ ÚäÏ Çí ÇÍÏ ÈÇáÎÇÕ æ Şæá áå Çäß ÊÍÈå æ ÇáÎ**.",
+  "**ÇßÊÈ İí ÇáÔÇÊ Çí ÔíÁ íØáÈå ãäß ÇáÇÚÈíä İí ÇáÎÇÕ**.",
+  "**Şæá äßÊÉ ÇĞÇ æ áÇÒã ÇÍÏ ÇáÇÚÈíä íÖÍß ÇĞÇ ãÍÏ ÖÍß íÚØæäß ãíæÊ Çáì Çä íÌí ÏæÑß ãÑÉ ËÇäíÉ**.",
+  "**ÓÇãÍÊß ÎáÇÕ ãÇİíå ÚŞÇÈ áß :slight_smile:**.",
+  "**ÇÊÕá Úáì ÇÍÏ ãä ÇÎæíÇß  ÎæíÇÊß , æ ÇØáÈ ãäåã ãÈáÛ Úáì ÇÓÇÓ Çäß ÕÏãÊ ÈÓíÇÑÊß**.",
+  "**ÛíÑ ÇÓãß Çáì ÇÓã ãä ÇÎÊíÇÑ ÇáÇÚÈíä Çáí ãÚß**.",
+  "**ÇÊÕá Úáì Çãß æ Şæá áåÇ Çäß ÊÍÈåÇ :heart:**.",
+  "**áÇ íæÌÏ ÓÄÇá áß ÓÇãÍÊß :slight_smile:**.",
+  "**Şá áæÇÍÏ ãÇÊÚÑİå ÚØäí ßİ**.",
+  "**ãäÔä ÇáÌãíÚ æŞá ÇäÇ ÇßÑåßã**.",
+  "**ÇÊÕá áÇÎæß æ Şæá áå Çäß ÓæíÊ ÍÇÏË æ ÇáÎ....**.",
+  "**ÑæÍ ÇáãØÈÎ æ ÇßÓÑ ÕÍä Çæ ßæÈ**.",
+  "**ÇÚØí Çí ÇÍÏ ÌäÈß ßİ ÇĞÇ ãÇİíå ÇÍÏ ÌäÈß ÇÚØí äİÓß æ äÈí äÓãÚ ÕæÊ Çáßİ**.",
+  "**Şæá áÇí ÈäÊ ãæÌæÏ İí ÇáÑæã ßáãÉ Íáæå**.",
+  "**Êßáã ÈÇááÛÉ ÇáÇäÌáíÒíÉ Çáíä íÌí ÏæÑß ãÑÉ ËÇäíÉ áÇÒã ÊÊßáã ÇĞÇ ãÇ ÊßáãÊ ÊäİĞ ÚŞÇÈ ËÇäí**.",
+  "**áÇ ÊÊßáã æáÇ ßáãÉ Çáíä íÌí ÏæÑß ãÑÉ ËÇäíÉ æ ÇĞÇ ÊßáãÊ íÌíß ÈÇäÏ áãÏÉ íæã ßÇãá ãä ÇáÓ??ÑİÑ**.",
+  "**Şæá ŞÕíÏÉ **.",
+  "**Êßáã ÈÇááåÌÉ ÇáÓæÏÇäíÉ Çáíä íÌí ÏæÑß ãÑÉ ËÇäíÉ**.",
+  "**ÇÊÕá Úáì ÇÍÏ ãä ÇÎæíÇß  ÎæíÇÊß , æ ÇØáÈ ãäåã ãÈáÛ Úáì ÇÓÇÓ Çäß ÕÏãÊ ÈÓíÇÑÊß**.",
+  "**Çæá æÇÍÏ ÊÔæİå ÚØå ßİ**.",
+  "**Óæ ãÔåÏ ÊãËíáí Úä Çí ÔíÁ íØáÈå ãäß ÇáÇÚÈíä**.",
+  "**ÓÇãÍÊß ÎáÇÕ ãÇİíå ÚŞÇÈ áß :slight_smile:**.",
+  "**ÇÊÕá Úáì ÇÈæß æ Şæá áå Çäß ÑÍÊ ãÚ ÈäÊ æ ÇÍíä åí ÍÇãá....**.",
+  "**ÑæÍ Çßá ãáÍ + áíãæä ÇĞÇ ãÇİíå Çßá Çí ÔíÁ ãä ÇÎÊíÇÑ Çáí ãÚß**.",
+  "**ÊÇÎĞ ÚŞÇÈíä**.",
+  "**Şæá ÇÓã Çãß ÇİÊÎÑ ÈÃÓã Çãß**.",
+  "**ÇÑãí Çí ÔíÁ ŞÏÇãß Úáì Çí ÇÍÏ ãæÌæÏ Çæ Úáì äİÓß**.",
+  "**ÇĞÇ ÇäÊ æáÏ ÇßÓÑ ÇÛáì Çæ ÇÍÓä ÚØæÑ ÚäÏß ÇĞÇ ÇäÊí ÈäÊ ÇßÓÑí ÇáÑæÌ ÍŞß Çæ Çáãíß ÇÈ ÍŞß**.",
+  "**ÇĞåÈ Çáì æÇÍÏ ãÇÊÚÑİå æŞá áå ÇäÇ ßíæÊ æÇÈí ÈæÓå**.",
+  "**ÊÊÕá Úáì ÇáæÇáÏå  æ ÊŞæá áåÇ ÎØİÊ ÔÎÕ**.",
+  "** ÊÊÕá Úáì ÇáæÇáÏå  æ ÊŞæá áåÇ ÊÒæÌÊ ÈÇ ÓÑ**.",
+  "**????ÊÕá Úáì ÇáæÇáÏå  æ ÊŞæá áåÇ  ÇÍÈ æÍÏå**.",
+    "**ÊÊÕá Úáì ÔÑØí ÊŞæá áå ÚäÏßã ãØÇİí**.",
+    "**ÎáÇÕ ÓÇãÍÊß**.",
+    "** ÊÕíÍ İí ÇáÔÇÑÚ ÇäÇ  ãÌäææä**.",
+    "** ÊÑæÍ ÚäÏ ÔÎÕ ÊŞæá áå ÇÍÈß**.",
 
 ];
 
 client.on('message', message => {
- if (message.content.startsWith("G.Ø¹Ù‚Ø§Ø¨")) {
+ if (message.content.startsWith("G.ÚŞÇÈ")) {
               if(!message.channel.guild) return message.reply('** This command only for servers**');
 var embed = new Discord.RichEmbed()
 .setColor('RANDOM')
  .setThumbnail(message.author.avatarURL) 
-.addField('cara Community Â©' ,
+.addField('cara Community ©' ,
 `${Za7f[Math.floor(Math.random() * Za7f.length)]}`)
 message.channel.sendEmbed(embed);
 console.log('[38ab] Send By: ' + message.author.username)
@@ -2557,12 +2557,12 @@ if (message.author.bot) return;
 }
 });
 client.on('messageUpdate', (oldRebel, newRebel) => {
-    console.log("Ø¹ØµÙˆ Ù…Ø¢ ÙŠØ­Ø¢ÙˆÙ„ Ø§Ù„ØªØ¹Ø¯ÙŠÙ„.");
+    console.log("ÚÕæ ãÂ íÍÂæá ÇáÊÚÏíá.");
    if (newRebel.content.toUpperCase().match(/DISCORD.GG/i))
     {
-        console.log(newRebel.author.name + " Ø­Ø§ÙˆÙ„ Ø§Ù„Ù†Ø´Ø± Ø¹Ø¨Ø± ØªØ¹Ø¯ÙŠÙ„ Ø§Ù„Ø±Ø³Ø¢Ù„Ø© - " + newRebel);
+        console.log(newRebel.author.name + " ÍÇæá ÇáäÔÑ ÚÈÑ ÊÚÏíá ÇáÑÓÂáÉ - " + newRebel);
            newRebel.delete().catch(O_o=>{}); 
-           newRebel.author.send("Ù…Ù…Ù†ÙˆØ¹ Ø±ÙˆØ¢Ø¨Ø· Ø§Ù„Ø¯Ø³ÙƒÙˆØ±Ø¯. \n Ø¥Ø°Ø¢ ÙƒÙ†Øª ØªØ±ÙŠØ¯ Ø§Ù„Ù†Ø´Ø± ØªÙˆØ¢ØµÙ„ Ù…Ù† Ø§Ù„Ø¥Ø¯Ø¢Ø±Ø©.");
+           newRebel.author.send("ããäæÚ ÑæÂÈØ ÇáÏÓßæÑÏ. \n ÅĞÂ ßäÊ ÊÑíÏ ÇáäÔÑ ÊæÂÕá ãä ÇáÅÏÂÑÉ.");
     }
 });
 const invites = {};
@@ -2643,13 +2643,13 @@ member.guild.fetchInvites().then(guildInvites => {
                               ctx.fillStyle = "#f1f1f1";
                                 ctx.fillText(member.user.username, 200, 150);
                               
-                              //NAMEÙ‹
+                              //NAMEğ
                               ctx.font = "bold 12px Arial";
                               ctx.fontSize = '20px';
                               ctx.fillStyle = "#f1f1f1";
       ctx.fillText(`Welcome To Server`, 260, 125);
       
-                              //AVATARÙ‹
+                              //AVATARğ
                               let Avatar = Canvas.Image;
                               let ava = new Avatar;
                               ava.src = buf;
@@ -2671,9 +2671,9 @@ member.guild.fetchInvites().then(guildInvites => {
       });
    client.on('message',async message => {
   if(message.content.startsWith(prefix + "voiceonline")) {
-  if(!message.guild.member(message.author).hasPermissions('MANAGE_CHANNELS')) return message.reply(':x: **Ù„ÙŠØ³ Ù„Ø¯ÙŠÙƒ Ø§Ù„ØµÙ„Ø§Ø­ÙŠØ§Øª Ø§Ù„ÙƒØ§ÙÙŠØ©**');
-  if(!message.guild.member(client.user).hasPermissions(['MANAGE_CHANNELS','MANAGE_ROLES_OR_PERMISSIONS'])) return message.reply(':x: **Ù„ÙŠØ³ Ù…Ø¹ÙŠ Ø§Ù„ØµÙ„Ø§Ø­ÙŠØ§Øª Ø§Ù„ÙƒØ§ÙÙŠØ©**');
-  message.channel.send(':white_check_mark:| **ØªÙ… Ø¹Ù…Ù„ Ø§Ù„Ø±ÙˆÙ… Ø¨Ù†Ø¬Ø§Ø­**');
+  if(!message.guild.member(message.author).hasPermissions('MANAGE_CHANNELS')) return message.reply(':x: **áíÓ áÏíß ÇáÕáÇÍíÇÊ ÇáßÇİíÉ**');
+  if(!message.guild.member(client.user).hasPermissions(['MANAGE_CHANNELS','MANAGE_ROLES_OR_PERMISSIONS'])) return message.reply(':x: **áíÓ ãÚí ÇáÕáÇÍíÇÊ ÇáßÇİíÉ**');
+  message.channel.send(':white_check_mark:| **Êã Úãá ÇáÑæã ÈäÌÇÍ**');
   message.guild.createChannel(`Voice Online : [ ${message.guild.members.filter(m => m.voiceChannel).size} ]` , 'voice').then(c => {
     console.log(`Voice online channel setup for guild: \n ${message.guild.name}`);
     c.overwritePermissions(message.guild.id, {
@@ -2688,55 +2688,55 @@ member.guild.fetchInvites().then(guildInvites => {
 });
 client.on('message', async msg => { // eslint-disable-line
 	if (msg.author.bot) return undefined;
-	//by ,$ ReBeL Ø¡ , ??#4777 'CODES SERVER'
+	//by ,$ ReBeL Á , ??#4777 'CODES SERVER'
 	if (!msg.content.startsWith(prefix)) return undefined;
 	const args = msg.content.split(' ');
 	const searchString = args.slice(1).join(' ');
-	//by ,$ ReBeL Ø¡ , ??#4777 'CODES SERVER'
+	//by ,$ ReBeL Á , ??#4777 'CODES SERVER'
 	const url = args[1] ? args[1].replace(/<(.+)>/g, '$1') : '';
 	const serverQueue = queue.get(msg.guild.id);
-//by ,$ ReBeL Ø¡ , ??#4777 'CODES SERVER'
+//by ,$ ReBeL Á , ??#4777 'CODES SERVER'
 	let command = msg.content.toLowerCase().split(" ")[0];
 	command = command.slice(prefix.length)
-//by ,$ ReBeL Ø¡ , ??#4777 'CODES SERVER'
+//by ,$ ReBeL Á , ??#4777 'CODES SERVER'
 	if (command === `play`) {
 		const voiceChannel = msg.member.voiceChannel;
-		if (!voiceChannel) return msg.channel.send('ÙŠØ¬Ø¨ ØªÙˆØ¢Ø¬Ø¯ Ø­Ø¶Ø±ØªÙƒ Ø¨Ø±ÙˆÙ… ØµÙˆØªÙŠ .');
+		if (!voiceChannel) return msg.channel.send('íÌÈ ÊæÂÌÏ ÍÖÑÊß ÈÑæã ÕæÊí .');
 		const permissions = voiceChannel.permissionsFor(msg.client.user);
 		if (!permissions.has('CONNECT')) {
-			//by ,$ ReBeL Ø¡ , ??#4777 'CODES SERVER'
-			return msg.channel.send('Ù„Ø§ ÙŠØªÙˆØ¢Ø¬Ø¯ Ù„Ø¯ÙŠ ØµÙ„Ø§Ø­ÙŠØ© Ù„Ù„ØªÙƒÙ„Ù… Ø¨Ù‡Ø°Ø¢ Ø§Ù„Ø±ÙˆÙ…');
-		}//by ,$ ReBeL Ø¡ , ??#4777 'CODES SERVER'
+			//by ,$ ReBeL Á , ??#4777 'CODES SERVER'
+			return msg.channel.send('áÇ íÊæÂÌÏ áÏí ÕáÇÍíÉ ááÊßáã ÈåĞÂ ÇáÑæã');
+		}//by ,$ ReBeL Á , ??#4777 'CODES SERVER'
 		if (!permissions.has('SPEAK')) {
-			return msg.channel.send('Ù„Ø§ ÙŠØªÙˆØ¢Ø¬Ø¯ Ù„Ø¯ÙŠ ØµÙ„Ø§Ø­ÙŠØ© Ù„Ù„ØªÙƒÙ„Ù… Ø¨Ù‡Ø°Ø¢ Ø§Ù„Ø±ÙˆÙ…');
-		}//by ,$ ReBeL Ø¡ , ??#4777 'CODES SERVER'
+			return msg.channel.send('áÇ íÊæÂÌÏ áÏí ÕáÇÍíÉ ááÊßáã ÈåĞÂ ÇáÑæã');
+		}//by ,$ ReBeL Á , ??#4777 'CODES SERVER'
 
 		if (!permissions.has('EMBED_LINKS')) {
-			return msg.channel.sendMessage("**ÙŠØ¬Ø¨ ØªÙˆØ¢ÙØ± Ø¨Ø±Ù…Ø´Ù† `EMBED LINKS`Ù„Ø¯ÙŠ **")
+			return msg.channel.sendMessage("**íÌÈ ÊæÂİÑ ÈÑãÔä `EMBED LINKS`áÏí **")
 		}
 
 		if (url.match(/^https?:\/\/(www.youtube.com|youtube.com)\/playlist(.*)$/)) {
 			const playlist = await youtube.getPlaylist(url);
 			const videos = await playlist.getVideos();
-			//by ,$ ReBeL Ø¡ , ??#4777 'CODES SERVER'
+			//by ,$ ReBeL Á , ??#4777 'CODES SERVER'
 			for (const video of Object.values(videos)) {
 				const video2 = await youtube.getVideoByID(video.id); // eslint-disable-line no-await-in-loop
 				await handleVideo(video2, msg, voiceChannel, true); // eslint-disable-line no-await-in-loop
-			}//by ,$ ReBeL Ø¡ , ??#4777 'CODES SERVER'
-			return msg.channel.send(` **${playlist.title}** ØªÙ… Ø§Ù„Ø¥Ø¶Ø¢ÙØ© Ø¥Ù„Ù‰ Ù‚Ø£Ø¦Ù…Ø© Ø§Ù„ØªØ´ØºÙŠÙ„`);
+			}//by ,$ ReBeL Á , ??#4777 'CODES SERVER'
+			return msg.channel.send(` **${playlist.title}** Êã ÇáÅÖÂİÉ Åáì ŞÃÆãÉ ÇáÊÔÛíá`);
 		} else {
-			try {//by ,$ ReBeL Ø¡ , ??#4777 'CODES SERVER'
+			try {//by ,$ ReBeL Á , ??#4777 'CODES SERVER'
 
 				var video = await youtube.getVideo(url);
 			} catch (error) {
-				try {//by ,$ ReBeL Ø¡ , ??#4777 'CODES SERVER'
+				try {//by ,$ ReBeL Á , ??#4777 'CODES SERVER'
 					var videos = await youtube.searchVideos(searchString, 5);
 					let index = 0;
 					const embed1 = new Discord.RichEmbed()
-			        .setDescription(`**Ø§Ù„Ø±Ø¬Ø¢Ø¡ Ù…Ù† Ø­Ø¶Ø±ØªÙƒ Ø¥Ø®ØªÙŠØ¢Ø± Ø±Ù‚Ù… Ø§Ù„Ù…Ù‚Ø·Ø¹** :
+			        .setDescription(`**ÇáÑÌÂÁ ãä ÍÖÑÊß ÅÎÊíÂÑ ÑŞã ÇáãŞØÚ** :
 ${videos.map(video2 => `[**${++index} **] \`${video2.title}\``).join('\n')}`)
-//by ,$ ReBeL Ø¡ , ??#4777 'CODES SERVER'
-					.setFooter("cara Community Â©")
+//by ,$ ReBeL Á , ??#4777 'CODES SERVER'
+					.setFooter("cara Community ©")
 					msg.channel.sendEmbed(embed1).then(message =>{message.delete(20000)})
 					
 					// eslint-disable-next-line max-depth
@@ -2745,84 +2745,84 @@ ${videos.map(video2 => `[**${++index} **] \`${video2.title}\``).join('\n')}`)
 							maxMatches: 1,
 							time: 15000,
 							errors: ['time']
-						});//by ,$ ReBeL Ø¡ , ??#4777 'CODES SERVER'
+						});//by ,$ ReBeL Á , ??#4777 'CODES SERVER'
 					} catch (err) {
 						console.error(err);
-						return msg.channel.send('Ù„Ù… ÙŠØªÙ… Ø¥Ø®ØªÙŠØ¢Ø± Ù…Ù‚Ø·Ø¹ ØµÙˆØªÙŠ');
+						return msg.channel.send('áã íÊã ÅÎÊíÂÑ ãŞØÚ ÕæÊí');
 					}
 					const videoIndex = parseInt(response.first().content);
 					var video = await youtube.getVideoByID(videos[videoIndex - 1].id);
 				} catch (err) {
 					console.error(err);
-					return msg.channel.send(':X: Ù„Ø§ ÙŠØªÙˆÙØ± Ù†ØªØ¢Ø¦Ø¬ Ø¨Ø­Ø« ');
+					return msg.channel.send(':X: áÇ íÊæİÑ äÊÂÆÌ ÈÍË ');
 				}
-			}//by ,$ ReBeL Ø¡ , ??#4777 'CODES SERVER'
+			}//by ,$ ReBeL Á , ??#4777 'CODES SERVER'
 
 			return handleVideo(video, msg, voiceChannel);
-		}//by ,$ ReBeL Ø¡ , ??#4777 'CODES SERVER'
+		}//by ,$ ReBeL Á , ??#4777 'CODES SERVER'
 	} else if (command === `skip`) {
-		if (!msg.member.voiceChannel) return msg.channel.send('Ø£Ù†Øª Ù„Ø³Øª Ø¨Ø±ÙˆÙ… ØµÙˆØªÙŠ .');
-		if (!serverQueue) return msg.channel.send('Ù„Ø§ ÙŠØªÙˆÙØ± Ù…Ù‚Ø·Ø¹ Ù„ØªØ¬Ø¢ÙˆØ²Ù‡');
-		serverQueue.connection.dispatcher.end('ØªÙ… ØªØ¬Ø¢ÙˆØ² Ù‡Ø°Ø¢ Ø§Ù„Ù…Ù‚Ø·Ø¹');
+		if (!msg.member.voiceChannel) return msg.channel.send('ÃäÊ áÓÊ ÈÑæã ÕæÊí .');
+		if (!serverQueue) return msg.channel.send('áÇ íÊæİÑ ãŞØÚ áÊÌÂæÒå');
+		serverQueue.connection.dispatcher.end('Êã ÊÌÂæÒ åĞÂ ÇáãŞØÚ');
 		return undefined;
-	} else if (command === `stop`) {//by ,$ ReBeL Ø¡ , ??#4777 'CODES SERVER'
-		if (!msg.member.voiceChannel) return msg.channel.send('Ø£Ù†Øª Ù„Ø³Øª Ø¨Ø±ÙˆÙ… ØµÙˆØªÙŠ .');
-		if (!serverQueue) return msg.channel.send('Ù„Ø§ ÙŠØªÙˆÙØ± Ù…Ù‚Ø·Ø¹ Ù„Ø¥ÙŠÙ‚Ø¢ÙÙ‡');
+	} else if (command === `stop`) {//by ,$ ReBeL Á , ??#4777 'CODES SERVER'
+		if (!msg.member.voiceChannel) return msg.channel.send('ÃäÊ áÓÊ ÈÑæã ÕæÊí .');
+		if (!serverQueue) return msg.channel.send('áÇ íÊæİÑ ãŞØÚ áÅíŞÂİå');
 		serverQueue.songs = [];
-		serverQueue.connection.dispatcher.end('ØªÙ… Ø¥ÙŠÙ‚Ø¢Ù Ù‡Ø°Ø¢ Ø§Ù„Ù…Ù‚Ø·Ø¹');
+		serverQueue.connection.dispatcher.end('Êã ÅíŞÂİ åĞÂ ÇáãŞØÚ');
 		return undefined;
 	} else if (command === `vol`) {
-		if (!msg.member.voiceChannel) return msg.channel.send('Ø£Ù†Øª Ù„Ø³Øª Ø¨Ø±ÙˆÙ… ØµÙˆØªÙŠ .');
-		if (!serverQueue) return msg.channel.send('Ù„Ø§ ÙŠÙˆØ¬Ø¯ Ø´ÙŠØ¡ Ø´ØºØ¢Ù„.');
-		if (!args[1]) return msg.channel.send(`:loud_sound: Ù…Ø³ØªÙˆÙ‰ Ø§Ù„ØµÙˆØª **${serverQueue.volume}**`);
-		serverQueue.volume = args[1];//by ,$ ReBeL Ø¡ , ??#4777 'CODES SERVER'
+		if (!msg.member.voiceChannel) return msg.channel.send('ÃäÊ áÓÊ ÈÑæã ÕæÊí .');
+		if (!serverQueue) return msg.channel.send('áÇ íæÌÏ ÔíÁ ÔÛÂá.');
+		if (!args[1]) return msg.channel.send(`:loud_sound: ãÓÊæì ÇáÕæÊ **${serverQueue.volume}**`);
+		serverQueue.volume = args[1];//by ,$ ReBeL Á , ??#4777 'CODES SERVER'
 		serverQueue.connection.dispatcher.setVolumeLogarithmic(args[1] / 50);
-		return msg.channel.send(`:speaker: ØªÙ… ØªØºÙŠØ± Ø§Ù„ØµÙˆØª Ø§Ù„ÙŠ **${args[1]}**`);
+		return msg.channel.send(`:speaker: Êã ÊÛíÑ ÇáÕæÊ Çáí **${args[1]}**`);
 	} else if (command === `np`) {
-		if (!serverQueue) return msg.channel.send('Ù„Ø§ ÙŠÙˆØ¬Ø¯ Ø´ÙŠØ¡ Ø­Ø§Ù„ÙŠ Ù Ø§Ù„Ø¹Ù…Ù„.');
+		if (!serverQueue) return msg.channel.send('áÇ íæÌÏ ÔíÁ ÍÇáí İ ÇáÚãá.');
 		const embedNP = new Discord.RichEmbed()
-	.setDescription(`:notes: Ø§Ù„Ø§Ù† ÙŠØªÙ… ØªØ´ØºÙŠÙ„ : **${serverQueue.songs[0].title}**`)
+	.setDescription(`:notes: ÇáÇä íÊã ÊÔÛíá : **${serverQueue.songs[0].title}**`)
 		return msg.channel.sendEmbed(embedNP);
 	} else if (command === `queue`) {
-		//by ,$ ReBeL Ø¡ , ??#4777 'CODES SERVER'
-		if (!serverQueue) return msg.channel.send('Ù„Ø§ ÙŠÙˆØ¬Ø¯ Ø´ÙŠØ¡ Ø­Ø§Ù„ÙŠ Ù Ø§Ù„Ø¹Ù…Ù„.');
+		//by ,$ ReBeL Á , ??#4777 'CODES SERVER'
+		if (!serverQueue) return msg.channel.send('áÇ íæÌÏ ÔíÁ ÍÇáí İ ÇáÚãá.');
 		let index = 0;
-		//by ,$ ReBeL Ø¡ , ??#4777 'CODES SERVER'
+		//by ,$ ReBeL Á , ??#4777 'CODES SERVER'
 		const embedqu = new Discord.RichEmbed()
-//by ,$ ReBeL Ø¡ , ??#4777 'CODES SERVER'
+//by ,$ ReBeL Á , ??#4777 'CODES SERVER'
 .setDescription(`**Songs Queue**
 ${serverQueue.songs.map(song => `**${++index} -** ${song.title}`).join('\n')}
-**Ø§Ù„Ø§Ù† ÙŠØªÙ… ØªØ´ØºÙŠÙ„** ${serverQueue.songs[0].title}`)
+**ÇáÇä íÊã ÊÔÛíá** ${serverQueue.songs[0].title}`)
 		return msg.channel.sendEmbed(embedqu);
 	} else if (command === `pause`) {
 		if (serverQueue && serverQueue.playing) {
 			serverQueue.playing = false;
 			serverQueue.connection.dispatcher.pause();
-			return msg.channel.send('ØªÙ… Ø¥ÙŠÙ‚Ø§Ù Ø§Ù„Ù…ÙˆØ³ÙŠÙ‚Ù‰ Ù…Ø¤Ù‚ØªØ§!');
-		}//by ,$ ReBeL Ø¡ , ??#4777 'CODES SERVER'
-		return msg.channel.send('Ù„Ø§ ÙŠÙˆØ¬Ø¯ Ø´ÙŠØ¡ Ø­Ø§Ù„ÙŠ Ù Ø§Ù„Ø¹Ù…Ù„.');
+			return msg.channel.send('Êã ÅíŞÇİ ÇáãæÓíŞì ãÄŞÊÇ!');
+		}//by ,$ ReBeL Á , ??#4777 'CODES SERVER'
+		return msg.channel.send('áÇ íæÌÏ ÔíÁ ÍÇáí İ ÇáÚãá.');
 	} else if (command === "resume") {
 		if (serverQueue && !serverQueue.playing) {
 			serverQueue.playing = true;
 			serverQueue.connection.dispatcher.resume();
-			return msg.channel.send('Ø§Ø³ØªØ£Ù†ÙØª Ø§Ù„Ù…ÙˆØ³ÙŠÙ‚Ù‰ Ø¨Ø§Ù„Ù†Ø³Ø¨Ø© Ù„Ùƒ !');
-		}//by ,$ ReBeL Ø¡ , ??#4777 'CODES SERVER'
-		return msg.channel.send('Ù„Ø§ ÙŠÙˆØ¬Ø¯ Ø´ÙŠØ¡ Ø­Ø§Ù„ÙŠ ÙÙŠ Ø§Ù„Ø¹Ù…Ù„.');
+			return msg.channel.send('ÇÓÊÃäİÊ ÇáãæÓíŞì ÈÇáäÓÈÉ áß !');
+		}//by ,$ ReBeL Á , ??#4777 'CODES SERVER'
+		return msg.channel.send('áÇ íæÌÏ ÔíÁ ÍÇáí İí ÇáÚãá.');
 	}
 
 	return undefined;
 });
-//by ,$ ReBeL Ø¡ , ??#4777 'CODES SERVER'
+//by ,$ ReBeL Á , ??#4777 'CODES SERVER'
 async function handleVideo(video, msg, voiceChannel, playlist = false) {
 	const serverQueue = queue.get(msg.guild.id);
 	console.log(video);
-	//by ,$ ReBeL Ø¡ , ??#4777 'CODES SERVER'
+	//by ,$ ReBeL Á , ??#4777 'CODES SERVER'
 //	console.log('yao: ' + Util.escapeMarkdown(video.thumbnailUrl));
 	const song = {
 		id: video.id,
 		title: Util.escapeMarkdown(video.title),
 		url: `https://www.youtube.com/watch?v=${video.id}`
-	};//by ,$ ReBeL Ø¡ , ??#4777 'CODES SERVER'
+	};//by ,$ ReBeL Á , ??#4777 'CODES SERVER'
 	if (!serverQueue) {
 		const queueConstruct = {
 			textChannel: msg.channel,
@@ -2831,11 +2831,11 @@ async function handleVideo(video, msg, voiceChannel, playlist = false) {
 			songs: [],
 			volume: 5,
 			playing: true
-		};//by ,$ ReBeL Ø¡ , ??#4777 'CODES SERVER'
+		};//by ,$ ReBeL Á , ??#4777 'CODES SERVER'
 		queue.set(msg.guild.id, queueConstruct);
-//by ,$ ReBeL Ø¡ , ??#4777 'CODES SERVER'
+//by ,$ ReBeL Á , ??#4777 'CODES SERVER'
 		queueConstruct.songs.push(song);
-//by ,$ ReBeL Ø¡ , ??#4777 'CODES SERVER'
+//by ,$ ReBeL Á , ??#4777 'CODES SERVER'
 		try {
 			var connection = await voiceChannel.join();
 			queueConstruct.connection = connection;
@@ -2843,80 +2843,80 @@ async function handleVideo(video, msg, voiceChannel, playlist = false) {
 		} catch (error) {
 			console.error(`I could not join the voice channel: ${error}`);
 			queue.delete(msg.guild.id);
-			return msg.channel.send(`Ù„Ø§ Ø£Ø³ØªØ·ÙŠØ¹ Ø¯Ø®ÙˆÙ„ Ù‡Ø°Ø¢ Ø§Ù„Ø±ÙˆÙ… ${error}`);
+			return msg.channel.send(`áÇ ÃÓÊØíÚ ÏÎæá åĞÂ ÇáÑæã ${error}`);
 		}
-	} else {//by ,$ ReBeL Ø¡ , ??#4777 'CODES SERVER'
+	} else {//by ,$ ReBeL Á , ??#4777 'CODES SERVER'
 		serverQueue.songs.push(song);
 		console.log(serverQueue.songs);
 		if (playlist) return undefined;
-		else return msg.channel.send(` **${song.title}** ØªÙ… Ø§Ø¶Ø§ÙÙ‡ Ø§Ù„Ø§ØºÙ†ÙŠØ© Ø§Ù„ÙŠ Ø§Ù„Ù‚Ø§Ø¦Ù…Ø©!`);
+		else return msg.channel.send(` **${song.title}** Êã ÇÖÇİå ÇáÇÛäíÉ Çáí ÇáŞÇÆãÉ!`);
 	}
 	return undefined;
-}//by ,$ ReBeL Ø¡ , ??#4777 'CODES SERVER'
+}//by ,$ ReBeL Á , ??#4777 'CODES SERVER'
 
 function play(guild, song) {
 	const serverQueue = queue.get(guild.id);
 
-	if (!song) {//by ,$ ReBeL Ø¡ , ??#4777 'CODES SERVER'
+	if (!song) {//by ,$ ReBeL Á , ??#4777 'CODES SERVER'
 		serverQueue.voiceChannel.leave();
 		queue.delete(guild.id);
-		return;//by ,$ ReBeL Ø¡ , ??#4777 'CODES SERVER'
-	}//by ,$ ReBeL Ø¡ , ??#4777 'CODES SERVER'
+		return;//by ,$ ReBeL Á , ??#4777 'CODES SERVER'
+	}//by ,$ ReBeL Á , ??#4777 'CODES SERVER'
 	console.log(serverQueue.songs);
-//by ,$ ReBeL Ø¡ , ??#4777 'CODES SERVER'
+//by ,$ ReBeL Á , ??#4777 'CODES SERVER'
 	const dispatcher = serverQueue.connection.playStream(ytdl(song.url))
-		.on('end', reason => {//by ,$ ReBeL Ø¡ , ??#4777 'CODES SERVER'
+		.on('end', reason => {//by ,$ ReBeL Á , ??#4777 'CODES SERVER'
 			if (reason === 'Stream is not generating quickly enough.') console.log('Song ended.');
 			else console.log(reason);
-			serverQueue.songs.shift();//by ,$ ReBeL Ø¡ , ??#4777 'CODES SERVER'
+			serverQueue.songs.shift();//by ,$ ReBeL Á , ??#4777 'CODES SERVER'
 			play(guild, serverQueue.songs[0]);
-		})//by ,$ ReBeL Ø¡ , ??#4777 'CODES SERVER'
-		.on('error', error => console.error(error));//by ,$ ReBeL Ø¡ , ??#4777 'CODES SERVER'
-	dispatcher.setVolumeLogarithmic(serverQueue.volume / 5);//by ,$ ReBeL Ø¡ , ??#4777 'CODES SERVER'
+		})//by ,$ ReBeL Á , ??#4777 'CODES SERVER'
+		.on('error', error => console.error(error));//by ,$ ReBeL Á , ??#4777 'CODES SERVER'
+	dispatcher.setVolumeLogarithmic(serverQueue.volume / 5);//by ,$ ReBeL Á , ??#4777 'CODES SERVER'
 
-	serverQueue.textChannel.send(`Ø¨Ø¯Ø¡ ØªØ´ØºÙŠÙ„ : **${song.title}**`);
-}//by ,$ ReBeL Ø¡ , ??#4777 'CODES SERVER'
+	serverQueue.textChannel.send(`ÈÏÁ ÊÔÛíá : **${song.title}**`);
+}//by ,$ ReBeL Á , ??#4777 'CODES SERVER'
 
-const adminprefix = "$vip";//by ,$ ReBeL Ø¡ , ??#4777 'CODES SERVER'
-client.on('message', message => {//by ,$ ReBeL Ø¡ , ??#4777 'CODES SERVER'
-  var argresult = message.content.split(` `).slice(1).join(' ');//by ,$ ReBeL Ø¡ , ??#4777 'CODES SERVER'
-    if (!devs.includes(message.author.id)) return;//by ,$ ReBeL Ø¡ , ??#4777 'CODES SERVER'
+const adminprefix = "$vip";//by ,$ ReBeL Á , ??#4777 'CODES SERVER'
+client.on('message', message => {//by ,$ ReBeL Á , ??#4777 'CODES SERVER'
+  var argresult = message.content.split(` `).slice(1).join(' ');//by ,$ ReBeL Á , ??#4777 'CODES SERVER'
+    if (!devs.includes(message.author.id)) return;//by ,$ ReBeL Á , ??#4777 'CODES SERVER'
     message.reply("**`only for Bot Owner`**")
-if (message.content.startsWith(adminprefix + 'setgame')) {//by ,$ ReBeL Ø¡ , ??#4777 'CODES SERVER'
+if (message.content.startsWith(adminprefix + 'setgame')) {//by ,$ ReBeL Á , ??#4777 'CODES SERVER'
   client.user.setGame(argresult);
-    message.channel.sendMessage(`**${argresult} ØªÙ… ØªØºÙŠÙŠØ± Ø¨Ù„Ø§ÙŠÙ†Ù‚ Ø§Ù„Ø¨ÙˆØª Ø¥Ù„Ù‰ **`)
+    message.channel.sendMessage(`**${argresult} Êã ÊÛííÑ ÈáÇíäŞ ÇáÈæÊ Åáì **`)
 } else 
   if (message.content.startsWith(adminprefix + 'setname')) {
 client.user.setUsername(argresult).then
-    message.channel.sendMessage(`**${argresult}** : ØªÙ… ØªØºÙŠÙŠØ± Ø£Ø³Ù… Ø§Ù„Ø¨ÙˆØª Ø¥Ù„Ù‰`)
-return message.reply("**Ù„Ø§ ÙŠÙ…ÙƒÙ†Ùƒ ØªØºÙŠÙŠØ± Ø§Ù„Ø§Ø³Ù… ÙŠØ¬Ø¨ Ø¹Ù„ÙŠÙƒ Ø§Ù„Ø§Ù†ØªØ¸Ø¢Ø± Ù„Ù…Ø¯Ø© Ø³Ø§Ø¹ØªÙŠÙ† . **");
+    message.channel.sendMessage(`**${argresult}** : Êã ÊÛííÑ ÃÓã ÇáÈæÊ Åáì`)
+return message.reply("**áÇ íãßäß ÊÛííÑ ÇáÇÓã íÌÈ Úáíß ÇáÇäÊÙÂÑ áãÏÉ ÓÇÚÊíä . **");
 } else
   if (message.content.startsWith(adminprefix + 'setavatar')) {
 client.user.setAvatar(argresult);
-  message.channel.sendMessage(`**${argresult}** : ØªÙ… ØªØºÙŠØ± ØµÙˆØ±Ø© Ø§Ù„Ø¨ÙˆØª`);
+  message.channel.sendMessage(`**${argresult}** : Êã ÊÛíÑ ÕæÑÉ ÇáÈæÊ`);
       } else     
 if (message.content.startsWith(adminprefix + 'setT')) {
   client.user.setGame(argresult, "https://www.twitch.tv/idk");
-    message.channel.sendMessage(`**ØªÙ… ØªØºÙŠÙŠØ± ØªÙˆÙŠØªØ´ Ø§Ù„Ø¨ÙˆØª Ø¥Ù„Ù‰  ${argresult}**`)
+    message.channel.sendMessage(`**Êã ÊÛííÑ ÊæíÊÔ ÇáÈæÊ Åáì  ${argresult}**`)
 }
 
 });
 
 client.on("message", message => {
  if (message.content === `${prefix}`) {
-  const embed = new Discord.RichEmbed() //by ,$ ReBeL Ø¡ , ??#4777 'CODES SERVER'
-      .setColor("#000000")//by ,$ ReBeL Ø¡ , ??#4777 'CODES SERVER'
+  const embed = new Discord.RichEmbed() //by ,$ ReBeL Á , ??#4777 'CODES SERVER'
+      .setColor("#000000")//by ,$ ReBeL Á , ??#4777 'CODES SERVER'
       .setDescription(`
-${prefix}play ? Ù„ØªØ´ØºÙŠÙ„ Ø£ØºÙ†ÙŠØ© Ø¨Ø±Ø¢Ø¨Ø· Ø£Ùˆ Ø¨Ø£Ø³Ù…
-${prefix}skip ? Ù„ØªØ¬Ø¢ÙˆØ² Ø§Ù„Ø£ØºÙ†ÙŠØ© Ø§Ù„Ø­Ø¢Ù„ÙŠØ©
-${prefix}pause ? Ø¥ÙŠÙ‚Ø¢Ù Ø§Ù„Ø£ØºÙ†ÙŠØ© Ù…Ø¤Ù‚ØªØ§
-${prefix}resume ? Ù„Ù…ÙˆØ¢ØµÙ„Ø© Ø§Ù„Ø¥ØºÙ†ÙŠØ© Ø¨Ø¹Ø¯ Ø¥ÙŠÙ‚Ø¢ÙÙ‡Ø¢ Ù…Ø¤Ù‚ØªØ§
-${prefix}vol ? Ù„ØªØºÙŠÙŠØ± Ø¯Ø±Ø¬Ø© Ø§Ù„ØµÙˆØª 100 - 0
-${prefix}stop ? Ù„Ø¥Ø®Ø±Ø¢Ø¬ Ø§Ù„Ø¨ÙˆØª Ù…Ù† Ø§Ù„Ø±ÙˆÙ…
-${prefix}np ? Ù„Ù…Ø¹Ø±ÙØ© Ø§Ù„Ø£ØºÙ†ÙŠØ© Ø§Ù„Ù…Ø´ØºÙ„Ø© Ø­Ø¢Ù„ÙŠØ§
-${prefix}queue ? Ù„Ù…Ø¹Ø±ÙØ© Ù‚Ø¢Ø¦Ù…Ø© Ø§Ù„ØªØ´ØºÙŠÙ„
- `)//by ,$ ReBeL Ø¡ , ??#4777 'CODES SERVER'
-   message.channel.sendEmbed(embed)//by ,$ ReBeL Ø¡ , ??#4777 'CODES SERVER'
+${prefix}play ? áÊÔÛíá ÃÛäíÉ ÈÑÂÈØ Ãæ ÈÃÓã
+${prefix}skip ? áÊÌÂæÒ ÇáÃÛäíÉ ÇáÍÂáíÉ
+${prefix}pause ? ÅíŞÂİ ÇáÃÛäíÉ ãÄŞÊÇ
+${prefix}resume ? áãæÂÕáÉ ÇáÅÛäíÉ ÈÚÏ ÅíŞÂİåÂ ãÄŞÊÇ
+${prefix}vol ? áÊÛííÑ ÏÑÌÉ ÇáÕæÊ 100 - 0
+${prefix}stop ? áÅÎÑÂÌ ÇáÈæÊ ãä ÇáÑæã
+${prefix}np ? áãÚÑİÉ ÇáÃÛäíÉ ÇáãÔÛáÉ ÍÂáíÇ
+${prefix}queue ? áãÚÑİÉ ŞÂÆãÉ ÇáÊÔÛíá
+ `)//by ,$ ReBeL Á , ??#4777 'CODES SERVER'
+   message.channel.sendEmbed(embed)//by ,$ ReBeL Á , ??#4777 'CODES SERVER'
     
    }
    });
@@ -2925,7 +2925,7 @@ ${prefix}queue ? Ù„Ù…Ø¹Ø±ÙØ© Ù‚Ø¢Ø¦Ù…Ø© Ø§Ù„ØªØ´ØºÙŠÙ„
 let args = message.content.split(' ').slice(1).join(' ');
 if (message.content.startsWith('G.users')){
  if(!message.author.id === '434263373077544961') return;
-message.channel.sendMessage('Ø¬Ø§Ø± Ø§Ø±Ø³Ø§Ù„ Ø§Ù„Ø±Ø³Ø§Ù„Ø© |:white_check_mark:')
+message.channel.sendMessage('ÌÇÑ ÇÑÓÇá ÇáÑÓÇáÉ |:white_check_mark:')
 client.users.forEach(m =>{
 m.sendMessage(args)
 })
@@ -2939,54 +2939,54 @@ client.on('message', message => {
 
 
 if (message.content.startsWith(prefix + 'playing')) {
-if (message.author.id !== '434845976050794516') return message.reply('** Ù‡Ø°Ø§ Ø§Ù„Ø£Ù…Ø± ÙÙ‚Ø· Ù„ØµØ§Ø­Ø¨ Ø§Ù„Ø¨ÙˆØª Ùˆ Ø´ÙƒØ±Ø§Ù‹Ù‹ **')
+if (message.author.id !== '434845976050794516') return message.reply('** åĞÇ ÇáÃãÑ İŞØ áÕÇÍÈ ÇáÈæÊ æ ÔßÑÇğğ **')
 client.user.setGame(argresult);
-    message.channel.sendMessage(`**${argresult}** : ØªÙ… ØªØºÙŠÙŠØ± Ø§Ù„Ø­Ø§Ù„Ø©`)
+    message.channel.sendMessage(`**${argresult}** : Êã ÊÛííÑ ÇáÍÇáÉ`)
 } else
 
 if (message.content.startsWith(prefix + 'streem')) {
-if (message.author.id !== '434845976050794516') return message.reply('** Ù‡Ø°Ø§ Ø§Ù„Ø£Ù…Ø± ÙÙ‚Ø· Ù„ØµØ§Ø­Ø¨ Ø§Ù„Ø¨ÙˆØª Ùˆ Ø´ÙƒØ±Ø§Ù‹Ù‹ **')
+if (message.author.id !== '434845976050794516') return message.reply('** åĞÇ ÇáÃãÑ İŞØ áÕÇÍÈ ÇáÈæÊ æ ÔßÑÇğğ **')
 client.user.setGame(argresult, "http://twitch.tv/y04zgamer");
-    message.channel.sendMessage(`**${argresult}** :ØªÙ… ØªØºÙŠÙŠØ± Ø§Ù„Ø­Ø§Ù„Ø© Ø§Ù„Ù‰ Ø³ØªØ±ÙŠÙ…Ù†Ø¬`)
+    message.channel.sendMessage(`**${argresult}** :Êã ÊÛííÑ ÇáÍÇáÉ Çáì ÓÊÑíãäÌ`)
 } else
 
 if (message.content.startsWith(prefix + 'setname')) {
-if (message.author.id !== '434845976050794516') return message.reply('** Ù‡Ø°Ø§ Ø§Ù„Ø£Ù…Ø± ÙÙ‚Ø· Ù„ØµØ§Ø­Ø¨ Ø§Ù„Ø¨ÙˆØª Ùˆ Ø´ÙƒØ±Ø§Ù‹Ù‹ **')
+if (message.author.id !== '434845976050794516') return message.reply('** åĞÇ ÇáÃãÑ İŞØ áÕÇÍÈ ÇáÈæÊ æ ÔßÑÇğğ **')
   client.user.setUsername(argresult).then
-      message.channel.sendMessage(`**${argresult}** : ØªÙ… ØªØºÙŠØ± Ø§Ù„Ø£Ø³Ù…`)
-  return message.reply("**Ù„Ø§ ØªØ³ØªØ·ÙŠØ¹ ØªØºÙŠØ± Ø§Ù„Ø£Ø³Ù… Ø§Ù„Ø§ Ø¨Ø¹Ø¯ Ø³Ø§Ø¹ØªÙŠÙ†**");
+      message.channel.sendMessage(`**${argresult}** : Êã ÊÛíÑ ÇáÃÓã`)
+  return message.reply("**áÇ ÊÓÊØíÚ ÊÛíÑ ÇáÃÓã ÇáÇ ÈÚÏ ÓÇÚÊíä**");
 } else
 
 if (message.content.startsWith(prefix + 'setavatar')) {
-if (message.author.id !== '434845976050794516') return message.reply('** Ù‡Ø°Ø§ Ø§Ù„Ø£Ù…Ø± ÙÙ‚Ø· Ù„ØµØ§Ø­Ø¨ Ø§Ù„Ø¨ÙˆØª Ùˆ Ø´ÙƒØ±Ø§Ù‹Ù‹ **')
+if (message.author.id !== '434845976050794516') return message.reply('** åĞÇ ÇáÃãÑ İŞØ áÕÇÍÈ ÇáÈæÊ æ ÔßÑÇğğ **')
 client.user.setAvatar(argresult);
-    message.channel.sendMessage(`**${argresult}** : ØªÙ… ØªØºÙŠØ± ØµÙˆØ±Ø© Ø§Ù„Ø¨ÙˆØª`);
+    message.channel.sendMessage(`**${argresult}** : Êã ÊÛíÑ ÕæÑÉ ÇáÈæÊ`);
 } else
 
 
 if (message.content.startsWith(prefix + 'watching')) {
-if (message.author.id !== '434845976050794516') return message.reply('** Ù‡Ø°Ø§ Ø§Ù„Ø£Ù…Ø± ÙÙ‚Ø· Ù„ØµØ§Ø­Ø¨ Ø§Ù„Ø¨ÙˆØª Ùˆ Ø´ÙƒØ±Ø§Ù‹Ù‹ **')
+if (message.author.id !== '434845976050794516') return message.reply('** åĞÇ ÇáÃãÑ İŞØ áÕÇÍÈ ÇáÈæÊ æ ÔßÑÇğğ **')
     client.user.setActivity(argresult, {type : 'watching'});
- message.channel.sendMessage(`**${argresult}** : ØªÙ… ØªØºÙŠÙŠØ± Ø§Ù„ÙˆÙˆØªØ´ÙŠÙ†Ù‚ Ø§Ù„Ù‰`)
+ message.channel.sendMessage(`**${argresult}** : Êã ÊÛííÑ ÇáææÊÔíäŞ Çáì`)
 }
 });
 client.on('message', async message => {
   let messageArray = message.content.split(' ');
   let args = messageArray.slice(1);
   if(message.content.startsWith(prefix + "invinfo")) {
-    if(!args) return message.reply('**Ø­Ø¯Ø¯ Ø§Ø³Ù… Ø¯Ø¹ÙˆØ©**');
+    if(!args) return message.reply('**ÍÏÏ ÇÓã ÏÚæÉ**');
     message.guild.fetchInvites().then(i => {
       let inv = i.get(args[0]);
-      if(!inv) return message.reply(`**Ù„Ù… Ø§Ù‚Ø¯Ø± Ø¹Ù„Ù‰ Ø§ÙŠØ¬Ø§Ø¯ ${args}**`);
+      if(!inv) return message.reply(`**áã ÇŞÏÑ Úáì ÇíÌÇÏ ${args}**`);
       var iNv = new Discord.RichEmbed()
       .setAuthor(message.author.username,message.author.avatarURL)
       .setThumbnail(message.author.avatarURL)
-      .addField('# - ØµØ§Ø­Ø¨ Ø§Ù„Ø¯Ø¹ÙˆØ©',inv.inviter,true)
-      .addField('# - Ø±ÙˆÙ… Ø§Ù„Ø¯Ø¹ÙˆØ©',inv.channel,true)
-      .addField('# - ØªØ§Ø±ÙŠØ® Ø§Ù†ØªÙ‡Ø§Ø¡ Ø§Ù„Ø¯Ø¹ÙˆØ©',moment(inv.expiresAt).format('YYYY/M/DD:h'),true)
-      .addField('# - ØªÙ… Ø§Ù†Ø´Ø§Ø¡ Ø§Ù„Ø¯Ø¹ÙˆØ©',moment(inv.createdAt).format('YYYY/M/DD:h'),true)
-      .addField('# - Ù…Ø¯Ø© Ø§Ù„Ø¯Ø¹ÙˆØ©',moment(inv.maxAge).format('DD **Ø³Ø§Ø¹Ø©** h **ÙŠÙˆÙ…**'),true)
-      .addField('# - Ø§Ù„Ø§Ø³ØªØ®Ø¯Ø§Ù…Ø§Øª',inv.uses || inv.maxUses,true)
+      .addField('# - ÕÇÍÈ ÇáÏÚæÉ',inv.inviter,true)
+      .addField('# - Ñæã ÇáÏÚæÉ',inv.channel,true)
+      .addField('# - ÊÇÑíÎ ÇäÊåÇÁ ÇáÏÚæÉ',moment(inv.expiresAt).format('YYYY/M/DD:h'),true)
+      .addField('# - Êã ÇäÔÇÁ ÇáÏÚæÉ',moment(inv.createdAt).format('YYYY/M/DD:h'),true)
+      .addField('# - ãÏÉ ÇáÏÚæÉ',moment(inv.maxAge).format('DD **ÓÇÚÉ** h **íæã**'),true)
+      .addField('# - ÇáÇÓÊÎÏÇãÇÊ',inv.uses || inv.maxUses,true)
       message.channel.send(iNv);
     });
   }
@@ -3019,8 +3019,8 @@ client.on('message',   eyad =>{
     var  mas = eyad.author
                               if(eyad.content == 'G.sar7') {
                               if(eyad.channel.type === "dm"){
-if(!args) return  eyad.channel.send(":black_medium_square: **Ù‚Ù… Ø¨ÙˆØ¶Ø¹ Ø±Ø³Ø§Ù„Ø© Ø§Ù„ØµØ±Ø§Ø­Ø© **");
-if(!men) return  eyad.channel.send(":black_medium_square:**Ù‚Ù… Ø¨ÙˆØ¶Ø¹ Ø§ÙŠØ¯ÙŠ Ø§Ù„Ù…Ø±Ø§Ø¯ Ù…ØµØ§Ø±Ø­ØªØ© , Ø±Ø¨Ù…Ø§ ÙŠÙƒÙˆÙ† Ø§Ù„Ø´Ø®Øµ ØºÙŠØ± Ù…ÙˆØ¬ÙˆØ¯ ÙÙŠ Ø³ÙŠØ±ÙØ±Ø§Øª Ù…Ø´ØªØ±ÙƒØ© Ø¨ÙŠÙ†Ùƒ ÙˆØ¨ÙŠÙ†Ø© Ù„Ø°Ù„Ùƒ Ù„Ù† ÙŠØ³ØªØ·ÙŠØ¹ Ø§Ù„Ø¨ÙˆØª Ø§Ù„Ø£Ø±Ø³Ø§Ù„** ");
+if(!args) return  eyad.channel.send(":black_medium_square: **Şã ÈæÖÚ ÑÓÇáÉ ÇáÕÑÇÍÉ **");
+if(!men) return  eyad.channel.send(":black_medium_square:**Şã ÈæÖÚ ÇíÏí ÇáãÑÇÏ ãÕÇÑÍÊÉ , ÑÈãÇ íßæä ÇáÔÎÕ ÛíÑ ãæÌæÏ İí ÓíÑİÑÇÊ ãÔÊÑßÉ Èíäß æÈíäÉ áĞáß áä íÓÊØíÚ ÇáÈæÊ ÇáÃÑÓÇá** ");
                       var currentTime = new Date(),
             Year = currentTime.getFullYear(),
             Month = currentTime.getMonth() + 1,
@@ -3028,7 +3028,7 @@ if(!men) return  eyad.channel.send(":black_medium_square:**Ù‚Ù… Ø¨ÙˆØ¶Ø¹ Ø§ÙŠØ¯Ù
      var eyadandr3d = new Discord.RichEmbed()
      .setAuthor(eyad.author.username , eyad.author.avatarURL)
      .setThumbnail(men.avatarURL)
-     .setDescription(`**:black_medium_square:  Ù‡Ù„ Ø§Ù†Øª Ù…ÙˆØ§ÙÙ‚ Ù„Ø¢Ø±Ø³Ø§Ù„ Ù‡Ø°Ù‡ Ø§Ù„ØµØ±Ø§Ø­Ø©  ØŸ  \nÙ…Ø­ØªÙˆÙŠ Ø§Ù„Ø±Ø³Ø§Ù„Ø© : ${args}**`)
+     .setDescription(`**:black_medium_square:  åá ÇäÊ ãæÇİŞ áÂÑÓÇá åĞå ÇáÕÑÇÍÉ  ¿  \nãÍÊæí ÇáÑÓÇáÉ : ${args}**`)
      .setTimestamp() 
      .setFooter(`- By , message.author.name .`)
      eyad.channel.send(eyadandr3d).then(message => {
@@ -3042,17 +3042,17 @@ kkk.on("collect", r => {
           const embed = new Discord.RichEmbed()
                .setThumbnail("https://cdn.discordapp.com/attachments/429056808561278979/450412294078332948/download.jpg")   
                .setColor("RANDOM")
-               .addField('**â€¢ Ø§Ù„Ø³Ù„Ø§Ù… Ø¹Ù„ÙŠÙƒÙ… ** ', `<@${men.id}>` , true)
-                    .addField('**â€¢ Ù„Ù‚Ø¯ Ù‚Ø§Ù… Ø´Ø®Øµ Ù…Ø§ Ø¨Ù…ØµØ§Ø±Ø­ØªÙƒ **' ,       ` __${args}__ ` , true)
-                    .addField('**â€¢ ØªØ§Ø±ÙŠØ® Ø§Ù„Ù…ØµØ§Ø±Ø­Ø©**' , Day + "-" + Month + "-" + Year , true)
+               .addField('**• ÇáÓáÇã Úáíßã ** ', `<@${men.id}>` , true)
+                    .addField('**• áŞÏ ŞÇã ÔÎÕ ãÇ ÈãÕÇÑÍÊß **' ,       ` __${args}__ ` , true)
+                    .addField('**• ÊÇÑíÎ ÇáãÕÇÑÍÉ**' , Day + "-" + Month + "-" + Year , true)
           client.users.get(men.id).sendEmbed(embed)
-          eyad.reply(`Ù„Ù‚Ø¯ ØªÙ… Ø§Ø±Ø³Ø§Ù„ Ø§Ù„ØµØ±Ø§Ø­Ù‡ Ù„Ù„Ø´Ø®Øµ \n <@${men.id}>`)
+          eyad.reply(`áŞÏ Êã ÇÑÓÇá ÇáÕÑÇÍå ááÔÎÕ \n <@${men.id}>`)
 message.delete()
           eyad.delete();
 })
 nnn.on("collect", r => {
 message.delete()
-eyad.reply("`ØªÙ… Ø§Ù„ØºØ§Ø¡ Ø§Ù„ØµØ±Ø§Ø­Ø©`")
+eyad.reply("`Êã ÇáÛÇÁ ÇáÕÑÇÍÉ`")
 eyad.delete();
 })
 })
@@ -3081,9 +3081,9 @@ if (message.content.startsWith(prefix + "rank")) {
     if (CulLevel > EpicEdiTeD[message.author.id].Level) {EpicEdiTeD[message.author.id].Level +=CulLevel}
     let edited = new Discord.RichEmbed()
     .setColor("Random")
-    .addField("Ø§Ù„Ø£Ø³Ù… :", message.author.tag)
-    .addField("Ø§Ù„Ù„ÙŠÙÙ„ :", EpicEdiTeD[message.author.id].Level)
-    .addField("Ø§Ù„Ø£ÙƒØ³ Ø¨ÙŠ :",Math.floor(EpicEdiTeD[message.author.id].Xp))
+    .addField("ÇáÃÓã :", message.author.tag)
+    .addField("Çááíİá :", EpicEdiTeD[message.author.id].Level)
+    .addField("ÇáÃßÓ Èí :",Math.floor(EpicEdiTeD[message.author.id].Xp))
     message.channel.send(edited);
 }
 if (!EpicEdiTeD[message.author.id]) {
@@ -3097,9 +3097,9 @@ EpicEdiTeD[message.author.id].Money+= 0.25;
 client.on("message", async message => {
            let args = message.content.split(' ').slice(1);
     if(message.content.startsWith(prefix + 'fastrandom')) {
-    if(!message.channel.guild) return message.channel.send('**Ù‡Ø°Ø§ Ø§Ù„Ø£Ù…Ø± ÙÙ‚Ø· Ù„Ù„Ø³ÙŠØ±ÙØ±Ø§Øª**').then(m => m.delete(5000));
+    if(!message.channel.guild) return message.channel.send('**åĞÇ ÇáÃãÑ İŞØ ááÓíÑİÑÇÊ**').then(m => m.delete(5000));
     if (message.author.id !== message.guild.owner.id) {     
-    message.channel.send('**Ù‡Ø§Ø¯Ø§ Ø§Ù„Ø§Ù…Ø± Ù„ØµØ§Ø­Ø¨ Ø§Ù„Ø³ÙŠØ±ÙØ± ÙÙ‚Ø·**' );
+    message.channel.send('**åÇÏÇ ÇáÇãÑ áÕÇÍÈ ÇáÓíÑİÑ İŞØ**' );
       return;
     }
     const array = [];
@@ -3127,24 +3127,24 @@ if(!message.channel.guild) return message.reply(' Error : \` Guild Command \`');
             return;
         }
       possibleInvites.push(['\n\ ' +'<@'+ i.inviter.id +'>' + '  :  ' +   i.uses]);
-      if (i.uses === 30) {//ÙŠÙ…Ø¯ÙŠÙƒ ØªØ¹Ø¯Ù„ Ø±Ù‚Ù… ÙˆØµÙˆÙ„ Ø§Ù„Ø¹Ø¯Ø¯ Ø­Ù‚ Ø§Ù„Ø§Ù†ÙØ§ÙŠØª Ø§Ù„Ù‰ Ø§Ø£Ù‚Ù„ Ø£Ùˆ Ø£ÙƒØ«Ø±
-          message.member.addRole(message.member.guild.roles.find("name","??Special?â€â€?  ?"))//Ù‡Ù†Ø¢ Ø£Ø³Ù… Ø£Ù„Ø±ØªØ¨Ù‡ Ø§Ù„Ù„ÙŠ ØªØ¬ÙŠÙ‡Ù‡
+      if (i.uses === 30) {//íãÏíß ÊÚÏá ÑŞã æÕæá ÇáÚÏÏ ÍŞ ÇáÇäİÇíÊ Çáì ÇÃŞá Ãæ ÃßËÑ
+          message.member.addRole(message.member.guild.roles.find("name","??Special?şş?  ?"))//åäÂ ÃÓã ÃáÑÊÈå Çááí ÊÌíåå
 .catch(RebeL =>{
 console.log('`Error`: ' + RebeL);
 });
 }
 if (i.uses === 30) {
-message.member.addRole(message.member.guild.roles.find("name","??Special?â€â€?  ?"))
+message.member.addRole(message.member.guild.roles.find("name","??Special?şş?  ?"))
 .catch(RebeL =>{
 console.log('`Error`: ' + RebeL);
 });
 }
 if (i.uses === 30) {
-message.member.addRole(message.member.guild.roles.find("name","??Special?â€â€?  ?"))
+message.member.addRole(message.member.guild.roles.find("name","??Special?şş?  ?"))
 .catch(RebeL =>{
 console.log('`Error`: ' + RebeL);
 });
-      }//Ù…Ø¹Ù„ÙˆÙ…Ù‡ Ø¨Ø³ÙŠØ·Ù‡ ÙŠÙ…Ø¯ÙŠÙƒ ØªÙƒØ±Ø± Ø§Ù„Ø¹Ù…Ù„ÙŠÙ‡Ù‡ Ø£ÙƒØ«Ø± Ù…Ù† Ù…Ø±Ù‡
+      }//ãÚáæãå ÈÓíØå íãÏíß ÊßÑÑ ÇáÚãáíåå ÃßËÑ ãä ãÑå
     })
     const embed = new Discord.RichEmbed()
  .setColor('#36393e')
@@ -3217,17 +3217,17 @@ if(message.content.startsWith(prefix + "slots")) {
 client.on('message', message => {
     var command = message.content.split(" ")[0];
     var args1 = message.content.split(" ").slice(1).join(" ");
-    if(command == prefix + 'find') { // Ø§Ù„Ø§Ù…Ø± : $find
+    if(command == prefix + 'find') { // ÇáÇãÑ : $find
         let sizePlayers = 1;
         
         if(message.author.bot) return;
         if(!message.channel.guild) return;
-        if(!args1) return message.channel.send(`**? Useage:** ${prefix}find (Ø§ÙŠ Ø­Ø±Ù Ù…Ù† Ø§Ù„Ø§Ø³Ù… Ø§Ù„ÙŠ ØªØ¨ÙŠÙ‡)`).then(msg => msg.delete(5000));
+        if(!args1) return message.channel.send(`**? Useage:** ${prefix}find (Çí ÍÑİ ãä ÇáÇÓã Çáí ÊÈíå)`).then(msg => msg.delete(5000));
         
         var playersFind = new Discord.RichEmbed()
-        .setTitle(`:white_check_mark: **Ø®Ø§ØµÙŠØ© Ø§Ù„Ø¨Ø­Ø« Ø¹Ù† Ø§Ù„Ø§Ø¹Ø¶Ø§Ø¡**`)
+        .setTitle(`:white_check_mark: **ÎÇÕíÉ ÇáÈÍË Úä ÇáÇÚÖÇÁ**`)
         .setThumbnail(client.user.avatarURL)
-        .setDescription(`**\n? Ø§Ù„Ø¨Ø­Ø« Ø¹Ù† Ø§Ù„Ø§Ø¹Ø¶Ø§Ø¡ Ø§Ù„Ù…ÙˆØ¬ÙˆØ¯ Ø¨Ø¯Ø§Ø®Ù„ Ø§Ø³Ù…Ø§Ø¦Ù‡Ù…:**\n " ${args1} "\n\n**? Ø¹Ø¯Ø¯ Ø§Ù„Ø§Ø¹Ø¶Ø§Ø¡:**\n " ${message.guild.members.filter(m=>m.user.username.toUpperCase().includes(args1.toUpperCase())).size} "\n\n\`\`\`????????????????????????????????????????????????????????????????????????????????????????\n\n${message.guild.members.filter(m=>m.user.username.toUpperCase().includes(args1.toUpperCase())).map(m=>sizePlayers++ + '. ' + m.user.tag).slice(0,20).join('\n') || 'Ù„Ø§ ÙŠÙˆØ¬Ø¯ Ø§Ø¹Ø¶Ø§Ø¡ Ø¨Ù‡Ø°Ù‡ Ø§Ù„Ø§Ø­Ø±Ù'}\n\n????????????????????????????????????????????????????????????????????????????????????????\`\`\``)
+        .setDescription(`**\n? ÇáÈÍË Úä ÇáÇÚÖÇÁ ÇáãæÌæÏ ÈÏÇÎá ÇÓãÇÆåã:**\n " ${args1} "\n\n**? ÚÏÏ ÇáÇÚÖÇÁ:**\n " ${message.guild.members.filter(m=>m.user.username.toUpperCase().includes(args1.toUpperCase())).size} "\n\n\`\`\`????????????????????????????????????????????????????????????????????????????????????????\n\n${message.guild.members.filter(m=>m.user.username.toUpperCase().includes(args1.toUpperCase())).map(m=>sizePlayers++ + '. ' + m.user.tag).slice(0,20).join('\n') || 'áÇ íæÌÏ ÇÚÖÇÁ ÈåĞå ÇáÇÍÑİ'}\n\n????????????????????????????????????????????????????????????????????????????????????????\`\`\``)
         .setColor('GRAY')
         .setTimestamp()
         .setFooter(message.author.tag, message.author.avatarURL)
@@ -3243,28 +3243,28 @@ client.on('message',async message => {
   var gMembers;
   var filter = m => m.author.id === message.author.id;
   if(message.content.startsWith(prefix + "giveaway")) {
-     //return message.channel.send(':heavy_multiplication_x:| **Ù‡Ø°Ø§ Ø§Ù„Ø§Ù…Ø± Ù…Ø¹Ø·Ù„ Ø­Ø§Ù„ÙŠØ§.. ``Ø­Ø§ÙˆÙ„ ÙÙŠ ÙˆÙ‚Øª Ù„Ø§Ø­Ù‚``**');
-    if(!message.guild.member(message.author).hasPermission('MANAGE_GUILD')) return message.channel.send(':heavy_multiplication_x:| **ÙŠØ¬Ø¨ Ø£Ù† ÙŠÙƒÙˆÙ† Ù„Ø¯ÙŠÙƒ Ø®Ø§ØµÙŠØ© Ø§Ù„ØªØ¹Ø¯ÙŠÙ„ Ø¹Ù„Ù‰ Ø§Ù„Ø³ÙŠØ±ÙØ±**');
-    message.channel.send(`:eight_pointed_black_star:| **Ù…Ù† ÙØ¶Ù„Ùƒ Ø§ÙƒØªØ¨ Ø§Ø³Ù… Ø§Ù„Ø±ÙˆÙ…**`).then(msgg => {
+     //return message.channel.send(':heavy_multiplication_x:| **åĞÇ ÇáÇãÑ ãÚØá ÍÇáíÇ.. ``ÍÇæá İí æŞÊ áÇÍŞ``**');
+    if(!message.guild.member(message.author).hasPermission('MANAGE_GUILD')) return message.channel.send(':heavy_multiplication_x:| **íÌÈ Ãä íßæä áÏíß ÎÇÕíÉ ÇáÊÚÏíá Úáì ÇáÓíÑİÑ**');
+    message.channel.send(`:eight_pointed_black_star:| **ãä İÖáß ÇßÊÈ ÇÓã ÇáÑæã**`).then(msgg => {
       message.channel.awaitMessages(filter, {
         max: 1,
         time: 20000,
         errors: ['time']
       }).then(collected => {
         let room = message.guild.channels.find('name', collected.first().content);
-        if(!room) return message.channel.send(':heavy_multiplication_x:| **Ù„Ù… Ø§Ù‚Ø¯Ø± Ø¹Ù„Ù‰ Ø§ÙŠØ¬Ø§Ø¯ Ø§Ù„Ø±ÙˆÙ… Ø§Ù„Ù…Ø·Ù„ÙˆØ¨**');
+        if(!room) return message.channel.send(':heavy_multiplication_x:| **áã ÇŞÏÑ Úáì ÇíÌÇÏ ÇáÑæã ÇáãØáæÈ**');
         room = collected.first().content;
         collected.first().delete();
-        msgg.edit(':eight_pointed_black_star:| **Ø§ÙƒØªØ¨ Ù…Ø¯Ø© Ø§Ù„Ù‚ÙŠÙ Ø§ÙˆØ§ÙŠ Ø¨Ø§Ù„Ø¯Ù‚Ø§Ø¦Ù‚ , Ù…Ø«Ø§Ù„ : 60**').then(msg => {
+        msgg.edit(':eight_pointed_black_star:| **ÇßÊÈ ãÏÉ ÇáŞíİ ÇæÇí ÈÇáÏŞÇÆŞ , ãËÇá : 60**').then(msg => {
           message.channel.awaitMessages(filter, {
             max: 1,
             time: 20000,
             errors: ['time']
           }).then(collected => {
-            if(isNaN(collected.first().content)) return message.channel.send(':heavy_multiplication_x:| **ÙŠØ¬Ø¨ Ø¹Ù„ÙŠÙƒ Ø§Ù† ØªØ­Ø¯Ø¯ ÙˆÙ‚Øª Ø²Ù…Ù†ÙŠ ØµØ­ÙŠØ­.. ``ÙŠØ¬Ø¨ Ø¹Ù„ÙŠÙƒ Ø§Ø¹Ø§Ø¯Ø© ÙƒØªØ§Ø¨Ø© Ø§Ù„Ø§Ù…Ø±``**');
+            if(isNaN(collected.first().content)) return message.channel.send(':heavy_multiplication_x:| **íÌÈ Úáíß Çä ÊÍÏÏ æŞÊ Òãäí ÕÍíÍ.. ``íÌÈ Úáíß ÇÚÇÏÉ ßÊÇÈÉ ÇáÇãÑ``**');
             duration = collected.first().content * 60000;
             collected.first().delete();
-            msgg.edit(':eight_pointed_black_star:| **ÙˆØ§Ø®ÙŠØ±Ø§ Ø§ÙƒØªØ¨ Ø¹Ù„Ù‰ Ù…Ø§Ø°Ø§ ØªØ±ÙŠØ¯ Ø§Ù„Ù‚ÙŠÙ Ø§ÙˆØ§ÙŠ**').then(msg => {
+            msgg.edit(':eight_pointed_black_star:| **æÇÎíÑÇ ÇßÊÈ Úáì ãÇĞÇ ÊÑíÏ ÇáŞíİ ÇæÇí**').then(msg => {
               message.channel.awaitMessages(filter, {
                 max: 1,
                 time: 20000,
@@ -3276,7 +3276,7 @@ client.on('message',async message => {
                   let giveEmbed = new Discord.RichEmbed()
                   .setAuthor(message.guild.name, message.guild.iconURL)
                   .setTitle(title)
-                  .setDescription(`Ø§Ù„Ù…Ø¯Ø© : ${duration / 60000} Ø¯Ù‚Ø§Ø¦Ù‚`)
+                  .setDescription(`ÇáãÏÉ : ${duration / 60000} ÏŞÇÆŞ`)
                   .setFooter(message.author.username, message.author.avatarURL);
                   message.guild.channels.find('name', room).send(giveEmbed).then(m => {
                      let re = m.react('??');
@@ -3284,18 +3284,18 @@ client.on('message',async message => {
                        let users = m.reactions.get("??").users;
                        let list = users.array().filter(u => u.id !== m.author.id);
                        let gFilter = list[Math.floor(Math.random() * list.length) + 0];
-                         if(users.size === 1) gFilter = '**Ù„Ù… ÙŠØªÙ… Ø§Ù„ØªØ­Ø¯ÙŠØ¯**';
+                         if(users.size === 1) gFilter = '**áã íÊã ÇáÊÍÏíÏ**';
                        let endEmbed = new Discord.RichEmbed()
                        .setAuthor(message.author.username, message.author.avatarURL)
                        .setTitle(title)
-                       .addField('Ø§Ù†ØªÙ‡Ù‰ Ø§Ù„Ù‚ÙŠÙ Ø§ÙˆØ§ÙŠ !',`Ø§Ù„ÙØ§Ø¦Ø² Ù‡Ùˆ : ${gFilter}`)
+                       .addField('ÇäÊåì ÇáŞíİ ÇæÇí !',`ÇáİÇÆÒ åæ : ${gFilter}`)
                        .setFooter(message.guild.name, message.guild.iconURL);
                        m.edit(endEmbed);
                      },duration);
                    });
-                  msgg.edit(`:heavy_check_mark:| **ØªÙ… Ø§Ø¹Ø¯Ø§Ø¯ Ø§Ù„Ù‚ÙŠÙ Ø§ÙˆØ§ÙŠ**`);
+                  msgg.edit(`:heavy_check_mark:| **Êã ÇÚÏÇÏ ÇáŞíİ ÇæÇí**`);
                 } catch(e) {
-                  msgg.edit(`:heavy_multiplication_x:| **Ù„Ù… Ø§Ù‚Ø¯Ø± Ø¹Ù„Ù‰ Ø§Ø¹Ø¯Ø§Ø¯ Ø§Ù„Ù‚ÙŠÙ Ø§ÙˆØ§ÙŠ Ø¨Ø³Ø¨Ø¨ Ù†Ù‚Øµ Ø§Ù„Ø®ØµØ§Ø¦Øµ**`);
+                  msgg.edit(`:heavy_multiplication_x:| **áã ÇŞÏÑ Úáì ÇÚÏÇÏ ÇáŞíİ ÇæÇí ÈÓÈÈ äŞÕ ÇáÎÕÇÆÕ**`);
                   console.log(e);
                 }
               });
@@ -3359,10 +3359,10 @@ possibleInvites.push([inviteCount, exec]);
         let daysJoined = millisJoined / 1000 / 60 / 60 / 24;
         let heroo = new Discord.RichEmbed()
         .setColor('RANDOM')
-        .addField(':Ø¯Ø®ÙˆÙ„Ùƒ Ù„Ø¯ÙŠØ³ÙƒÙˆØ±Ø¯', `${moment(heg.createdTimestamp).format('YYYY/M/D HH:mm:ss')} **\n** \`${moment(heg.createdTimestamp).fromNow()}\`` ,true)
-        .addField(':Ø§Ù†Ø¶Ù…Ø§Ù…Ùƒ Ù„Ø³ÙŠØ±ÙÙ†Ø§', `${moment(h.joinedAt).format('YYYY/M/D HH:mm:ss')} \n \`${moment(h.joinedAt).fromNow()}\``, true)
+        .addField(':ÏÎæáß áÏíÓßæÑÏ', `${moment(heg.createdTimestamp).format('YYYY/M/D HH:mm:ss')} **\n** \`${moment(heg.createdTimestamp).fromNow()}\`` ,true)
+        .addField(':ÇäÖãÇãß áÓíÑİäÇ', `${moment(h.joinedAt).format('YYYY/M/D HH:mm:ss')} \n \`${moment(h.joinedAt).fromNow()}\``, true)
         .setTitle(`__${z.username}__ **Info**`)
-         .addField('Ø¹Ø¯Ø¯ Ø§Ù„Ø¯Ø¹ÙˆØ§Øª', `**${Number(inviteCount)}**`, true)
+         .addField('ÚÏÏ ÇáÏÚæÇÊ', `**${Number(inviteCount)}**`, true)
 .setThumbnail(imagemm)
 .setFooter(message.author.username, message.author.avatarURL);
 
@@ -3405,29 +3405,29 @@ possibleInvites.push([inviteCount, exec]);
             .setAuthor(message.author.username, message.author.avatarURL)
         .setFooter(`${message.guild.name} `)
      message.channel.send(embed500)
-     message.author.send('` Ø§Ù†Øª Ù…Ø¹Ø§Ù‚Ø¨ Ù…ÙŠÙˆØª Ø´Ø§ØªÙŠ Ø¨Ø³Ø¨Ø¨ Ù†Ø´Ø± Ø³Ø±ÙØ±Ø§Øª Ø§Ù† ÙƒØ§Ù† Ø¹Ù† Ø·Ø±ÙŠÙ‚ Ø§Ù„Ø®Ø·Ø§ Ù…Ù† ÙØ¶Ù„Ùƒ ØªÙƒÙ„Ù… Ù…Ø¹ Ø§Ù„Ø§Ø¯Ø§Ø±Ø© `');
+     message.author.send('` ÇäÊ ãÚÇŞÈ ãíæÊ ÔÇÊí ÈÓÈÈ äÔÑ ÓÑİÑÇÊ Çä ßÇä Úä ØÑíŞ ÇáÎØÇ ãä İÖáß Êßáã ãÚ ÇáÇÏÇÑÉ `');
    
        
     }
 })
  client.on('message', message => {
     if(message.content.startsWith(prefix + 'alljoin')) {
-     if (!message.member.hasPermission("MOVE_MEMBERS")) return message.channel.send('**Ù„Ø§ÙŠÙˆØ¬Ø¯ Ù„Ø¯ÙŠÙƒ ØµÙ„Ø§Ø­ÙŠØ© Ø³Ø­Ø¨ Ø§Ù„Ø£Ø¹Ø¶Ø§Ø¡**');
-       if(!message.guild.member(client.user).hasPermission("MOVE_MEMBERS")) return message.reply("**Ù„Ø§ÙŠÙˆØ¬Ø¯ Ù„Ø¯ÙŠ ØµÙ„Ø§Ø­ÙŠØ© Ø§Ù„Ø³Ø­Ø¨**");
-    if (message.member.voiceChannel == null) return message.channel.send(`**Ø§Ù„Ø±Ø¬Ø§Ø¡ Ø§Ù„Ø¯Ø®ÙˆÙ„ Ù„Ø±ÙˆÙ… ØµÙˆØªÙŠ**`)
+     if (!message.member.hasPermission("MOVE_MEMBERS")) return message.channel.send('**áÇíæÌÏ áÏíß ÕáÇÍíÉ ÓÍÈ ÇáÃÚÖÇÁ**');
+       if(!message.guild.member(client.user).hasPermission("MOVE_MEMBERS")) return message.reply("**áÇíæÌÏ áÏí ÕáÇÍíÉ ÇáÓÍÈ**");
+    if (message.member.voiceChannel == null) return message.channel.send(`**ÇáÑÌÇÁ ÇáÏÎæá áÑæã ÕæÊí**`)
      var author = message.member.voiceChannelID;
      var m = message.guild.members.filter(m=>m.voiceChannel)
      message.guild.members.filter(m=>m.voiceChannel).forEach(m => {
      m.setVoiceChannel(author)
      })
-     message.channel.send(`**ØªÙ… Ø³Ø­Ø¨ Ø¬Ù…ÙŠØ¹ Ø§Ù„Ø£Ø¹Ø¶Ø§Ø¡ Ø§Ù„ÙŠ Ø§Ù„Ø±ÙˆÙ… Ø§Ù„ØµÙˆØªÙŠ Ø­Ù‚Ùƒ.**`)
+     message.channel.send(`**Êã ÓÍÈ ÌãíÚ ÇáÃÚÖÇÁ Çáí ÇáÑæã ÇáÕæÊí ÍŞß.**`)
 
 
      }
        });
 client.on('message' , async message => {
             if(message.content.startsWith(prefix + "ads")) {
-     await message.channel.send("`Ø§Ø±Ø³Ø§Ù„ Ø§Ù„Ø±Ø³Ø§Ù„Ù‡ .`").then(e => {
+     await message.channel.send("`ÇÑÓÇá ÇáÑÓÇáå .`").then(e => {
     let filter = m => m.author.id === message.author.id
     let tests = '';
     let time = '';
@@ -3436,21 +3436,21 @@ client.on('message' , async message => {
     .then(collected => {
       tests = collected.first().content
       collected.first().delete()
-e.edit("`ØªÙƒØ±Ø§Ø± Ø§Ù„Ø±Ø³Ø§Ù„Ù‡ ÙƒÙ„ ....... Ø¯Ù‚Ø§Ø¦Ù‚`")
+e.edit("`ÊßÑÇÑ ÇáÑÓÇáå ßá ....... ÏŞÇÆŞ`")
 let chaTime = message.channel.awaitMessages(filter, { max: 1, time: 30000, errors: ['time'] })
 .then(co => {
-if(isNaN(co.first().content)) return message.reply("`Ø§Ù„ÙˆÙ‚Øª Ø¨Ø§Ù„Ø¯Ù‚Ø§Ø¦Ù‚ ! Ø§Ø±Ù‚Ø§Ù… ÙÙ‚Ø·Ù`");
-if(co.first().content > 1500 || co.first().content < 1) return message.channel.send("`Ù„Ø§ Ø§Ù‚Ù„ Ù…Ù† Ø¯Ù‚ÙŠÙ‚Ù‡ ÙˆÙ„Ø§ Ø§ÙƒØ«Ø± Ù…Ù† ÙŠÙˆÙ…`")
+if(isNaN(co.first().content)) return message.reply("`ÇáæŞÊ ÈÇáÏŞÇÆŞ ! ÇÑŞÇã İŞØò`");
+if(co.first().content > 1500 || co.first().content < 1) return message.channel.send("`áÇ ÇŞá ãä ÏŞíŞå æáÇ ÇßËÑ ãä íæã`")
   time = co.first().content
 co.first().delete()
-  e.edit("`Ø§Ø¯Ø®Ù„ Ø§Ø³Ù… Ø§Ù„Ø±ÙˆÙ…`")
+  e.edit("`ÇÏÎá ÇÓã ÇáÑæã`")
   let chaChannel = message.channel.awaitMessages(filter, { max: 1, time: 30000, errors: ['time'] })
 .then(col => {
   channel = col.first().content
 col.first().delete()
-  e.edit("`Ø¬Ø§Ø±ÙŠ Ø§Ø¹Ø¯Ø§Ø¯ Ø§Ù„Ù…Ø¹Ù„ÙˆÙ…Ø§Øª Ø§Ù„Ø±Ø¬Ø§Ø¡ Ø§Ù„Ø§Ù†ØªØ¸Ø§Ø§Ø±...`").then(b => {
+  e.edit("`ÌÇÑí ÇÚÏÇÏ ÇáãÚáæãÇÊ ÇáÑÌÇÁ ÇáÇäÊÙÇÇÑ...`").then(b => {
               setTimeout(() => {
-    b.edit(`** ØªÙ… Ø§Ø¹Ø¯Ø§Ø¯ Ø§Ù„Ù…Ø¹Ù„ÙˆÙ…Ø§Øª Ø¨Ù†Ø¬Ø§Ø­ .**`)
+    b.edit(`** Êã ÇÚÏÇÏ ÇáãÚáæãÇÊ ÈäÌÇÍ .**`)
         },2000);
   })
   var room = message.guild.channels.find('name' , channel)
@@ -3525,4 +3525,3 @@ return channel.send("")
     }
     )});
 client.login(process.env.BOT_TOKEN)
-

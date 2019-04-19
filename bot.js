@@ -784,7 +784,7 @@ message.react("?")
  }}});
  client.on('message', message => {
   if(!message.channel.guild) return;
-if(message.content.startsWith('ab$')) {
+if(message.content.startsWith('bc$')) {
 if(!message.channel.guild) return message.channel.send('**Â–« «·√„— ›ﬁÿ ··”Ì—›—« **').then(m => m.delete(5000));
 if(!message.member.hasPermission('ADMINISTRATOR')) return      message.channel.send('**··√”› ·«  „ ·ﬂ ’·«ÕÌ…** `ADMINISTRATOR`' );
 let args = message.content.split(" ").join(" ").slice(2 + prefix.length);
